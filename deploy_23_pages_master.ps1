@@ -1,0 +1,74 @@
+# Master Deployment Script for All 23 Standalone Sub-Category Pages
+$baseDir = "c:\Users\shree\OneDrive\Desktop\NTRY"
+. "$baseDir\master_page_builder.ps1"
+
+Write-Host "Deploying All 23 Sub-Category Pages..."
+
+# 1.1 Stone Carving (/stone-carving/)
+$scCraftsmanship = @"
+<div class="max-w-4xl mx-auto">
+    <span class="text-luxury-gold text-xs font-bold tracking-[0.25em] uppercase block mb-3 text-center">Master Craftsmanship</span>
+    <h2 class="font-serif text-3xl md:text-5xl text-deep-charcoal text-center mb-8">Architectural Stone Carving & Wall Sculpting</h2>
+    <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-6">Hand-carved stone wall surfaces transform plain interior partitions and double-height building elevations into permanent architectural art. Mined directly from Rajasthan's famous quarry beds—including pink Bansi Paharpur sandstone, Jodhpur beige stone, and Makrana white marble—solid stone cladding panels provide deep 3D relief textures that age gracefully without surface fading or chemical degradation.</p>
+    <p class="text-gray-600 text-sm md:text-base leading-relaxed">Our Jaipur stonemasons bring 40 years of generational heritage to custom stone relief work. Every panel is precision-squared, hand-chiseled with custom floral or geometric motifs, and sealed with breathable stone protectants.</p>
+</div>
+"@
+
+$scTable = @"
+<div class="max-w-5xl mx-auto overflow-x-auto">
+    <div class="text-center mb-10"><span class="text-luxury-gold text-xs font-bold tracking-[0.25em] uppercase block mb-2">Material Benchmark</span><h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal">Natural Carved Stone vs. Manufactured Cladding</h2></div>
+    <table class="w-full text-left border-collapse border border-light-beige text-xs md:text-sm">
+        <thead><tr class="bg-luxury-bg text-deep-charcoal font-serif text-sm"><th class="p-4 border border-light-beige font-semibold">Feature / Property</th><th class="p-4 border border-light-beige font-semibold text-luxury-gold">Natural Carved Stone (Shree Ram & Co.)</th><th class="p-4 border border-light-beige font-semibold">Engineered Concrete / GRC</th><th class="p-4 border border-light-beige font-semibold">Synthetic Resin Wall Panels</th></tr></thead>
+        <tbody class="divide-y divide-light-beige text-gray-600">
+            <tr><td class="p-4 border border-light-beige font-medium">Material Origin</td><td class="p-4 border border-light-beige font-semibold text-deep-charcoal">100% Solid Bansi Paharpur / Jodhpur Sandstone</td><td class="p-4 border border-light-beige">Cement slurry with glass fiber fill</td><td class="p-4 border border-light-beige">Polyurethane resin with stone dust</td></tr>
+            <tr><td class="p-4 border border-light-beige font-medium">Carving Depth</td><td class="p-4 border border-light-beige font-semibold text-deep-charcoal">Deep 3D hand-chiseled reliefs (up to 75mm)</td><td class="p-4 border border-light-beige">Shallow molded surface impressions</td><td class="p-4 border border-light-beige">Machine stamped shallow patterns</td></tr>
+            <tr><td class="p-4 border border-light-beige font-medium">Outdoor Weathering</td><td class="p-4 border border-light-beige font-semibold text-deep-charcoal">Impervious to rain, UV sun, & frost</td><td class="p-4 border border-light-beige">Hairline surface cracks form over time</td><td class="p-4 border border-light-beige">Fades, yellows, & turns brittle in sun</td></tr>
+            <tr><td class="p-4 border border-light-beige font-medium">Lifespan</td><td class="p-4 border border-light-beige font-semibold text-deep-charcoal">Centuries of generational durability</td><td class="p-4 border border-light-beige">15–20 years before surface decay</td><td class="p-4 border border-light-beige">5–8 years max lifespan</td></tr>
+        </tbody>
+    </table>
+</div>
+"@
+
+$scFaqs = @(
+    @{ Q = "What type of stone is best suited for interior stone carving walls?"; A = "Jodhpur beige sandstone, pink Bansi Paharpur sandstone, and Makrana white marble are ideal for interior stone carving walls. Their dense mineral structure allows intricate hand chiseling while maintaining structural stability and natural warmth." },
+    @{ Q = "Can hand-carved stone panels be installed on double-height foyer walls?"; A = "Yes. We manufacture modular interlocking stone carving panels specifically engineered for double-height walls up to 30 feet tall. Panels are anchored using concealed stainless steel pins and structural stone adhesives for complete safety." },
+    @{ Q = "How do I maintain and clean hand-carved stone wall surfaces?"; A = "Routine cleaning requires dusting with a soft brush or vacuum attachment. Occasional wiping with a damp microfiber cloth dipped in mild warm water removes surface dust without harming the sealed stone surface." },
+    @{ Q = "Are stone carving panels customizable to architectural drawings?"; A = "Yes. Every stone carving wall is built to order. You can supply custom 2D drawings, 3D CAD models, or architectural blueprints, and our Jaipur master craftsmen will translate them into exact stone relief carvings." },
+    @{ Q = "How are heavy stone carving panels delivered and installed safely?"; A = "Panels are individually numbered, packed inside foam-lined wooden crates, and shipped with detailed site placement drawings. Your site contractors can easily install the panels using our anchor pin guidelines." }
+)
+
+$scLinks = @"
+<div class="text-center max-w-3xl mx-auto"><span class="text-luxury-gold text-xs font-bold tracking-widest uppercase block mb-2">Explore Related Categories</span><h3 class="font-serif text-2xl text-deep-charcoal mb-6">Enhance Your Interior Architecture</h3><div class="flex flex-wrap justify-center gap-4 text-xs font-semibold uppercase tracking-wider"><a href="/stone-art-murals/" class="px-5 py-2.5 bg-luxury-bg border border-light-beige hover:border-luxury-gold hover:text-luxury-gold transition-colors">Stone Art & Murals</a><a href="/stone-wall-panels/" class="px-5 py-2.5 bg-luxury-bg border border-light-beige hover:border-luxury-gold hover:text-luxury-gold transition-colors">Stone Wall Panels</a><a href="/arch-mehrab/" class="px-5 py-2.5 bg-luxury-bg border border-light-beige hover:border-luxury-gold hover:text-luxury-gold transition-colors">Arches & Mehrabs</a><a href="/pillar/" class="px-5 py-2.5 bg-luxury-bg border border-light-beige hover:border-luxury-gold hover:text-luxury-gold transition-colors">Pillars</a></div></div>
+"@
+
+$scProducts = @(
+    @{ Name = "Double Height Wall"; Desc = "Continuous vertical sandstone wall panels engineered for two-story foyers, combining deep hand-carved relief channels with structural stability across tall architectural expanses."; Material = "Pink Bansi Paharpur / Jodhpur Beige Sandstone"; Size = "12 ft to 24 ft vertical height (Modular interlock)"; Placement = "Double-height grand foyers & villa entrance halls"; Finish = "Honed, Antique Weathered, Hand-Chiseled"; AltText = "double-height-carved-sandstone-foyer-wall-panels"; Images = @("/assets/images/double-height-medallion-facade.jpg", "/assets/images/double-height-lotus-backlit.jpg", "/assets/images/staircase-mandala-radial-carving.jpg", "/assets/images/staircase-maple-leaf-relief.jpg") },
+    @{ Name = "Staircase Wall"; Desc = "Slanted interlocking stone carving panels designed to follow staircase pitch lines, transforming blank stairwells into textured, hand-chiseled architectural accent walls."; Material = "Bansi Paharpur Sandstone / Makrana Marble"; Size = "Custom angled panels cut to stair pitch"; Placement = "Main residential stairwells & duplex corridors"; Finish = "Satin Polished, Bush-Hammered, Relief Carved"; AltText = "carved-stone-staircase-accent-wall-panel"; Images = @("/assets/images/staircase-mandala-radial-carving.jpg", "/assets/images/staircase-maple-leaf-relief.jpg", "/assets/images/staircase-ginkgo-backlit-panel.jpg", "/assets/images/double-height-lotus-backlit.jpg") },
+    @{ Name = "Sofa Wall"; Desc = "Low-profile carved stone backdrops designed specifically behind living room seating, providing subtle 3D texture without interfering with sofa furniture placement."; Material = "Jodhpur Sandstone / White Makrana Marble"; Size = "8 ft x 4 ft to 12 ft x 6 ft feature panel"; Placement = "Formal living room sofa backdrop"; Finish = "Smooth Honed, Fine Tooling, Matte Sealed"; AltText = "carved-sandstone-sofa-backdrop-wall-living-room"; Images = @("/assets/images/sofa-wall.jpg", "/assets/images/staircase-ginkgo-backlit-panel.jpg", "/assets/images/double-height-lotus-backlit.jpg", "/assets/images/stone-carving.jpg") },
+    @{ Name = "Statement Wall"; Desc = "Bold, high-relief custom stone carvings featuring dramatic floral or geometric motifs, engineered to command immediate attention in grand entry lobbies."; Material = "Red Dholpur / Bansi Paharpur Pink Sandstone"; Size = "Custom full-wall dimensions up to 16 ft x 10 ft"; Placement = "Entrance foyers & hotel reception walls"; Finish = "Deep 3D Relief, Antiqued, Natural Polish"; AltText = "statement-hand-carved-pink-sandstone-feature-wall"; Images = @("/assets/images/statement-wall.jpg", "/assets/images/double-height-lotus-backlit.jpg", "/assets/images/double-height-medallion-facade.jpg", "/assets/images/stone-carving.jpg") },
+    @{ Name = "Living Room Wall"; Desc = "Refined, medium-depth carved stone wall tiles designed for indoor living spaces, offering soft tactile warmth and glare-free acoustics under ambient lighting."; Material = "Beige Jodhpur Sandstone / Mint Sandstone"; Size = "600mm x 300mm / 600mm x 600mm interlocking tiles"; Placement = "Main living room TV walls & lounge accents"; Finish = "Satin Honed, Sandblasted, Fine Chiseled"; AltText = "living-room-carved-sandstone-accent-wall-tiles"; Images = @("/assets/images/living-room-wall.jpg", "/assets/images/staircase-maple-leaf-relief.jpg", "/assets/images/staircase-mandala-radial-carving.jpg", "/assets/images/stone-wall-panel.jpg") },
+    @{ Name = "Featured Wall"; Desc = "Modular architectural stone tiles carved with interlocking geometric or traditional motifs, creating a focal accent wall for dining areas and executive suites."; Material = "Pink Sandstone / Makrana White Marble"; Size = "4 ft x 2 ft panels or custom modular grids"; Placement = "Dining room feature walls & executive offices"; Finish = "Matte Sealed, Hand-Punched, Diamond Polished"; AltText = "featured-carved-stone-wall-panel-dining-room"; Images = @("/assets/images/featured-wall.jpg", "/assets/images/double-height-medallion-facade.jpg", "/assets/images/staircase-mandala-radial-carving.jpg", "/assets/images/stone-carving.jpg") }
+)
+
+Generate-ProductLeafPage `
+    -pagePath "$baseDir\stone-carving\index.html" `
+    -title "Stone Carving Wall Surfaces" `
+    -metaDesc "Discover luxury handcrafted stone carving collections by Shree Ram & Company Jaipur: Double Height Wall, Staircase Wall, Sofa Wall, Statement Wall, Living Room Wall, Featured Wall." `
+    -categoryName "Stone Carving" `
+    -parentCategoryName "Wall Surfaces" `
+    -grandParentName "Wall Surfaces" `
+    -parentUrl "/#collection" `
+    -heroBg "/assets/images/double-height-medallion-facade.jpg" `
+    -introOverview "Bespoke architectural hand-carved natural stone walls for luxury residences, duplex atriums, and grand living spaces. Handcrafted in solid sandstone and Makrana marble." `
+    -products $scProducts `
+    -craftsmanshipHtml $scCraftsmanship `
+    -comparisonTableHtml $scTable `
+    -faqList $scFaqs `
+    -internalLinksHtml $scLinks
+
+foreach ($p in $scProducts) {
+    $slug = ($p.Name.ToLower() -replace '[^a-z0-9]+', '-').Trim('-')
+    Generate-RedirectStub -pagePath "$baseDir\stone-carving\$slug\index.html" -targetUrl "/stone-carving/#$slug" -title $p.Name
+}
+
+Write-Host "Page 1/23 deployed: Stone Carving"
