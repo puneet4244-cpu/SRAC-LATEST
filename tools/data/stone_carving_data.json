@@ -1,0 +1,1045 @@
+{
+  "parentCategory": {
+    "name": "Stone Carving",
+    "slug": "stone-carving",
+    "url": "/stone-carving/",
+    "nextCategory": {
+      "name": "Stone Art & Murals",
+      "url": "/stone-art-murals/"
+    }
+  },
+  "subcategories": [
+    {
+      "slug": "double-height-wall",
+      "name": "Double Height Wall",
+      "h1": "Double Height Stone Carving Wall",
+      "metaTitle": "Double Height Stone Carving Wall | Shree Ram & Company Jaipur",
+      "metaDescription": "Handcrafted double height natural stone carving walls for luxury villas, duplexes & grand lobbies. Custom 3D relief panels made in Jaipur, Rajasthan.",
+      "keywords": "Double Height Stone Wall, 3D Stone Carving Jaipur, Duplex Wall Cladding, Architectural Stone Panels, Luxury Sandstone Wall",
+      "heroIntro": "Transform soaring architectural verticality into an unforgettable monumental centerpiece. Handcrafted from certified natural sandstone and marble by Jaipur's master stone artisans.",
+      "primaryImage": "/assets/images/double-height-wall-01.webp",
+      "overview": "A double height wall is the defining architectural statement of modern luxury duplexes, penthouses, and palatial villas. Spanning 18 to 28 feet in vertical grandeur, standard paint or wallpaper fails to hold the visual weight required by such monumental volume. Our handcrafted double height stone carving walls turn these colossal expanses into breathtaking vertical galleries of tactile artistry. Combining cutting-edge multi-axis CNC profiling with generational hand-chiseling, each monolithic panel is calibrated to perfection, creating seamless flowing waves, radial mandalas, or sculptural floral motifs that ascend toward the ceiling. The natural mineral veins and tactile relief depth capture changing daylight and architectural grazing illumination, imbuing grand living rooms, entrance foyers, and atrium lobbies with an enduring sense of majesty rooted in Rajasthan's royal heritage.",
+      "customization": {
+        "intro": "Every double height interior possesses distinct ceiling clearances, structural beam layouts, and lighting dynamics. We custom-engineer every square inch to your exact architectural blueprints.",
+        "points": [
+          {
+            "title": "Bespoke Dimensions & Grid Engineering",
+            "desc": "Calibrated interlocking panels engineered to fit exact wall heights from 14 ft to over 30 ft with concealed structural expansion joints."
+          },
+          {
+            "title": "Variable 3D Relief Depth",
+            "desc": "Carving depths ranging from subtle 15mm bas-relief to dramatic 75mm deep sculptural undercut profiles for striking shadow play."
+          },
+          {
+            "title": "Custom Motifs & Geometric Themes",
+            "desc": "From classical Rajasthani jharokha filigree and sacred mandalas to contemporary parametric ripples, flowing dunes, and biophilic leaf tracery."
+          },
+          {
+            "title": "Integrated Architectural Lighting",
+            "desc": "Precision-routed edge channels and backlit recesses designed to seamlessly house LED warm-glow strips and spotlights without exposed wiring."
+          },
+          {
+            "title": "Quarry Selection & Surface Finishes",
+            "desc": "Hand-select your preferred raw stone block from quarry veins, finished in honed matte, fine sandblasted, antiqued, or natural cleft texture."
+          }
+        ]
+      },
+      "materials": [
+        {
+          "name": "Pink Dholpur Sandstone",
+          "note": "Warm, earthy pink hues with fine grain structure, celebrated across Rajasthan's historic palaces for enduring structural majesty."
+        },
+        {
+          "name": "Gwalior Mint Sandstone",
+          "note": "Soothing ivory-cream and pale green tones with dense compressive strength, ideal for high-precision CNC relief and delicate chiseling."
+        },
+        {
+          "name": "Makrana Pure White Marble",
+          "note": "World-famous 98% calcium carbonate crystalline marble with a subtle luminous glow, creating supreme palatial refinement."
+        },
+        {
+          "name": "Bansi Paharpur Sandstone",
+          "note": "Sacred, dense pink-red sandstone with exceptional weathering resistance, perfect for monumental indoor-outdoor vertical transitions."
+        },
+        {
+          "name": "Jaisalmer Yellow Stone",
+          "note": "Golden-ochre limestone that radiates natural desert warmth and dramatic luxury under warm accent uplighting."
+        },
+        {
+          "name": "Teakwood Sandstone",
+          "note": "Natural wood-grain striations running through durable natural stone, providing organic contemporary elegance without wood maintenance."
+        }
+      ],
+      "placement": {
+        "interior": [
+          {
+            "spot": "Duplex Living Room & Atrium",
+            "impact": "Anchors the entire volume of the home with an imposing vertical focal point that harmonizes ceiling chandeliers and expansive windows."
+          },
+          {
+            "spot": "Grand Foyer & Reception Hall",
+            "impact": "Delivers an immediate, breathtaking first impression of timeless craftsmanship the moment guests step across the threshold."
+          },
+          {
+            "spot": "Staircase Void & Lift Core Wall",
+            "impact": "Transforms an otherwise neglected transition corridor into an artistic journey visible from both ground and mezzanine levels."
+          }
+        ],
+        "exterior": [
+          {
+            "spot": "Villa Entrance Portico & Facade",
+            "impact": "Soaring weatherproof exterior stone panels that provide monumental street presence and thermal insulation against seasonal heat."
+          },
+          {
+            "spot": "Double Height Courtyard & Water Feature Wall",
+            "impact": "Creates a tranquil, moisture-resistant oasis where water cascades down textured stone grooves without surface degradation."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Monumental Visual Drama",
+          "desc": "Eliminates empty void space in double height rooms, creating an architectural centerpiece that anchors the entire home's aesthetic."
+        },
+        {
+          "title": "Generational Durability",
+          "desc": "Unlike wallpaper, wood veneers, or paint that peel and discolor, solid natural stone remains unblemished for decades and centuries."
+        },
+        {
+          "title": "Acoustic Dampening & Thermal Comfort",
+          "desc": "Carved 3D relief surfaces naturally scatter room echoes in large open-plan duplexes while natural stone provides thermal moderation."
+        },
+        {
+          "title": "Substantial Property Value Appreciation",
+          "desc": "Bespoke stone craftsmanship is universally recognized as a premier luxury asset that significantly boosts architectural prestige and resale value."
+        },
+        {
+          "title": "Near-Zero Maintenance",
+          "desc": "Treated with hydrophobic, non-yellowing breathable stone impregnators that repel dust and moisture, requiring only periodic soft dry dusting."
+        },
+        {
+          "title": "Rooted in Authentic Jaipur Heritage",
+          "desc": "Sculpted by generational Sompura carvers whose families have crafted temple and palace architecture for over 40 years."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/assets/images/double-height-wall-01.webp",
+          "alt": "Concentric radial sunburst mandala medallion stone carving panels with multi-layered fluted textures in double-height entrance lobby - Shree Ram and Company Vijeta Stone",
+          "caption": "Radial Sunburst Mandala Medallion in Double Height Villa Lobby"
+        },
+        {
+          "src": "/assets/images/double-height-wall-02.webp",
+          "alt": "Swirling dynamic vortex wave textured sandstone relief feature wall panels with architectural up-lighting in double-height duplex lounge - Shree Ram and Company Vijeta Stone",
+          "caption": "Dynamic Vortex Sandstone Relief in Duplex Lounge"
+        },
+        {
+          "src": "/assets/images/double-height-wall-03.webp",
+          "alt": "3D geometric faceted triangular sandstone cladding with illuminated niches and floral relief carvings in modern double-height atrium - Shree Ram and Company Vijeta Stone",
+          "caption": "Faceted 3D Geometric Cladding with Integrated Niches"
+        },
+        {
+          "src": "/assets/images/double-height-wall-04.webp",
+          "alt": "Grand botanical monstera and tropical foliage bas-relief carved stone mural with contrasting charcoal leaf accents in double-height villa hall - Shree Ram and Company Vijeta Stone",
+          "caption": "Botanical Foliage High-Relief Stone Mural"
+        },
+        {
+          "src": "/assets/images/double-height-wall-05.webp",
+          "alt": "Vertical zen ripple water wave grooved marble wall cladding soaring to ceiling beside ornate hand-carved wooden entrance door - Shree Ram and Company Vijeta Stone",
+          "caption": "Zen Ripple Grooved Marble Cladding Beside Villa Entrance"
+        },
+        {
+          "src": "/assets/images/double-height-wall-06.webp",
+          "alt": "Contemporary organic contour wave hand-carved stone wall panel with warm ambient backlighting in luxury double-height villa living room - Shree Ram and Company Vijeta Stone",
+          "caption": "Organic Contour Wave Panel with Warm Architectural Illumination"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the typical cost per sq. ft. for a double height stone carving wall?",
+          "a": "Pricing depends on the natural stone type (e.g. Dholpur Sandstone vs. Makrana Pure White Marble), carving complexity (deep 3D sculptural vs. surface CNC groove), and total wall area. Typically, custom stone carving walls range from \u20B9450 to \u20B91,800+ per square foot. We provide an exact, itemized quotation within 2 hours of reviewing your wall dimensions."
+        },
+        {
+          "q": "How are heavy stone carving panels safely installed on a 20+ foot double height wall?",
+          "a": "Safety and structural integrity are paramount for tall installations. We utilize engineered SS-304/SS-316 stainless steel dry-hanging clamps, anchor fasteners, and epoxy interlocking tongue-and-groove joints. This mechanical dry-cladding system distributes weight directly to the structural RCC wall without relying solely on adhesive mortars."
+        },
+        {
+          "q": "Can I customize the carving pattern to match our interior design theme?",
+          "a": "Yes, 100%. We work directly from CAD drawings, Pinterest mood boards, interior renders, or sketch concepts. Our design studio generates precise 2D/3D shop drawings showing exact tile junctions, lighting conduits, and scale proportions before carving begins."
+        },
+        {
+          "q": "Which natural stone is best recommended for double height walls?",
+          "a": "For warm, regal interior ambiance, Dholpur Pink and Gwalior Mint sandstones are exceptionally popular due to their fine grain, acoustic properties, and soft light reflection. For ultra-contemporary or pristine spiritual aesthetics, Makrana White Marble or Bansi Paharpur sandstone provides an unmatched luxurious sheen."
+        },
+        {
+          "q": "What is the production and delivery timeline from your Jaipur workshop?",
+          "a": "Standard fabrication for a custom double height wall (250\u2013500 sq. ft.) takes approximately 2 to 4 weeks. Panels are numbered sequentially, packed in fumigated export-grade wooden crates with protective cushioning, and shipped with transit insurance directly to your project site anywhere in India or internationally."
+        },
+        {
+          "q": "How do we clean and maintain a tall carved stone wall?",
+          "a": "Because our panels are factory-treated with breathable silane-siloxane impregnators, dust does not penetrate the stone pores. Maintenance requires only periodic dry dusting using an electrostatic micro-fiber duster or a soft-bristle vacuum brush. No water washing or harsh chemical detergents are needed."
+        }
+      ]
+    },
+    {
+      "slug": "staircase-wall",
+      "name": "Staircase Wall",
+      "h1": "Staircase Stone Carving Wall",
+      "metaTitle": "Staircase Stone Carving Wall | Shree Ram & Company Jaipur",
+      "metaDescription": "Handcrafted staircase natural stone carving walls for helical stairs, duplex voids & villa risers. Custom relief panels sculpted in Jaipur, Rajasthan.",
+      "keywords": "Staircase Stone Wall, Staircase Cladding Jaipur, 3D Wall Carving, Duplex Staircase Wall Art, Radial Stone Carving, Villa Staircase Cladding",
+      "heroIntro": "Transform vertical circulation zones into monumental architectural journeys. Hand-sculpted in natural sandstone and Makrana marble by master carvers in Jaipur.",
+      "primaryImage": "/assets/images/staircase-mandala-radial-carving.webp",
+      "overview": "A staircase is rarely just a functional transition between levels; in luxury villas and duplexes, the staircase void is the architectural spine of the entire home. Traditional plastered or painted stair walls suffer from scuffs, hand marks, and visual monotony across their multi-story rise. Our handcrafted staircase stone carving walls convert this towering elevation into a dynamic vertical gallery. As residents and guests ascend, shifting sightlines reveal intricate bas-relief mandalas, flowing maple leaves, or contemporary geometric fluting that ascends along the staircase trajectory. Every panel is sculpted in our Jaipur atelier from authentic Rajasthan sandstones and Makrana marbles, calibrated to follow the precise pitch and angle of helical, cantilevered, or dog-legged stairs. Enhanced by grazing step-lights or concealed recessed LED channels, each carved groove casts dramatic evolving shadows throughout the day, creating an enduring sensory experience rooted in generational Sompura stonecraft.",
+      "customization": {
+        "intro": "Staircases feature complex geometries, diagonal stringer angles, and varying ceiling heights. We custom-profile each stone panel to harmonize flawlessly with your specific stair architecture.",
+        "points": [
+          {
+            "title": "Bespoke Rake & Pitch Calibration",
+            "desc": "Engineered to precisely match the diagonal angle, landing breaks, and helical curves of your staircase structure with zero awkward cuts."
+          },
+          {
+            "title": "Variable Relief Depth (15mm to 65mm)",
+            "desc": "Balanced carving depth ensures comfortable handrail clearances while delivering deep tactile shadows and rich visual drama."
+          },
+          {
+            "title": "Ascending Motif Continuity",
+            "desc": "Seamless continuous patterns&mdash;from sacred rising mandalas and flowing maple leaves to contemporary ripples&mdash;that ascend naturally along steps."
+          },
+          {
+            "title": "Handrail & Step-Lighting Integration",
+            "desc": "Pre-drilled anchor locations for glass balustrade brackets, bronze handrails, and concealed wiring conduits for step-grazing linear LEDs."
+          },
+          {
+            "title": "Artisanal Textures & Patinas",
+            "desc": "Select from velvety honed matte sandstone, soft antiqued patinas, or luminous Makrana marble polished to your exact sheen requirement."
+          }
+        ]
+      },
+      "materials": [
+        {
+          "name": "Gwalior Mint Sandstone",
+          "note": "Fine-grained ivory and pale-mint stone with dense structure, ideal for crisp CNC fluting and hand-finished botanical tracery along stairs."
+        },
+        {
+          "name": "Pink Dholpur Sandstone",
+          "note": "Authentic Rajasthan heritage stone offering warm earthy hues and superior acoustic absorption in reverberant multi-story staircase voids."
+        },
+        {
+          "name": "Makrana Pure White Marble",
+          "note": "World-renowned pristine marble reflecting luminous luxury under natural skylights and architectural chandelier illumination."
+        },
+        {
+          "name": "Jaisalmer Yellow Stone",
+          "note": "Warm golden stone that imparts regal Rajasthani warmth to duplex stairwells, stunning when paired with warm 3000K wall washers."
+        },
+        {
+          "name": "Bansi Paharpur Sandstone",
+          "note": "Highly durable sacred pink sandstone with extreme density, perfect for heavy-traffic staircase risers, plinths, and mid-landings."
+        },
+        {
+          "name": "Teakwood Sandstone",
+          "note": "Natural timber-like mineral banding offering organic contemporary warmth without the wear, scratches, or upkeep of wooden paneling."
+        }
+      ],
+      "placement": {
+        "interior": [
+          {
+            "spot": "Duplex Helical & Spiral Staircase Core",
+            "impact": "Wraps curved staircase wells with continuous flowing bas-relief textures that invite tactile touch on every ascending step."
+          },
+          {
+            "spot": "Intermediate Staircase Landing Focal Wall",
+            "impact": "Creates an arresting artwork moment at mid-landings, captivating the eye as family and guests pause between levels."
+          },
+          {
+            "spot": "Floating Cantilevered Staircase Backdrop",
+            "impact": "Forms a solid, majestic stone contrast behind open-riser cantilevered wooden or glass stairs, anchoring structural suspension."
+          }
+        ],
+        "exterior": [
+          {
+            "spot": "Grand Villa Entrance Stairway",
+            "impact": "Weatherproof carved stone wall cladding flanking monumental outdoor approach steps leading to the main entrance portico."
+          },
+          {
+            "spot": "Landscaped Garden Terraced Steps",
+            "impact": "Moisture-resistant sandstone relief panels bordering sunken garden transitions and outdoor courtyard elevation risers."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Scuff-Proof Generational Durability",
+          "desc": "Natural stone completely eliminates the scuff marks, hand smudges, and paint peeling common to high-traffic staircase walls."
+        },
+        {
+          "title": "Dynamic Shifting Perspectives",
+          "desc": "Unlike flat art, 3D carved relief reveals changing textures, shadows, and depths from every ascending and descending viewing angle."
+        },
+        {
+          "title": "Echo Scattering Acoustic Moderation",
+          "desc": "Large multi-story staircase voids typically amplify footsteps and echoes; multi-depth carved stone breaks sound waves for quiet comfort."
+        },
+        {
+          "title": "Bespoke Structural Precision",
+          "desc": "Every panel is CNC-machined and hand-finished to your stair's exact rise-to-run pitch, leaving zero awkward tile cuts on site."
+        },
+        {
+          "title": "Moisture & Stain Resistant",
+          "desc": "Impregnated with breathable silane hydrophobic sealers that prevent hand grease or water droplets from penetrating stone pores."
+        },
+        {
+          "title": "Handcrafted Heritage Provenance",
+          "desc": "Realized by master Sompura artisans in Jaipur whose ancestral craft endows your villa with irreplaceable provenance."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/assets/images/staircase-mandala-radial-carving.webp",
+          "alt": "Intricate multi-layered radial mandala medallion carved sandstone panel in luxury duplex staircase atrium - Shree Ram and Company Vijeta Stone",
+          "caption": "Radial Mandala Medallion in Duplex Staircase Void"
+        },
+        {
+          "src": "/assets/images/staircase-maple-leaf-relief.webp",
+          "alt": "Ascending botanical maple leaf relief carved stone wall panel flanking modern villa staircase risers - Shree Ram and Company Vijeta Stone",
+          "caption": "Botanical Maple Leaf Relief Following Stair Incline"
+        },
+        {
+          "src": "/assets/images/staircase-ginkgo-backlit-panel.webp",
+          "alt": "Backlit ginkgo leaf carved natural stone feature panel with warm indirect illumination in staircase landing - Shree Ram and Company Vijeta Stone",
+          "caption": "Backlit Ginkgo Leaf Relief Panel at Mid-Landing"
+        },
+        {
+          "src": "/assets/images/double-height-lotus-backlit.jpg",
+          "alt": "Sacred blooming lotus bas-relief carved sandstone panel with integrated LED illumination beside staircase - Shree Ram and Company Vijeta Stone",
+          "caption": "Blooming Lotus Bas-Relief with Ambient Lighting"
+        },
+        {
+          "src": "/assets/images/double-height-medallion-facade.jpg",
+          "alt": "Classical carved stone medallion and ornate lattice border cladding spanning double-story staircase wall - Shree Ram and Company Vijeta Stone",
+          "caption": "Classical Medallion & Jali Wall Cladding"
+        },
+        {
+          "src": "/assets/images/double-height-wall-02.webp",
+          "alt": "Swirling vortex acoustic wave carved sandstone cladding in contemporary multi-level staircase corridor - Shree Ram and Company Vijeta Stone",
+          "caption": "Vortex Wave Acoustic Stone Cladding Along Corridor"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do you calculate pricing for a custom staircase stone carving wall?",
+          "a": "Pricing depends on the natural stone variety, the complexity of diagonal rake cuts along the stair slope, and relief carving depth. Typically, custom staircase wall panels range from \u20B9500 to \u20B91,900 per sq. ft. We review your staircase elevation drawings and provide a complete quotation within 2 hours."
+        },
+        {
+          "q": "How are panels engineered to fit the diagonal rake of my staircase?",
+          "a": "Our design engineering studio creates full-scale 2D/3D shop drawings based on your riser height and tread depth. Edge panels are CNC-beveled to follow your exact stringer line and landing transitions, ensuring flawless continuous alignment with zero manual improvisation on site."
+        },
+        {
+          "q": "Can handrails and glass balustrades be mounted through the carved stone?",
+          "a": "Yes. We pre-drill reinforced core-mounting points during factory fabrication or provide designated smooth anchor zones so heavy-duty stainless steel or bronze balustrade standoffs bolt securely into the structural wall without cracking decorative carvings."
+        },
+        {
+          "q": "Which stone is best suited for high-touch staircase walls?",
+          "a": "Gwalior Mint and Dholpur Sandstone are ideal choices because of their fine, tactile surface and high density. When treated with our deep-penetrating fluoropolymer sealer, the stone repels hand oils and smudges, maintaining a pristine matte appearance."
+        },
+        {
+          "q": "What is the typical production timeline from your Jaipur facility?",
+          "a": "Fabrication for custom staircase walls (150\u2013350 sq. ft.) typically takes 2 to 3 weeks. Slabs are numbered systematically to correspond with installation shop drawings, crated with high-density foam padding, and delivered directly to your site."
+        },
+        {
+          "q": "What maintenance is required to keep a carved staircase wall clean?",
+          "a": "Maintenance is exceptionally straightforward. Because panels are factory-sealed against dust absorption, routine care only requires weekly dry dusting with a soft microfiber cloth or a brush vacuum attachment. No waxes or chemical cleaners are required."
+        }
+      ]
+    },
+    {
+      "slug": "sofa-wall",
+      "name": "Sofa Wall",
+      "h1": "Sofa Backdrop Stone Carving Wall",
+      "metaTitle": "Sofa Backdrop Stone Carving Wall | Shree Ram & Company Jaipur",
+      "metaDescription": "Luxury handcrafted stone carving backdrop walls for living room sofas. Custom 3D textured sandstone & marble panels crafted in Jaipur, Rajasthan.",
+      "keywords": "Sofa Backdrop Wall, Living Room Stone Carving, Sandstone Feature Wall, 3D Wall Panels Jaipur, Luxury Sofa Wall, Carved Stone Backdrop",
+      "heroIntro": "Frame your living room's seating ensemble with timeless sculptural majesty. Generational hand-carved natural stone backdrops crafted in Jaipur, Rajasthan.",
+      "primaryImage": "/assets/images/sofa-wall.webp",
+      "overview": "The sofa wall is the primary visual anchor of any formal living room or salon. It is the backdrop against which all family gatherings, luxury entertainment, and interior aesthetics unfold. Flat paint or temporary laminate paneling quickly loses its charm and lacks the physical presence required to complement bespoke upholstery and Italian furnishings. Our handcrafted sofa backdrop stone carving walls provide an authentic architectural foundation of enduring luxury. Sourced from Rajasthan's royal quarries and sculpted in our Jaipur workshop, these tactile panels feature rhythmic organic wave ripples, delicate lotus medallions, or classical geometric jali relief. Calibrated to align harmoniously with sofa back heights, wall sconces, and ceiling coves, the three-dimensional stone surface interacts warmly with ambient lighting, casting soft, soothing shadows. Naturally fireproof, sound-dampening, and effortless to maintain, a natural stone sofa wall establishes an atmosphere of grounded elegance and royal Rajasthani refinement.",
+      "customization": {
+        "intro": "Your sofa wall should coordinate effortlessly with your seating dimensions, lighting plan, and interior palette. We customize every detail to match your space.",
+        "points": [
+          {
+            "title": "Proportionate Sizing for Seating Layouts",
+            "desc": "Engineered to perfectly frame 3-seater, L-shaped, or conversational seating clusters from 10 ft to over 24 ft in width."
+          },
+          {
+            "title": "Ergonomic Carving Depth (12mm to 40mm)",
+            "desc": "Smooth, tactile relief depths calibrated so headrests and cushions rest comfortably without abrasive contact."
+          },
+          {
+            "title": "Integrated Sconce & Outlet Cutouts",
+            "desc": "Precision factory-routed recesses for ambient wall sconces, switches, and hidden cable management conduits."
+          },
+          {
+            "title": "Acoustic Diffusion Profiling",
+            "desc": "3D undulating relief grooves designed to scatter conversational reflections and TV audio for intimate room acoustics."
+          },
+          {
+            "title": "Exclusive Stone & Finish Selection",
+            "desc": "Choose velvety honed matte sandstone, soft brushed limestone, or silky Makrana white marble tailored to your furniture palette."
+          }
+        ]
+      },
+      "materials": [
+        {
+          "name": "Gwalior Mint Sandstone",
+          "note": "Soothing off-white and delicate mint tones that blend effortlessly with contemporary beige, taupe, or neutral sofa fabrics."
+        },
+        {
+          "name": "Pink Dholpur Sandstone",
+          "note": "Soft rose-blush natural stone that infuses living rooms with the hospitable warmth and grandeur of royal Jaipur havelis."
+        },
+        {
+          "name": "Makrana Pure White Marble",
+          "note": "Lustrous, crystalline marble that adds pristine luxury and reflects chandelier glow behind statement seating."
+        },
+        {
+          "name": "Jaisalmer Yellow Stone",
+          "note": "Radiant ochre stone that creates a cozy, golden-hour warmth behind leather or dark velvet upholstery."
+        },
+        {
+          "name": "Kota Stone",
+          "note": "Fine-grained grey-green natural limestone offering contemporary industrial-chic aesthetics with extreme density and low porosity."
+        },
+        {
+          "name": "Bansi Paharpur Sandstone",
+          "note": "Heritage red-pink dense sandstone ideal for grand palatial living rooms and traditional Indian formal seating spaces."
+        }
+      ],
+      "placement": {
+        "interior": [
+          {
+            "spot": "Formal Living Room Main Sofa Backdrop",
+            "impact": "Anchors the central conversational seating cluster with a sculptural focal point that draws immediate admiration."
+          },
+          {
+            "spot": "Duplex Family Lounge Seating Wall",
+            "impact": "Provides a durable, scuff-resistant stone backdrop in daily lounging areas that withstands active family use."
+          },
+          {
+            "spot": "Home Theatre & Media Salon Sofa Wall",
+            "impact": "Natural 3D relief surfaces diffuse audio reflections, eliminating flutter echoes behind cinema seating."
+          }
+        ],
+        "exterior": [
+          {
+            "spot": "Covered Verandah & Patio Lounge Wall",
+            "impact": "Weatherproof carved stone backdrop behind outdoor wicker or teak seating in sheltered alfresco zones."
+          },
+          {
+            "spot": "Garden Gazebo Seating Alcove",
+            "impact": "Moisture-resistant natural stone feature wall framing built-in stone benches within landscaped courtyards."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Sophisticated Conversational Focal Point",
+          "desc": "Sets an unmistakable tone of bespoke luxury that instantly elevates living room seating and interior design."
+        },
+        {
+          "title": "Acoustic Resonance Reduction",
+          "desc": "Natural 3D stone textures break flat-wall audio flutter, creating intimate acoustics for relaxed conversations."
+        },
+        {
+          "title": "Stain & Scuff Immunity",
+          "desc": "Unlike painted drywall or fabric wallpapers that soil from headrests and hand touches, sealed stone wipes clean effortlessly."
+        },
+        {
+          "title": "Naturally Non-Toxic & Zero-VOC",
+          "desc": "100% natural quarried stone emits zero off-gassing, promoting pristine indoor air quality for your living room."
+        },
+        {
+          "title": "Thermal Moderation",
+          "desc": "Stone possesses high thermal mass, retaining pleasant coolness during scorching summers and ambient warmth during winter evenings."
+        },
+        {
+          "title": "Jaipur Master Sculptor Provenance",
+          "desc": "Each panel carries the hand-tooled authenticity of Rajasthan's royal stone craft legacy."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/assets/images/sofa-wall.webp",
+          "alt": "Contemporary horizontal flowing wave textured sandstone feature wall behind living room sofa - Shree Ram and Company Vijeta Stone",
+          "caption": "Flowing Horizontal Wave Sandstone Backdrop"
+        },
+        {
+          "src": "/assets/images/staircase-ginkgo-backlit-panel.webp",
+          "alt": "Backlit floral ginkgo leaf carved natural stone panel framing formal living room seating - Shree Ram and Company Vijeta Stone",
+          "caption": "Illuminated Ginkgo Leaf Carved Accent Wall"
+        },
+        {
+          "src": "/assets/images/double-height-lotus-backlit.jpg",
+          "alt": "Carved sacred lotus relief medallion centerpiece in soft sandblasted sandstone behind sectional sofa - Shree Ram and Company Vijeta Stone",
+          "caption": "Sacred Lotus Sandstone Medallion Panel"
+        },
+        {
+          "src": "/assets/images/stone-wall-panel.webp",
+          "alt": "Textured geometric linear stone cladding behind modern leather sofa set - Shree Ram and Company Vijeta Stone",
+          "caption": "Textured Linear Cladding Behind Sofa"
+        },
+        {
+          "src": "/assets/images/wave-stone-panels.webp",
+          "alt": "Organic dune contour wave carved sandstone wall panels in luxury living room - Shree Ram and Company Vijeta Stone",
+          "caption": "Organic Dune Contour Relief Wall Panels"
+        },
+        {
+          "src": "/assets/images/textured-stone-panels.webp",
+          "alt": "Split-face and honed dual-texture natural stone wall behind modern living room credenza - Shree Ram and Company Vijeta Stone",
+          "caption": "Dual-Texture Architectural Stone Feature Wall"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the price range for a carved stone sofa backdrop wall?",
+          "a": "Typically, sofa wall installations range from \u20B9450 to \u20B91,600 per square foot depending on stone material, relief complexity, and factory finish. A typical 12x9 ft living room sofa wall ranges from \u20B950,000 to \u20B91,75,000 complete with pre-engineered mounting hardware."
+        },
+        {
+          "q": "How high should a stone sofa wall be installed behind furniture?",
+          "a": "We generally recommend starting panel cladding either from the skirting board (floor level) or 6 inches below the top of the sofa back, extending up to the ceiling coving or picture rail (typically 8 to 11 feet high) to provide a complete, unbroken architectural frame."
+        },
+        {
+          "q": "Can wall sconces and reading lights be mounted onto the carved stone?",
+          "a": "Yes, absolutely. We incorporate electrical backbox cutouts and concealed vertical cable conduits during fabrication at our Jaipur workshop. When installed on site, electricians simply pull wires through pre-aligned junction channels without damaging the carved surface."
+        },
+        {
+          "q": "Does a carved stone sofa wall collect dust in its grooves?",
+          "a": "Because our panels are factory-impregnated with breathable silane-siloxane sealers, dust particles sit lightly on the surface rather than bonding into the pores. A weekly light pass with an electrostatic duster or a soft brush vacuum cleans the grooves in under two minutes."
+        },
+        {
+          "q": "Is mechanical dry-cladding required for a living room sofa wall?",
+          "a": "For walls under 10 feet in standard residential interiors, high-bond polymer modified epoxies (such as Laticrete or MYK Laticrete) combined with discreet bottom support angles provide superior, permanent adhesion. For taller walls or heavier marble slabs, we provide mechanical SS Z-brackets."
+        },
+        {
+          "q": "How do you deliver custom stone panels safely across India?",
+          "a": "Panels are individually wrapped in protective foam sheets, packed tightly in export-standard wooden crates lined with moisture barriers, and dispatched via air-suspension logistics with complete transit insurance to your project address."
+        }
+      ]
+    },
+    {
+      "slug": "statement-wall",
+      "name": "Statement Wall",
+      "h1": "Statement Stone Carving Wall",
+      "metaTitle": "Statement Stone Carving Wall | Shree Ram & Company Jaipur",
+      "metaDescription": "Bespoke statement stone carving walls for luxury villas, corporate boardrooms & hotels. Monumental 3D relief panels handcrafted in Jaipur, Rajasthan.",
+      "keywords": "Statement Stone Wall, High Relief Stone Art, Luxury Feature Wall, Monumental Stone Carving, Jaipur Artisan Wall, Architectural Stone Cladding",
+      "heroIntro": "Command absolute attention with monumental sculptural wall surfaces. Generational hand-carved statement stone panels sculpted in Jaipur, Rajasthan.",
+      "primaryImage": "/assets/images/statement-wall.webp",
+      "overview": "A statement wall is designed to do one thing unequivocally: captivate every gaze and define the entire identity of a space. Standard wall treatments like paint, textured plaster, or imported tiles lack the monumental presence and authentic substance required for luxury hotel lobbies, corporate headquarters, and palatial private estates. Our handcrafted statement stone carving walls transform ordinary partition boundaries into monumental sculptural masterworks. Sculpted in our Jaipur atelier by Sompura artisans with over 40 years of royal heritage experience, these walls feature bold high-relief undercuts, dramatic multi-layered geometric tessellations, and sweeping organic waveforms up to 75mm deep. Sourced directly from certified Rajasthan quarries in Makrana, Bansi Paharpur, and Gwalior, each slab is hand-matched for continuous mineral veining. When grazed with precision architectural lighting, the interplay of sharp ridges and deep shadows creates an unforgettable theatrical atmosphere of timeless authority and cultural majesty.",
+      "customization": {
+        "intro": "Statement walls demand fearless creativity and flawless architectural execution. We collaborate directly with leading architects and designers to engineer bold, one-of-a-kind masterworks.",
+        "points": [
+          {
+            "title": "Monumental Scale & Seamless Grids",
+            "desc": "Engineered to span wall widths up to 40 ft and heights up to 25 ft with precision-concealed tongue-and-groove expansion seams."
+          },
+          {
+            "title": "Dramatic High-Relief Sculpting (up to 75mm)",
+            "desc": "Ultra-deep multi-depth undercuts crafted for maximum shadow play and theatrical visual contrast under grazing downlights."
+          },
+          {
+            "title": "Bespoke Sculptural Themes & Brand Emblems",
+            "desc": "From sacred cosmological mandalas and fluid dunes to corporate crests, geometric tessellations, and biophilic botanical murals."
+          },
+          {
+            "title": "Multi-Stone Inlay & Contrast Accents",
+            "desc": "Integrate contrasting stone veins&mdash;such as Gwalior Mint framed in Black Granite or Makrana White with Bansi Paharpur pink accents."
+          },
+          {
+            "title": "Heavy-Duty SS-316 Structural Anchoring",
+            "desc": "Pre-engineered mechanical dry-hang brackets and anchoring channels certified for structural safety and seismic resilience."
+          }
+        ]
+      },
+      "materials": [
+        {
+          "name": "Makrana Pure White Marble",
+          "note": "The pinnacle of luxury stone, famous for high crystalline translucency that glows under backlighting and spotlights."
+        },
+        {
+          "name": "Bansi Paharpur Sandstone",
+          "note": "Iconic dense red-pink sandstone celebrated in historic palaces and sacred temples for centuries of unyielding majesty."
+        },
+        {
+          "name": "Gwalior Mint Sandstone",
+          "note": "Pristine cream-white stone with uniform grain, allowing the sharpest CNC edges and deepest hand-undercuts without chipping."
+        },
+        {
+          "name": "Pink Dholpur Sandstone",
+          "note": "Majestic rose-beige sandstone that delivers regal desert warmth and dignified corporate or residential presence."
+        },
+        {
+          "name": "Jaisalmer Yellow Stone",
+          "note": "Natural golden limestone from the Thar Desert that infuses grand spaces with deep, warm architectural radiance."
+        },
+        {
+          "name": "Black Granite & Dark Quartzite",
+          "note": "High-density dark stone used for dramatic high-contrast perimeter frames, borders, and relief accents."
+        }
+      ],
+      "placement": {
+        "interior": [
+          {
+            "spot": "Villa Grand Entrance Atrium",
+            "impact": "Creates an overwhelming first impression of power, elegance, and artisanal heritage the second the front door opens."
+          },
+          {
+            "spot": "Corporate Boardroom & Executive Lobby",
+            "impact": "Conveys stability, permanence, and refined prestige behind reception desks or main conference tables."
+          },
+          {
+            "spot": "Luxury Hotel & Banquet Reception Wall",
+            "impact": "Serves as the signature photo-worthy backdrop that anchors high-end hospitality interiors."
+          }
+        ],
+        "exterior": [
+          {
+            "spot": "Palatial Estate Entrance Gate & Boundary Wall",
+            "impact": "Monumental weatherproof carved stone statement facade welcoming VIP guests to private luxury properties."
+          },
+          {
+            "spot": "Clubhouse & Poolside Feature Wall",
+            "impact": "Sun-resistant, waterproof natural stone relief that endures continuous outdoor elements without degradation."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Unmatched Visual Authority",
+          "desc": "Instantly establishes a space as world-class, leaving an indelible imprint on visitors, clients, and guests."
+        },
+        {
+          "title": "Generational Architectural Permanence",
+          "desc": "Solid quarried stone does not warp, fade, peel, or degrade over time&mdash;it outlasts the building structure itself."
+        },
+        {
+          "title": "One-of-a-Kind Artisanal Provenance",
+          "desc": "No two statement walls are identical; natural mineral veins and hand-chiseling ensure 100% bespoke exclusivity."
+        },
+        {
+          "title": "Significant Property Equity Enhancement",
+          "desc": "Universally recognized as the hallmark of ultra-prime real estate, substantially elevating asset valuation."
+        },
+        {
+          "title": "Zero Chemical Off-Gassing",
+          "desc": "Completely inorganic natural stone promotes pure indoor wellness with zero chemical binders or VOC emissions."
+        },
+        {
+          "title": "Jaipur Sompura Master Legacy",
+          "desc": "Direct lineage craftsmanship from the royal artisans who built Rajasthan's celebrated palaces and historic temples."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/assets/images/statement-wall.webp",
+          "alt": "Monumental high-relief carved sandstone statement wall with architectural lighting in luxury villa entrance - Shree Ram and Company Vijeta Stone",
+          "caption": "High-Relief Sculptural Statement Wall"
+        },
+        {
+          "src": "/assets/images/double-height-medallion-facade.jpg",
+          "alt": "Monumental palace-style hand-carved stone arch and medallion statement wall in grand atrium - Shree Ram and Company Vijeta Stone",
+          "caption": "Palace-Style Medallion Statement Facade"
+        },
+        {
+          "src": "/assets/images/double-height-lotus-backlit.jpg",
+          "alt": "Dramatic backlit lotus stone statement mural in luxury corporate reception lobby - Shree Ram and Company Vijeta Stone",
+          "caption": "Dramatic Backlit Lotus Statement Mural"
+        },
+        {
+          "src": "/assets/images/staircase-mandala-radial-carving.webp",
+          "alt": "Concentric radial starburst carved stone statement centerpiece in grand gallery - Shree Ram and Company Vijeta Stone",
+          "caption": "Concentric Radial Starburst Statement Medallion"
+        },
+        {
+          "src": "/assets/images/double-height-wall-03.webp",
+          "alt": "Faceted 3D geometric triangular carved stone statement wall with illuminated niches - Shree Ram and Company Vijeta Stone",
+          "caption": "Faceted 3D Geometric Cladding Statement Wall"
+        },
+        {
+          "src": "/assets/images/stone-carving.jpg",
+          "alt": "Master Sompura artisan hand-chiseling intricate deep relief stone carving in Jaipur workshop - Shree Ram and Company Vijeta Stone",
+          "caption": "Master Stone Artisan Hand-Chiseling Deep Relief"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What distinguishes a Statement Wall from standard carved wall panels?",
+          "a": "A Statement Wall features dramatic high-relief sculpting (often 40mm to 75mm deep), custom-engineered continuous motifs across monumental expanses, and integrated mechanical dry-hanging systems designed to serve as the defining visual anchor of an entire property."
+        },
+        {
+          "q": "What is the cost range for a monumental statement stone wall?",
+          "a": "Statement walls range between \u20B9650 and \u20B92,400+ per sq. ft., depending on the chosen natural stone, carving relief depth, and structural engineering requirements. We provide complete itemized cost sheets covering raw material, 3D carving, packaging, and transit."
+        },
+        {
+          "q": "Can you sculpt custom corporate emblems or family crests into the wall?",
+          "a": "Yes. Our computer-aided design team converts high-resolution vector files, corporate emblems, or custom artistic sketches into multi-axis CNC toolpaths, which our master carvers subsequently refine by hand to achieve organic, sculptural depth."
+        },
+        {
+          "q": "How is structural safety assured for heavy high-relief stone walls?",
+          "a": "We conduct structural weight calculations and supply calibrated SS-304/316 dry-cladding brackets, anchor bolts, and interlocking stone rebates. This transfers the entire physical load directly to the building's structural framework, ensuring safety even in seismic zones."
+        },
+        {
+          "q": "What is the production lead time for large statement walls?",
+          "a": "Due to the scale and intensive multi-stage hand finishing, fabrication generally requires 3 to 5 weeks depending on total square footage. We provide weekly photographic progress reports directly from our Jaipur carving atelier."
+        },
+        {
+          "q": "How do you protect deep undercuts and detailed carvings during shipping?",
+          "a": "Each carved slab is vacuum-filmed, cocooned in high-density polyethylene foam cushioning, and packed upright in steel-banded, fumigated pine crates engineered to absorb road transit vibrations across India and worldwide."
+        }
+      ]
+    },
+    {
+      "slug": "living-room-wall",
+      "name": "Living Room Wall",
+      "h1": "Living Room Stone Carving Wall",
+      "metaTitle": "Living Room Stone Carving Wall | Shree Ram & Company Jaipur",
+      "metaDescription": "Transform your living room with hand-carved natural stone walls. Acoustic, thermal & aesthetic luxury stone relief panels crafted in Jaipur, Rajasthan.",
+      "keywords": "Living Room Stone Wall, Sandstone TV Wall, Carved Wall Cladding, Modern Stone Living Room, Jaipur Stone Art, Luxury Interior Stone",
+      "heroIntro": "Infuse everyday living spaces with organic texture and palatial warmth. Hand-carved natural stone living room feature walls crafted in Jaipur, Rajasthan.",
+      "primaryImage": "/assets/images/living-room-wall.webp",
+      "overview": "The living room is the energetic heartbeat of the contemporary home&mdash;a multifunctional sanctuary for relaxing with family, entertaining friends, and unwinding after long days. However, conventional plain drywall, synthetic wallpapers, and laminate TV consoles often feel cold, synthetic, and prone to rapid wear. Our living room stone carving walls bring the grounding permanence and tactile warmth of real natural stone into the heart of your home. Masterfully carved in our Jaipur atelier, each stone panel combines contemporary organic wave ripples, delicate botanical leaf reliefs, or classic lattice geometric patterns with Rajasthan's finest natural sandstones and Makrana marbles. Engineered to accommodate television consoles, concealed media wiring, and ambient recessed lighting, these stone surfaces scatter acoustic reverberations to create an intimate, acoustically balanced environment. Treated with hydrophobic, dust-repellent breathable impregnators, our living room walls offer decades of zero-maintenance beauty that grows more characterful with age.",
+      "customization": {
+        "intro": "Living rooms require a delicate balance between artistic drama and practical everyday functionality. We configure every aspect of your wall to seamlessly integrate with your home life.",
+        "points": [
+          {
+            "title": "Entertainment & TV Console Integration",
+            "desc": "Precision cutouts and concealed conduit pathways for wall-mounted 4K/8K displays, soundbars, and floating stone consoles."
+          },
+          {
+            "title": "Calming Wave & Biophilic Motifs",
+            "desc": "Choose from tranquil horizontal water ripples, modern parametric waves, or ornate Rajasthani jharokha tracery."
+          },
+          {
+            "title": "Precision Modular Grid Tiles",
+            "desc": "Fabricated in calibrated modular dimensions (e.g. 600x600mm, 600x1200mm, or custom slabs) for clean installation and minimal joints."
+          },
+          {
+            "title": "Integrated Niches & Display Shelves",
+            "desc": "Factory-carved illuminated alcoves with warm LED spotlights for curating bronze artifacts, statues, and family treasures."
+          },
+          {
+            "title": "Surface Sheen & Tactile Finishes",
+            "desc": "Select silky honed matte, soft antiqued patinas, or contemporary sandblasted textures tailored to your lighting scheme."
+          }
+        ]
+      },
+      "materials": [
+        {
+          "name": "Gwalior Mint Sandstone",
+          "note": "Pale ivory and subtle sage-green stone that maintains bright, airy living room interiors while offering dense structural strength."
+        },
+        {
+          "name": "Pink Dholpur Sandstone",
+          "note": "Soft, radiant pink stone that introduces the timeless warmth of Jaipur's royal architecture into modern living rooms."
+        },
+        {
+          "name": "Makrana Pure White Marble",
+          "note": "Iconic luminous marble that creates a clean, palatial luxury aesthetic behind entertainment units and feature walls."
+        },
+        {
+          "name": "Teakwood Sandstone",
+          "note": "Natural wood-grain banding that delivers the warm visual comfort of timber with the fireproof durability of solid natural stone."
+        },
+        {
+          "name": "Jaisalmer Yellow Stone",
+          "note": "Warm honey-gold stone that transforms cool living room lighting into an inviting, hospitable desert sanctuary."
+        },
+        {
+          "name": "Kota Stone",
+          "note": "Dense greenish-grey limestone ideal for sleek contemporary, minimalist, and Scandinavian-influenced open-plan interiors."
+        }
+      ],
+      "placement": {
+        "interior": [
+          {
+            "spot": "Main Entertainment & Television Wall",
+            "impact": "Creates a dramatic, heat-resistant stone frame around home theater displays and floating credenzas."
+          },
+          {
+            "spot": "Living-Dining Open Plan Transition Wall",
+            "impact": "Beautifully partitions expansive open-plan living areas without enclosing spaces in dark or cramped drywall."
+          },
+          {
+            "spot": "Living Room Fireplace & Hearth Surround",
+            "impact": "Natural non-combustible stone cladding providing heat-proof luxury and timeless focal ambiance."
+          }
+        ],
+        "exterior": [
+          {
+            "spot": "Living Room Balcony Accent Wall",
+            "impact": "Weatherproof carved stone relief visible through floor-to-ceiling glass sliding doors, extending visual depth."
+          },
+          {
+            "spot": "Adjoining Verandah Relaxation Wall",
+            "impact": "Durable natural stone backdrop for morning tea and outdoor conversation spaces."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Elevated Daily Living Ambiance",
+          "desc": "Replaces boring painted drywall with a tactile, sculptural surface that enriches daily living and hospitality."
+        },
+        {
+          "title": "Flawless Acoustic Balancing",
+          "desc": "3D relief surfaces naturally diffuse harsh sound reflections from TVs, music systems, and conversational echo."
+        },
+        {
+          "title": "Non-Combustible & Heat Safe",
+          "desc": "100% Class-A fireproof natural stone safely surrounds electrical entertainment systems, fireplaces, and lighting."
+        },
+        {
+          "title": "Scratch-Proof & Child-Friendly",
+          "desc": "Natural stone stands up to vacuum cleaner bumps, children's toys, and daily life without denting or peeling."
+        },
+        {
+          "title": "Natural Dust Resistance",
+          "desc": "Factory sealed with breathable siloxane impregnators so everyday household dust wipes away with a simple dry duster."
+        },
+        {
+          "title": "Jaipur Heritage Provenance",
+          "desc": "Direct atelier pricing from generational stone carvers who have beautified luxury residences across India and worldwide."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/assets/images/living-room-wall.webp",
+          "alt": "Contemporary parametric wave carved sandstone feature wall panel in luxury living room - Shree Ram and Company Vijeta Stone",
+          "caption": "Parametric Wave Sandstone Living Room Wall"
+        },
+        {
+          "src": "/assets/images/staircase-maple-leaf-relief.webp",
+          "alt": "Hand-carved botanical relief stone wall panels accenting modern living room lounge - Shree Ram and Company Vijeta Stone",
+          "caption": "Botanical Relief Panels in Living Room Lounge"
+        },
+        {
+          "src": "/assets/images/staircase-mandala-radial-carving.webp",
+          "alt": "Classical radial mandala relief panel carved in Gwalior mint sandstone - Shree Ram and Company Vijeta Stone",
+          "caption": "Radial Mandala Feature in Living Room"
+        },
+        {
+          "src": "/assets/images/staircase-ginkgo-backlit-panel.webp",
+          "alt": "Warm backlit natural stone carving panel integrated into living room credenza wall - Shree Ram and Company Vijeta Stone",
+          "caption": "Warm Backlit Carved Panel Framing Credenza"
+        },
+        {
+          "src": "/assets/images/stone-wall-panels.webp",
+          "alt": "Fluted linear vertical natural sandstone wall panels beside living room windows - Shree Ram and Company Vijeta Stone",
+          "caption": "Vertical Fluted Stone Cladding in Living Room"
+        },
+        {
+          "src": "/assets/images/wave-stone-panels.webp",
+          "alt": "Horizontal wave carved stone wall panels providing acoustic dampening in modern living room - Shree Ram and Company Vijeta Stone",
+          "caption": "Acoustic Dune Wave Carved Stone Panels"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does a carved stone living room wall cost?",
+          "a": "Costs typically range from \u20B9450 to \u20B91,500 per sq. ft. depending on stone selection (e.g. Dholpur Sandstone vs. Makrana White Marble), panel thickness, and 3D relief complexity. For a standard 14x10 ft living room feature wall, the complete cost is typically \u20B965,000 to \u20B91,85,000."
+        },
+        {
+          "q": "Can I mount a large TV directly onto the carved stone wall?",
+          "a": "Yes. We coordinate with your television bracket specifications before carving. We can leave a smooth, flush central mounting area for heavy-duty TV articulated arms or pre-drill anchor holes so fasteners anchor into the structural brick or RCC wall behind."
+        },
+        {
+          "q": "How are wires and power cables concealed behind the stone panels?",
+          "a": "Our design team routes dedicated vertical wire conduits into the back face of the stone panels or accommodates standard 1-inch electrical conduits behind the cladding grid, keeping all power and HDMI cables completely invisible."
+        },
+        {
+          "q": "Does natural stone make a living room feel cold?",
+          "a": "No, quite the contrary. Warm sandstones like Pink Dholpur, Gwalior Mint, and Jaisalmer Yellow possess rich earthy undertones that bring immense thermal warmth, tactile coziness, and organic richness to modern interiors."
+        },
+        {
+          "q": "How is a living room stone wall maintained over time?",
+          "a": "Every panel is factory-sealed with a breathable, food-safe hydrophobic impregnator that repels stains, grease, and dust. Routine care requires only a weekly dry dusting with a microfiber duster. No polish, chemical spray, or special cleaner is needed."
+        },
+        {
+          "q": "What is the manufacturing timeline from your Jaipur workshop?",
+          "a": "Fabrication for standard living room walls (100\u2013250 sq. ft.) takes approximately 2 to 3 weeks. Panels are packed safely in export-grade foam-cushioned wooden crates and shipped directly to your doorstep."
+        }
+      ]
+    },
+    {
+      "slug": "featured-wall",
+      "name": "Featured Wall",
+      "h1": "Featured Stone Carving Wall",
+      "metaTitle": "Featured Stone Carving Wall | Shree Ram & Company Jaipur",
+      "metaDescription": "Custom architectural featured stone carving walls for luxury accent points, dining & galleries. Handcrafted 3D stone panels from Jaipur, Rajasthan.",
+      "keywords": "Featured Stone Wall, Architectural Accent Wall, 3D Carved Sandstone, Gallery Wall Stone, Luxury Interior Stone, Accent Wall Cladding",
+      "heroIntro": "Punctuate your interior layout with arresting sculptural accents. Bespoke handcrafted natural stone featured walls created by Jaipur's master artisans.",
+      "primaryImage": "/assets/images/featured-wall.webp",
+      "overview": "In curated interior architecture, a featured wall serves as a deliberate punctuation mark&mdash;an intimate yet unforgettable accent that draws the eye, anchors a dining salon, highlights a private gallery corridor, or dignifies a master bedroom vestibule. While large statement walls span entire duplexes, a featured accent wall is a masterclass in focused refinement and tactile proportion. Handcrafted in our Jaipur stone atelier, our featured stone carving walls are conceived as three-dimensional tapestries of pure natural stone. Sourced from Rajasthan's certified quarries in Makrana, Bansi Paharpur, and Gwalior, each slab is sculpted with surgical diamond CNC precision and refined by hand with generational Sompura chisels. Whether you select concentric mandala medallions that radiate spiritual harmony, rhythmic fluted grooves that enhance vertical height, or botanical bas-relief tracery, our featured walls turn unused partition surfaces into captivating works of fine art that celebrate the timeless soul of authentic Indian stonework.",
+      "customization": {
+        "intro": "An accent featured wall requires acute attention to scale, sightlines, and edge transitions. We custom-tailor each piece to elevate your specific architectural niche.",
+        "points": [
+          {
+            "title": "Proportional Accent Dimensions",
+            "desc": "Engineered for intimate 6 ft dining alcoves up to grand 16 ft gallery corridors with seamless border terminations."
+          },
+          {
+            "title": "Diverse Pattern Typologies",
+            "desc": "From spiritual radial mandalas and zen ripples to traditional Rajasthani floral tracery and modern fluted grooves."
+          },
+          {
+            "title": "45-Degree Mitered Edge Framing",
+            "desc": "Hand-chamfered, book-matched corners for clean, architectural wrapping around columns, pilasters, and partition corners."
+          },
+          {
+            "title": "Concealed Warm Backlighting Channels",
+            "desc": "Recessed perimeter channels engineered to house 3000K warm LED strips that cast dramatic grazing light across relief textures."
+          },
+          {
+            "title": "Custom Stone Combinations",
+            "desc": "Pair creamy Gwalior Mint with rich Makrana marble or golden Jaisalmer stone for bespoke dual-tone sophistication."
+          }
+        ]
+      },
+      "materials": [
+        {
+          "name": "Makrana Pure White Marble",
+          "note": "Translucent white crystalline marble that imbues dining and vestibule feature walls with serene palatial poise."
+        },
+        {
+          "name": "Gwalior Mint Sandstone",
+          "note": "Fine-textured, smooth cream-colored stone that captures the crispest carved detailing and delicate shadow gradations."
+        },
+        {
+          "name": "Pink Dholpur Sandstone",
+          "note": "Soft terracotta-pink stone renowned for bringing the historic palace charm of Rajasthan into contemporary luxury homes."
+        },
+        {
+          "name": "Jaisalmer Yellow Stone",
+          "note": "Radiant yellow limestone reminiscent of the Golden Fort, imparting warm ambient glow in evening candlelight."
+        },
+        {
+          "name": "Bansi Paharpur Sandstone",
+          "note": "Regal, dense pink-red sandstone with extraordinary longevity and rich cultural heritage appeal."
+        },
+        {
+          "name": "Kota Stone",
+          "note": "Cool slate-grey and olive natural stone that provides sleek, modern contrast behind lighter furnishings and artwork."
+        }
+      ],
+      "placement": {
+        "interior": [
+          {
+            "spot": "Formal Dining Room Accent Wall",
+            "impact": "Enhances dining experiences with an exquisite sculptural backdrop that flatters chandeliers and candlelit dinners."
+          },
+          {
+            "spot": "Master Bedroom Bedhead Wall",
+            "impact": "Replaces fabric headboards with an organic, hypoallergenic stone relief feature that promotes deep relaxation."
+          },
+          {
+            "spot": "Gallery Corridor & Foyer Vestibule",
+            "impact": "Transforms narrow hallways into an engaging museum-like walk-through of tactile craftsmanship."
+          }
+        ],
+        "exterior": [
+          {
+            "spot": "Courtyard Fountain & Water Accent Wall",
+            "impact": "Weatherproof, algae-resistant carved stone accent where water gently cascades down grooved reliefs."
+          },
+          {
+            "spot": "Terrace Garden & Barbecue Feature Wall",
+            "impact": "Outdoor dining and entertainment accent wall that withstands direct sunlight and summer rains."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Intimate Architectural Distinction",
+          "desc": "Adds rich, tactile personality to transitional walls and accent areas that would otherwise remain sterile."
+        },
+        {
+          "title": "Timeless Non-Fading Beauty",
+          "desc": "Natural mineral pigments never discolor or fade under sunlight, ensuring your featured accent remains vibrant for decades."
+        },
+        {
+          "title": "Hypoallergenic & Dust-Repellent",
+          "desc": "Factory treated with breathable hydrophobic impregnators that repel household allergens, dust, and moisture."
+        },
+        {
+          "title": "Seamless Architectural Concealment",
+          "desc": "Conceals structural columns, plumbing ducts, or uneven masonry behind an engineered flat stone surface."
+        },
+        {
+          "title": "Universal Design Harmony",
+          "desc": "Complements modern minimalist, transitional neo-classical, and traditional heritage interior themes effortlessly."
+        },
+        {
+          "title": "Jaipur Sompura Artistry",
+          "desc": "Authentic atelier craftsmanship backed by four decades of architectural stone excellence."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/assets/images/featured-wall.webp",
+          "alt": "Sculptural floral and geometric natural stone featured accent wall panel with precision edge detailing - Shree Ram and Company Vijeta Stone",
+          "caption": "Sculptural Floral & Geometric Featured Wall"
+        },
+        {
+          "src": "/assets/images/double-height-medallion-facade.jpg",
+          "alt": "Ornate carved stone medallion accent panel framing dining room archway - Shree Ram and Company Vijeta Stone",
+          "caption": "Ornate Medallion Accent Panel"
+        },
+        {
+          "src": "/assets/images/staircase-mandala-radial-carving.webp",
+          "alt": "Concentric radial sunburst carved sandstone medallion featured wall panel - Shree Ram and Company Vijeta Stone",
+          "caption": "Radial Sunburst Featured Medallion"
+        },
+        {
+          "src": "/assets/images/double-height-lotus-backlit.jpg",
+          "alt": "Backlit sacred lotus bas-relief carved stone featured accent panel in foyer - Shree Ram and Company Vijeta Stone",
+          "caption": "Backlit Sacred Lotus Featured Accent Panel"
+        },
+        {
+          "src": "/assets/images/double-height-wall-01.webp",
+          "alt": "Concentric radial sunburst carved stone panel in luxury dining salon - Shree Ram and Company Vijeta Stone",
+          "caption": "Radial Sunburst Panel in Dining Salon"
+        },
+        {
+          "src": "/assets/images/fluted-stone-panels.webp",
+          "alt": "Modern vertical fluted stone panels accenting a private gallery corridor - Shree Ram and Company Vijeta Stone",
+          "caption": "Vertical Fluted Stone Featured Corridor Wall"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the typical cost for a featured accent stone wall?",
+          "a": "Featured walls generally cost between \u20B9450 and \u20B91,700 per square foot depending on the carving complexity, edge mitering, and stone grade. A typical 8x10 ft dining or bedroom feature wall ranges from \u20B940,000 to \u20B91,35,000."
+        },
+        {
+          "q": "Can a featured wall be installed in smaller rooms without overwhelming the space?",
+          "a": "Yes! Because we control relief depth (from subtle 12mm bas-relief to deep 40mm carving) and offer light, light-reflective stones such as Gwalior Mint and Makrana White, a carved stone accent wall creates an illusion of greater depth rather than feeling heavy."
+        },
+        {
+          "q": "What lighting works best to highlight a featured stone wall?",
+          "a": "We recommend warm white 2700K to 3000K narrow-beam ceiling spotlights placed 6 to 10 inches away from the wall to cast dramatic grazing shadows across the relief, or concealed LED strip cove lighting for a soft ambient halo effect."
+        },
+        {
+          "q": "How long does installation take on site?",
+          "a": "Because all panels are pre-cut, numbered, and edge-calibrated at our Jaipur atelier, on-site installation for a standard featured wall is remarkably quick&mdash;typically taking only 1 to 2 days with virtually zero mess or wet cutting."
+        },
+        {
+          "q": "Is natural stone safe for bedroom headboard featured walls?",
+          "a": "Yes, 100%. Natural carved stone is completely hypoallergenic, emits zero chemical fumes or VOCs, and does not harbor dust mites. Furthermore, natural stone provides gentle acoustic moderation that fosters a peaceful sleep sanctuary."
+        },
+        {
+          "q": "How do you package and ship featured wall panels?",
+          "a": "Panels are individually cushioned with shock-absorbing foam, strapped onto vertical pallets or heavy-duty wooden crates, and shipped with complete transit insurance directly to your project site."
+        }
+      ]
+    }
+  ]
+}

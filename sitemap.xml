@@ -26,12 +26,55 @@
         <priority>0.8</priority>
     </url>
 
+        <url>
+        <loc>https://www.vijetastone.com/contact/</loc>
+        <lastmod>2026-09-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
     <!-- 1. Wall Surfaces -->
     <url>
         <loc>https://www.vijetastone.com/stone-carving/</loc>
-        <lastmod>2026-09-07</lastmod>
+        <lastmod>2026-09-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.vijetastone.com/stone-carving/double-height-wall/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.vijetastone.com/stone-carving/staircase-wall/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.vijetastone.com/stone-carving/sofa-wall/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.vijetastone.com/stone-carving/statement-wall/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.vijetastone.com/stone-carving/living-room-wall/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.vijetastone.com/stone-carving/featured-wall/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
     </url>
     <url>
         <loc>https://www.vijetastone.com/stone-art-murals/</loc>

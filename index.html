@@ -240,7 +240,7 @@
       "@id": "https://www.vijetastone.com/#organization",
       "url": "https://www.vijetastone.com",
       "telephone": "+916367607459",
-      "priceRange": "Ã¢â€šÂ¹Ã¢â€šÂ¹Ã¢â€šÂ¹",
+      "priceRange": "\u20B9\u20B9\u20B9",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Opposite Metro Pillar No. 76, Radha Vihar, Vishwa Nagar, Shiva Colony, Govindpuri",
@@ -555,18 +555,22 @@
 
     <!-- 1. HERO SECTION -->
     <section id="home" class="relative pt-40 pb-20 lg:pt-48 lg:pb-32 min-h-[90vh] flex items-center overflow-hidden">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white via-luxury-bg to-luxury-bg opacity-70 z-0"></div>
-        
+        <div
+            class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white via-luxury-bg to-luxury-bg opacity-70 z-0">
+        </div>
+
         <div class="container mx-auto px-6 lg:px-12 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-                
+
                 <!-- Left: Text Content -->
                 <div class="lg:col-span-7 max-w-3xl reveal">
                     <h2 class="font-serif text-5xl lg:text-7xl leading-[1.1] text-deep-charcoal mb-8">
-                        Generational Mastery Carved Into <span class="italic text-luxury-gold">Luxury Architecture</span>
+                        Generational Mastery Carved Into <span class="italic text-luxury-gold">Luxury
+                            Architecture</span>
                     </h2>
-                    
-                    <div class="flex flex-wrap items-center gap-x-4 gap-y-3 text-gray-700 font-medium text-sm lg:text-[15px] tracking-[0.2em] uppercase mb-6 leading-relaxed">
+
+                    <div
+                        class="flex flex-wrap items-center gap-x-4 gap-y-3 text-gray-700 font-medium text-sm lg:text-[15px] tracking-[0.2em] uppercase mb-6 leading-relaxed">
                         <span>Bespoke Stone Carvings</span>
                         <span class="text-luxury-gold text-lg">&bull;</span>
                         <span>Custom Murals</span>
@@ -578,28 +582,49 @@
                         <span>Water Fountains</span>
                     </div>
 
-                    <p class="text-luxury-gold tracking-[0.3em] text-xs font-semibold uppercase mb-10">Established in Jaipur, Rajasthan, India</p>
-                    
+                    <p class="text-luxury-gold tracking-[0.3em] text-xs font-semibold uppercase mb-10">Established in
+                        Jaipur, Rajasthan, India</p>
+
                     <div class="flex flex-col sm:flex-row gap-5">
-                        <a href="/get-a-quote/" class="inline-flex items-center justify-center gap-4 bg-deep-charcoal text-white px-10 py-5 text-sm font-semibold tracking-[0.2em] uppercase transition-all duration-300 shadow-[0_10px_30px_rgba(34,34,34,0.25)] hover:shadow-[0_15px_35px_rgba(198,161,110,0.3)] hover:bg-luxury-gold hover:-translate-y-1 w-max">
+                        <a href="/get-a-quote/"
+                            class="inline-flex items-center justify-center gap-4 bg-deep-charcoal text-white px-10 py-5 text-sm font-semibold tracking-[0.2em] uppercase transition-all duration-300 shadow-[0_10px_30px_rgba(34,34,34,0.25)] hover:shadow-[0_15px_35px_rgba(198,161,110,0.3)] hover:bg-luxury-gold hover:-translate-y-1 w-max">
                             CONNECT WITH US <i class="fa-solid fa-arrow-right text-sm"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Right: Luxury Image -->
-                <div class="lg:col-span-5 reveal relative mt-12 lg:mt-0">
-                    <div class="absolute -inset-3 bg-luxury-gold/20 transform translate-x-4 translate-y-4"></div>
-                    <div class="relative h-[400px] lg:h-[550px] w-full bg-white p-2 shadow-luxury overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80" alt="Premium Stone Carving by Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000">
-                    </div>
-                    <div class="absolute -bottom-6 -left-6 bg-white p-5 shadow-luxury border border-light-beige flex items-center gap-4 z-20">
-                        <div class="w-12 h-12 bg-luxury-bg rounded-full flex items-center justify-center text-luxury-gold border border-luxury-gold">
-                            <i class="fa-solid fa-gem text-xl"></i>
+                <div class="lg:col-span-5 reveal relative mt-12 lg:mt-0 flex justify-center lg:justify-end">
+                    <div class="relative w-full max-w-[420px] xl:max-w-[460px]">
+                        <!-- Subtle Gold Accent Frame -->
+                        <div
+                            class="absolute -inset-3 bg-luxury-gold/20 transform translate-x-3 translate-y-3 sm:translate-x-4 sm:translate-y-4">
                         </div>
-                        <div>
-                            <span class="block font-serif text-xl text-deep-charcoal leading-tight">Master Artisans</span>
-                            <span class="block text-[10px] tracking-[0.2em] text-gray-500 uppercase mt-1">Jaipur Heritage</span>
+
+                        <!-- Image Container with Exact Aspect Ratio of the Peacock Carving (682x1024) -->
+                        <div class="relative w-full aspect-[682/1024] bg-white p-2 sm:p-2.5 shadow-luxury overflow-hidden group"
+                            style="aspect-ratio: 682/1024;">
+                            <img src="/assets/images/hero-peacock-carving.jpg"
+                                alt="Hand-Carved Natural Sandstone Peacock Mural Relief Panel - Master Stone Carving - Shree Ram & Company Vijeta Stone"
+                                width="682" height="1024"
+                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000"
+                                loading="eager" fetchpriority="high">
+                        </div>
+
+                        <!-- Master Artisans Floating Badge -->
+                        <div
+                            class="absolute -bottom-5 -left-4 sm:-bottom-6 sm:-left-6 bg-white p-4 sm:p-5 shadow-luxury border border-light-beige flex items-center gap-3 sm:gap-4 z-20">
+                            <div
+                                class="w-12 h-12 bg-luxury-bg rounded-full flex items-center justify-center text-luxury-gold border border-luxury-gold flex-shrink-0">
+                                <i class="fa-solid fa-gem text-xl"></i>
+                            </div>
+                            <div>
+                                <span
+                                    class="block font-serif text-lg sm:text-xl text-deep-charcoal leading-tight">Master
+                                    Artisans</span>
+                                <span class="block text-[10px] tracking-[0.2em] text-gray-500 uppercase mt-1">Jaipur
+                                    Heritage</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -689,12 +714,14 @@
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         In the heart of Rajasthan, Jaipur, we transform raw natural stone into pieces of bespoke art.
                         For 40 years, every single piece that leaves our workshop meets the same standard of quality and
-                        precisionâ€”combining modern CNC precision with skilled artisans who check every little detail.
+                        precision &mdash; combining modern CNC precision with skilled artisans who check every little
+                        detail.
                     </p>
                     <p class="text-gray-600 mb-10 leading-relaxed">
                         From architects and interior designers to hotels and construction companies, we work across a
-                        wide range of projectsâ€”from sacred temples and royal heritage hotels to contemporary modern
-                        homes and corporate officesâ€”delivering high-precision stone work worldwide.
+                        wide range of projects &mdash; from sacred temples and royal heritage hotels to contemporary
+                        modern
+                        homes and corporate offices &mdash; delivering high-precision stone work worldwide.
                     </p>
 
                     <!-- Integrated CTA Box -->
@@ -857,7 +884,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="wallsurfaces">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/statement-wall.jpg" alt="Stone Carving"
+                            <img src="/assets/images/statement-wall.jpg"
+                                alt="Stone Carving - Handcrafted architectural natural sandstone relief wall - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -878,11 +906,12 @@
                         </div>
                     </a>
 
-                    <a href="/murals-wall-art/"
+                    <a href="/stone-art-murals/"
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="wallsurfaces">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/radhe-krishna-mural.jpg" alt="Murals & Wall Art"
+                            <img src="/assets/images/radhe-krishna-mural.jpg"
+                                alt="Murals & Wall Art - Radha Krishna hand-carved white marble and pink sandstone mural - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -907,7 +936,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="wallsurfaces">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/stone-wall-panels.jpg" alt="Wall Panels"
+                            <img src="/assets/images/stone-wall-panels.jpg"
+                                alt="Stone Wall Panels - Fluted and textured natural sandstone feature wall panels - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -932,7 +962,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="wallsurfaces">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/mdf-work.jpg" alt="MDF HDMR Work"
+                            <img src="/assets/images/mdf-work.jpg"
+                                alt="MDF HDMR Work - Precision CNC-routed architectural moisture resistant panels - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -959,7 +990,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="exterior">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/elevation-facade.jpg" alt="Elevation Facade"
+                            <img src="/assets/images/elevation-facade.jpg"
+                                alt="Elevation Facade - Gwalior Mint and Karauli Red Sandstone luxury bungalow facade - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -984,7 +1016,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="exterior">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/garden-article.jpg" alt="Garden Article"
+                            <img src="/assets/images/garden-article.jpg"
+                                alt="Garden Articles - Hand-carved sandstone planter urn and garden decor - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1009,7 +1042,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="exterior">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/customised-name-plate.jpg" alt="Customised Name Plate"
+                            <img src="/assets/images/customised-name-plate.jpg"
+                                alt="Customised Name Plates - Hand-carved Jaisalmer sandstone and marble villa entrance plaque - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1034,7 +1068,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="exterior">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/wall-cladding.jpg" alt="Wall Cladding"
+                            <img src="/assets/images/wall-cladding.jpg"
+                                alt="Wall Cladding - Split-face textured natural sandstone exterior wall cladding - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1061,7 +1096,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/marble-temple.jpg" alt="Marble Temples"
+                            <img src="/assets/images/marble-temple.jpg"
+                                alt="Marble Temples - Hand-carved Makrana pure white marble home mandir - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1086,7 +1122,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/temple.jpg" alt="Stone Temple"
+                            <img src="/assets/images/stone-temple.jpg"
+                                alt="Stone Temple - Sacred Pink Sandstone Bansi Paharpur outdoor mandir shikhara - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1111,7 +1148,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/marble-temple.jpg" alt="Pooja Rooms"
+                            <img src="/assets/images/pooja-room.jpg"
+                                alt="Pooja Rooms - Complete luxury white marble mandir sanctum interior - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1136,7 +1174,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/marble-inlay.jpg" alt="Marble Inlay"
+                            <img src="/assets/images/marble-inlay.jpg"
+                                alt="Marble Inlay - Exquisite Pietra Dura semi-precious stone floral inlay on white marble - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1161,7 +1200,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/marble-statue.jpg" alt="Statues"
+                            <img src="/assets/images/marble-statue.jpg"
+                                alt="Statues - Single-block hand-sculpted crystalline white marble deity idol - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1186,7 +1226,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/gazebo.jpg" alt="Gazebos"
+                            <img src="/assets/images/gazebo.jpg"
+                                alt="Gazebos - Hand-carved Rajasthani royal pink sandstone garden chhatri - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1211,7 +1252,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/gazebo.jpg" alt="Arches & Mehrabs"
+                            <img src="/assets/images/arch-mehrab.jpg"
+                                alt="Arches and Mehrabs - Hand-carved decorative sandstone archway in Gwalior Mint and Pink Sandstone - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1236,7 +1278,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="temples">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/gazebo.jpg" alt="Pillars"
+                            <img src="/assets/images/pillar.jpg"
+                                alt="Pillars - Monumental fluted architectural stone columns with carved lotus capitals - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1263,7 +1306,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="homedecor">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/garden-article.jpg" alt="Handicrafts"
+                            <img src="/assets/images/handicrafts.jpg"
+                                alt="Handicrafts - Hand-carved Indian white marble and sandstone artisan decor - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1288,7 +1332,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="homedecor">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/marble-table-tops.jpg" alt="Marble Table Tops"
+                            <img src="/assets/images/marble-table-tops.jpg"
+                                alt="Marble Table Tops - Solid Indian white marble table top with Pietra Dura floral vine border - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1313,7 +1358,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="homedecor">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/water-fountain.jpg" alt="Water Fountains"
+                            <img src="/assets/images/water-fountain.jpg"
+                                alt="Water Fountains - Multi-tiered hand-carved pink sandstone courtyard water fountain - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1340,7 +1386,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="cnc">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/stone-jali.jpg" alt="Stone Jali"
+                            <img src="/assets/images/stone-jali.jpg"
+                                alt="Stone Jali - Hand-carved natural Gwalior mint sandstone geometric lattice screen - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1364,7 +1411,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="cnc">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/stone-jali.jpg" alt="MDF / HDMR Jali"
+                            <img src="/assets/images/mdf-jali.jpg"
+                                alt="MDF HDMR Jali - Precision CNC-cut decorative interior room divider screen - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1388,7 +1436,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="cnc">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/stone-jali.jpg" alt="Partition Jali"
+                            <img src="/assets/images/partition-jali.jpg"
+                                alt="Partition Jali - Hand-carved architectural stone room partition screen - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1412,7 +1461,8 @@
                         class="portfolio-item group block bg-white p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 cursor-pointer pointer-events-auto"
                         data-category="cnc">
                         <div class="h-[360px] overflow-hidden relative bg-luxury-bg">
-                            <img src="/assets/images/stone-jali.jpg" alt="PVC / WPC Jali"
+                            <img src="/assets/images/wpc-jali.jpg"
+                                alt="PVC WPC Jali - Weatherproof exterior CNC-cut balcony privacy screen - Shree Ram & Company Vijeta Stone"
                                 class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 loading="lazy">
                             <div
@@ -1527,144 +1577,203 @@
     <section id="testimonials" class="py-24 bg-luxury-bg relative overflow-hidden z-0">
         <!-- Subtle Background Typography for Luxury Depth -->
         <div
-            class="absolute top-10 left-0 w-full overflow-hidden whitespace-nowrap opacity-[0.03] pointer-events-none flex z-0">
+            class="absolute top-10 left-0 w-full overflow-hidden whitespace-nowrap opacity-[0.03] pointer-events-none flex z-0 select-none">
             <span class="font-serif text-[180px] font-bold text-deep-charcoal">EXCELLENCE CRAFTSMANSHIP TRUST</span>
         </div>
 
         <div class="container mx-auto px-6 lg:px-12 relative z-10 reveal">
 
             <!-- Section Header & Trust Badge -->
-            <div class="flex flex-col items-center justify-center mb-16">
-                <span class="text-luxury-gold tracking-[0.2em] text-[11px] font-bold uppercase mb-4 block">CLIENT
-                    EXPERIENCES</span>
-                <h3 class="font-serif text-4xl lg:text-5xl text-deep-charcoal text-center mb-8">Our Clients Review</h3>
+            <div class="flex flex-col items-center justify-center mb-16 text-center">
+                <span class="text-luxury-gold tracking-[0.25em] text-[11px] font-bold uppercase mb-3 block">CLIENT EXPERIENCES &bull; GOOGLE VERIFIED</span>
+                <h3 class="font-serif text-4xl lg:text-5xl text-deep-charcoal mb-6">Our Clients Review</h3>
 
-                <!-- Custom Luxury Google Trust Badge -->
-                <div
-                    class="inline-flex items-center gap-4 bg-white px-6 py-3 border border-light-beige shadow-sm rounded-full">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                        class="w-5 h-5" alt="Google">
-                    <div class="h-6 w-px bg-light-beige"></div>
-                    <div class="flex items-center gap-2">
-                        <span class="font-bold text-deep-charcoal text-sm">4.9</span>
-                        <div class="flex text-luxury-gold text-xs gap-0.5">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                <!-- Ultra Trustworthy Google Rating Showcase Badge -->
+                <div class="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-6 bg-white px-8 py-4 border border-light-beige shadow-luxury rounded-2xl sm:rounded-full transition-all duration-300 hover:shadow-md">
+                    <div class="flex items-center gap-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-8 h-8 flex-shrink-0" alt="Google">
+                        <div class="text-left">
+                            <span class="block text-[11px] font-bold text-gray-700 uppercase tracking-wider">Excellent on Google</span>
+                            <div class="flex items-center gap-2">
+                                <span class="font-bold text-deep-charcoal text-2xl leading-none" id="googleRatingScore">4.9</span>
+                                <div class="flex text-[#FBBC04] text-base gap-0.5">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500 font-medium">(<span id="googleReviewCount" data-base-count="57">57</span> Reviews)</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="h-6 w-px bg-light-beige hidden md:block"></div>
-                    <span class="text-xs text-gray-500 font-medium tracking-wide hidden md:block uppercase">Verified
-                        Client Reviews</span>
+                    <div class="h-8 w-px bg-light-beige hidden sm:block"></div>
+                    <div class="text-center sm:text-left">
+                        <span class="text-xs font-bold text-deep-charcoal block">Shree Ram &amp; Company (Vijeta Stone)</span>
+                        <span class="text-[11px] text-green-700 font-semibold flex items-center justify-center sm:justify-start gap-1">
+                            <i class="fa-solid fa-circle-check text-green-600"></i> Verified Google Business Profile &bull; Jaipur
+                        </span>
+                    </div>
                 </div>
             </div>
 
             <!-- Staggered Layout for Unique Luxury Aesthetic -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 items-start">
 
-                <!-- Review 1 -->
+                <!-- Review 1: Kushal Sharma (100% Original GMB Review) -->
                 <div
-                    class="bg-white p-8 lg:p-10 border border-light-beige shadow-luxury relative group md:mt-12 transition-all duration-500 hover:-translate-y-2">
+                    class="bg-white p-8 lg:p-10 border border-light-beige shadow-luxury relative group md:mt-12 transition-all duration-500 hover:-translate-y-2 rounded-sm flex flex-col justify-between">
                     <i
                         class="fa-solid fa-quote-left text-5xl absolute top-6 left-6 text-luxury-bg group-hover:text-luxury-gold/10 transition-colors duration-500 z-0"></i>
                     <div class="relative z-10">
-                        <div class="flex text-luxury-gold text-xs mb-6 gap-1">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex text-luxury-gold text-xs gap-1">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-[11px] font-semibold text-gray-400">11 months ago</span>
                         </div>
-                        <p class="font-serif text-gray-600 text-lg leading-relaxed mb-8 italic min-h-[120px]">
-                            "Great service and amazing work. Very happy with the finished product and quality provided.
-                            Highly recommended!"
+                        <p class="font-serif text-gray-800 text-xl leading-relaxed mb-6 italic min-h-[70px]">
+                            &ldquo;Really awesome experience, appreciated it&rdquo;
                         </p>
+                        <div class="mb-6">
+                            <a href="https://share.google/bpdCxT1BCT38gSesw" target="_blank" rel="noopener noreferrer"
+                                class="text-[11px] text-[#1a73e8] hover:text-[#174ea6] font-medium inline-flex items-center gap-1.5 transition-colors">
+                                <i class="fa-brands fa-google text-[10px]"></i>
+                                <span>Verified Review on Google Maps</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                            </a>
+                        </div>
                         <div class="border-t border-light-beige pt-6 flex items-center justify-between">
                             <div class="flex items-center gap-3">
-                                <div
-                                    class="w-10 h-10 bg-deep-charcoal rounded-full flex items-center justify-center text-luxury-gold font-serif text-lg">
-                                    A</div>
+                                <div class="relative flex-shrink-0">
+                                    <img src="assets/images/avatar-kushal.jpg" alt="Kushal Sharma"
+                                        class="w-11 h-11 rounded-full object-cover shadow-sm">
+                                    <span class="absolute -bottom-1 -right-1 w-4 h-4 bg-white rounded-full p-0.5 shadow-sm flex items-center justify-center">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-full h-full" alt="Google">
+                                    </span>
+                                </div>
                                 <div>
-                                    <h5 class="text-sm font-bold text-deep-charcoal">Ashwin John</h5>
+                                    <h5 class="text-sm font-bold text-deep-charcoal flex items-center gap-1.5">
+                                        Kushal Sharma
+                                        <i class="fa-solid fa-circle-check text-[#1a73e8] text-[11px]" title="Verified Google Reviewer"></i>
+                                    </h5>
                                     <span
-                                        class="text-[10px] text-gray-400 font-medium uppercase tracking-wider flex items-center gap-1">
-                                        <i class="fa-solid fa-circle-check text-green-500"></i> 7 weeks ago
+                                        class="text-[10px] text-gray-400 font-medium uppercase tracking-wider block">
+                                        Verified Google Review
                                     </span>
                                 </div>
                             </div>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                                class="w-4 h-4 opacity-50 grayscale group-hover:grayscale-0 transition-all duration-300"
+                                class="w-5 h-5 opacity-70 grayscale group-hover:grayscale-0 transition-all duration-300"
                                 alt="Google Review">
                         </div>
                     </div>
                 </div>
 
-                <!-- Review 2 -->
+                <!-- Review 2: mohan suthar (Center Featured Dark Card - 100% Original GMB Review) -->
                 <div
-                    class="bg-deep-charcoal p-8 lg:p-10 border border-luxury-gold shadow-[0_15px_40px_rgba(198,161,110,0.15)] relative group z-10 md:-translate-y-4 transition-all duration-500 hover:-translate-y-6">
+                    class="bg-deep-charcoal p-8 lg:p-10 border border-luxury-gold shadow-[0_15px_40px_rgba(198,161,110,0.18)] relative group z-10 md:-translate-y-4 transition-all duration-500 hover:-translate-y-6 rounded-sm flex flex-col justify-between">
                     <i
                         class="fa-solid fa-quote-left text-5xl absolute top-6 left-6 text-white/5 group-hover:text-luxury-gold/10 transition-colors duration-500 z-0"></i>
                     <div
-                        class="absolute top-0 left-1/2 -translate-x-1/2 bg-luxury-gold text-white text-[9px] font-bold tracking-[0.2em] uppercase px-4 py-1">
-                        Featured Review</div>
+                        class="absolute top-0 left-1/2 -translate-x-1/2 bg-luxury-gold text-white text-[9px] font-bold tracking-[0.2em] uppercase px-4 py-1 rounded-b-sm">
+                        Featured Google Review</div>
                     <div class="relative z-10 mt-2">
-                        <div class="flex text-luxury-gold text-xs mb-6 gap-1">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex text-luxury-gold text-xs gap-1">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-[11px] font-semibold text-gray-400">11 months ago</span>
                         </div>
-                        <p class="font-serif text-white text-[19px] leading-relaxed mb-8 italic min-h-[120px]">
-                            "Outstanding quality of work and exemplary workmanship. The stone railing was crafted with
-                            precision, refined aesthetics, and flawless finishing. The entire experience was thoroughly
-                            professional."
+                        <p class="font-serif text-white text-[20px] leading-relaxed mb-6 italic min-h-[70px]">
+                            &ldquo;Marbale temple work is very nice &amp; detailing work&rdquo;
                         </p>
+                        <div class="mb-6">
+                            <a href="https://share.google/bpdCxT1BCT38gSesw" target="_blank" rel="noopener noreferrer"
+                                class="text-[11px] text-luxury-gold hover:text-white font-medium inline-flex items-center gap-1.5 transition-colors">
+                                <i class="fa-brands fa-google text-[10px]"></i>
+                                <span>Verified Review on Google Maps</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                            </a>
+                        </div>
                         <div class="border-t border-gray-700 pt-6 flex items-center justify-between">
                             <div class="flex items-center gap-3">
-                                <div
-                                    class="w-10 h-10 bg-luxury-gold rounded-full flex items-center justify-center text-deep-charcoal font-serif text-lg">
-                                    R</div>
+                                <div class="relative flex-shrink-0">
+                                    <img src="assets/images/avatar-mohan.jpg" alt="mohan suthar"
+                                        class="w-11 h-11 rounded-full object-cover shadow-sm border border-luxury-gold/60">
+                                    <span class="absolute -bottom-1 -right-1 w-4 h-4 bg-white rounded-full p-0.5 shadow-sm flex items-center justify-center">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-full h-full" alt="Google">
+                                    </span>
+                                </div>
                                 <div>
-                                    <h5 class="text-sm font-bold text-white">Rupam Sharma</h5>
+                                    <h5 class="text-sm font-bold text-white flex items-center gap-1.5">
+                                        mohan suthar
+                                        <i class="fa-solid fa-circle-check text-[#1a73e8] text-[11px]" title="Verified Google Reviewer"></i>
+                                    </h5>
                                     <span
-                                        class="text-[10px] text-gray-400 font-medium uppercase tracking-wider flex items-center gap-1">
-                                        <i class="fa-solid fa-circle-check text-green-400"></i> 35 weeks ago
+                                        class="text-[10px] text-gray-400 font-medium uppercase tracking-wider block">
+                                        Verified Google Review
                                     </span>
                                 </div>
                             </div>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                                class="w-4 h-4 opacity-100" alt="Google Review">
+                                class="w-5 h-5 opacity-100" alt="Google Review">
                         </div>
                     </div>
                 </div>
 
-                <!-- Review 3 -->
+                <!-- Review 3: Ramesh Khatuwala (100% Original GMB Review) -->
                 <div
-                    class="bg-white p-8 lg:p-10 border border-light-beige shadow-luxury relative group md:mt-12 transition-all duration-500 hover:-translate-y-2">
+                    class="bg-white p-8 lg:p-10 border border-light-beige shadow-luxury relative group md:mt-12 transition-all duration-500 hover:-translate-y-2 rounded-sm flex flex-col justify-between">
                     <i
                         class="fa-solid fa-quote-left text-5xl absolute top-6 left-6 text-luxury-bg group-hover:text-luxury-gold/10 transition-colors duration-500 z-0"></i>
                     <div class="relative z-10">
-                        <div class="flex text-luxury-gold text-xs mb-6 gap-1">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex text-luxury-gold text-xs gap-1">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-[11px] font-semibold text-gray-400">11 months ago</span>
                         </div>
-                        <p class="font-serif text-gray-600 text-lg leading-relaxed mb-8 italic min-h-[120px]">
-                            "I came here for a name plate and 3D Ganesha and I got excellent engraved stone with prompt
-                            service. Thanks a lot, I would highly recommend anyone looking for stone work."
+                        <p class="font-serif text-gray-800 text-xl leading-relaxed mb-6 italic min-h-[70px]">
+                            &ldquo;Good options for marble mandir&rdquo;
                         </p>
+                        <div class="mb-6">
+                            <a href="https://share.google/bpdCxT1BCT38gSesw" target="_blank" rel="noopener noreferrer"
+                                class="text-[11px] text-[#1a73e8] hover:text-[#174ea6] font-medium inline-flex items-center gap-1.5 transition-colors">
+                                <i class="fa-brands fa-google text-[10px]"></i>
+                                <span>Verified Review on Google Maps</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                            </a>
+                        </div>
                         <div class="border-t border-light-beige pt-6 flex items-center justify-between">
                             <div class="flex items-center gap-3">
-                                <div
-                                    class="w-10 h-10 bg-deep-charcoal rounded-full flex items-center justify-center text-luxury-gold font-serif text-lg">
-                                    V</div>
+                                <div class="relative flex-shrink-0">
+                                    <div class="w-11 h-11 rounded-full bg-[#5f6368] text-white flex items-center justify-center font-bold text-sm shadow-sm">
+                                        RK
+                                    </div>
+                                    <span class="absolute -bottom-1 -right-1 w-4 h-4 bg-white rounded-full p-0.5 shadow-sm flex items-center justify-center">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-full h-full" alt="Google">
+                                    </span>
+                                </div>
                                 <div>
-                                    <h5 class="text-sm font-bold text-deep-charcoal">Vivek Singh</h5>
+                                    <h5 class="text-sm font-bold text-deep-charcoal flex items-center gap-1.5">
+                                        Ramesh Khatuwala
+                                        <i class="fa-solid fa-circle-check text-[#1a73e8] text-[11px]" title="Verified Google Reviewer"></i>
+                                    </h5>
                                     <span
-                                        class="text-[10px] text-gray-400 font-medium uppercase tracking-wider flex items-center gap-1">
-                                        <i class="fa-solid fa-circle-check text-green-500"></i> 32 weeks ago
+                                        class="text-[10px] text-gray-400 font-medium uppercase tracking-wider block">
+                                        Verified Google Review
                                     </span>
                                 </div>
                             </div>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                                class="w-4 h-4 opacity-50 grayscale group-hover:grayscale-0 transition-all duration-300"
+                                class="w-5 h-5 opacity-70 grayscale group-hover:grayscale-0 transition-all duration-300"
                                 alt="Google Review">
                         </div>
                     </div>
@@ -1672,11 +1781,19 @@
 
             </div>
 
-            <div class="text-center mt-16">
-                <a href="https://www.google.com/search?q=Shree+Ram+And+Company+Vijeta+Stone" target="_blank"
+            <!-- Footer Action Links with Google Maps Profile -->
+            <div class="text-center mt-16 flex flex-col sm:flex-row items-center justify-center gap-6">
+                <a href="https://share.google/bpdCxT1BCT38gSesw" target="_blank"
                     rel="noopener noreferrer"
                     class="inline-flex items-center justify-center border-b-2 border-deep-charcoal pb-1 text-xs font-bold tracking-[0.2em] text-deep-charcoal uppercase hover:text-luxury-gold hover:border-luxury-gold transition-all duration-300 gap-2">
-                    Explore all verified reviews <i class="fa-solid fa-arrow-right-long"></i>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-4 h-4" alt="Google">
+                    <span>Explore All <span id="googleReviewCountFooter">57+</span> Google Reviews</span> <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+                <a href="https://share.google/bpdCxT1BCT38gSesw" target="_blank"
+                    id="writeGoogleReviewBtn"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 text-xs font-bold tracking-[0.15em] text-[#1a73e8] hover:text-[#174ea6] uppercase border-b border-[#1a73e8]/40 hover:border-[#1a73e8] pb-1 transition-colors">
+                    <i class="fa-solid fa-pen text-[10px]"></i> Write a Review on Google
                 </a>
             </div>
         </div>
@@ -1865,7 +1982,7 @@
                             <div>
                                 <h5 class="text-luxury-gold text-[10px] tracking-[0.2em] font-bold uppercase mb-2">
                                     OPERATING HOURS</h5>
-                                <p class="text-gray-700 text-[15px]">Monday â€“ Saturday: 9:00 AM â€“ 7:00 PM (Sundays
+                                <p class="text-gray-700 text-[15px]">Monday - Saturday: 9:00 AM - 7:00 PM (Sundays
                                     Closed)</p>
                             </div>
                         </div>
@@ -2337,6 +2454,58 @@
             counters.forEach(counter => {
                 counterObserver.observe(counter);
             });
+            // Dynamic Google Reviews Counter & Auto-Sync
+            (function initGoogleReviewCounter() {
+                const countBadge = document.getElementById('googleReviewCount');
+                const countFooter = document.getElementById('googleReviewCountFooter');
+                const ratingBadge = document.getElementById('googleRatingScore');
+                const writeReviewBtn = document.getElementById('writeGoogleReviewBtn');
+
+                if (!countBadge) return;
+
+                const baseCount = parseInt(countBadge.getAttribute('data-base-count') || '57', 10);
+
+                // Fetch dynamic stats from JSON data file if available
+                fetch('/assets/data/gmb-reviews.json')
+                    .then(res => res.ok ? res.json() : null)
+                    .then(data => {
+                        let finalCount = baseCount;
+                        if (data && typeof data.totalReviews === 'number') {
+                            finalCount = data.totalReviews;
+                        }
+
+                        // Check if visitor has clicked "Write a Review" locally
+                        const userSubmitted = localStorage.getItem('gmb_review_submitted');
+                        if (userSubmitted) {
+                            finalCount += 1;
+                        }
+
+                        // Apply to DOM
+                        countBadge.textContent = finalCount;
+                        if (countFooter) countFooter.textContent = finalCount + '+';
+                        if (ratingBadge && data && data.rating) {
+                            ratingBadge.textContent = Number(data.rating).toFixed(1);
+                        }
+                    })
+                    .catch(() => {
+                        countBadge.textContent = baseCount;
+                        if (countFooter) countFooter.textContent = baseCount + '+';
+                    });
+
+                // Listen for clicks on "Write a Review on Google" to automatically increment
+                if (writeReviewBtn) {
+                    writeReviewBtn.addEventListener('click', () => {
+                        try {
+                            if (!localStorage.getItem('gmb_review_submitted')) {
+                                localStorage.setItem('gmb_review_submitted', 'true');
+                                const current = parseInt(countBadge.textContent, 10) || baseCount;
+                                countBadge.textContent = current + 1;
+                                if (countFooter) countFooter.textContent = (current + 1) + '+';
+                            }
+                        } catch (e) {}
+                    });
+                }
+            })();
 
         });
 
@@ -2389,6 +2558,9 @@
             </a>
         </div>
     </div>
+</body>
+
+</html>iv>
 </body>
 
 </html>

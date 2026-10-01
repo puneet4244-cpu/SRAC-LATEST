@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <rect width="64" height="64" rx="14" fill="#1A1A1A"/>
+    <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#C6A16E" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="50%" y="54%" text-anchor="middle" dominant-baseline="central" font-family="'Cormorant Garamond', serif, Georgia" font-size="28" font-weight="700" fill="#C6A16E" letter-spacing="1">SR</text>
+    <circle cx="32" cy="12" r="2" fill="#C6A16E"/>
+</svg>

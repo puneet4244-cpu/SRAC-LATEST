@@ -11,15 +11,24 @@ $baseDir = "c:\Users\shree\OneDrive\Desktop\NTRY"
 $stoneCarvingProducts = @(
     @{ 
         Name = "Double Height Wall"; 
-        Desc = "Monumental stone carved elevations designed for 18-30 ft tall luxury villa lobbies, duplex halls, and living spaces."; 
-        Material = "Gwalior Mint Sandstone & Teak Sandstone"; 
-        Size = "Customized up to 25 ft height"; 
+        Desc = "Monumental handcrafted stone carved elevations engineered for 15-30 ft soaring double-height villa lobbies, duplex atriums, and grand entrance halls. Featuring bespoke 3D contour reliefs, geometric faceted patterns, and botanical murals with integrated backlighting."; 
+        Material = "Pink Bansi Paharpur, Jodhpur Sandstone and Makrana Marble"; 
+        Size = "12 ft to 30+ ft (Modular interlocking panels)"; 
         Images = @(
-            "/assets/images/double-height-medallion-facade.jpg",
-            "/assets/images/double-height-lotus-backlit.jpg",
-            "/assets/images/staircase-mandala-radial-carving.jpg",
-            "/assets/images/staircase-maple-leaf-relief.jpg",
-            "/assets/images/staircase-ginkgo-backlit-panel.jpg"
+            "/assets/images/double-height-wall-01.webp",
+            "/assets/images/double-height-wall-02.webp",
+            "/assets/images/double-height-wall-03.webp",
+            "/assets/images/double-height-wall-04.webp",
+            "/assets/images/double-height-wall-05.webp",
+            "/assets/images/double-height-wall-06.webp"
+        );
+        AltTexts = @(
+            "Concentric radial sunburst mandala medallion stone carving panels with multi-layered fluted textures in double-height entrance lobby - Shree Ram and Company Vijeta Stone",
+            "Swirling dynamic vortex wave textured sandstone relief feature wall panels with architectural up-lighting in double-height duplex lounge - Shree Ram and Company Vijeta Stone",
+            "3D geometric faceted triangular sandstone cladding with illuminated niches and floral relief carvings in modern double-height atrium - Shree Ram and Company Vijeta Stone",
+            "Grand botanical monstera and tropical foliage bas-relief carved stone mural with contrasting charcoal leaf accents in double-height villa hall - Shree Ram and Company Vijeta Stone",
+            "Vertical zen ripple water wave grooved marble wall cladding soaring to ceiling beside ornate hand-carved wooden entrance door - Shree Ram and Company Vijeta Stone",
+            "Contemporary organic contour wave hand-carved stone wall panel with warm ambient backlighting in luxury double-height villa living room - Shree Ram and Company Vijeta Stone"
         )
     },
     @{ 
@@ -97,7 +106,7 @@ Generate-ProductLeafPage `
     -parentCategoryName "Wall Surfaces" `
     -grandParentName "Wall Surfaces" `
     -parentUrl "/#collection" `
-    -heroBg "/assets/images/double-height-medallion-facade.jpg" `
+    -heroBg "/assets/images/double-height-wall-01.webp" `
     -introOverview "Bespoke architectural hand-carved natural stone walls for luxury residences, duplex atriums, and grand living spaces. Handcrafted in solid sandstone and Makrana marble." `
     -products $stoneCarvingProducts
 

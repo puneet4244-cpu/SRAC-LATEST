@@ -72,9 +72,16 @@ function Generate-ProductLeafPage {
         for ($s = 0; $s -lt $galleryImages.Count; $s++) {
             $sImg = $galleryImages[$s]
             $lazyAttr = if ($s -eq 0) { "src=""$sImg""" } else { "src=""$sImg"" loading=""lazy""" }
+            $slideAlt = if ($prod.AltTexts -and $s -lt $prod.AltTexts.Count -and $prod.AltTexts[$s]) {
+                $prod.AltTexts[$s]
+            } elseif ($prod.AltText) {
+                "$($prod.AltText) - View $($s + 1)"
+            } else {
+                "$pName Architectural Handcrafted Natural Stone Carving - Shree Ram &amp; Company Jaipur - View $($s + 1)"
+            }
             $slidesHtml += @"
                 <div class="gallery-slide min-w-full h-full relative" data-index="$s">
-                    <img $lazyAttr alt="$pAlt - View $($s + 1)" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out">
+                    <img $lazyAttr alt="$slideAlt" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out">
                 </div>
 "@
             $dotActive = if ($s -eq 0) { "bg-white w-3" } else { "bg-white/50 w-1.5" }
@@ -85,19 +92,11 @@ function Generate-ProductLeafPage {
 
         $productCardsHtml += @"
             <!-- Product Card $itemIndex -->
-            <div id="$cardSlug" onclick="handleCardClick('$pName', '$categoryName', event)" class="scroll-mt-28 bg-white p-4 border border-transparent hover:border-luxury-gold/50 shadow-sm hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 flex flex-col group overflow-hidden cursor-pointer rounded-sm">
+            <div id="$cardSlug" onclick="handleCardClick('$pName', '$categoryName', event)" class="scroll-mt-28 bg-white p-3.5 md:p-4 border border-transparent hover:border-luxury-gold/50 shadow-sm hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1.5 transition-all duration-500 flex flex-col group overflow-hidden cursor-pointer rounded-sm">
                 <!-- In-Card Slider Gallery -->
                 <div class="product-gallery relative aspect-[3/4] w-full overflow-hidden bg-luxury-bg select-none rounded-sm" style="aspect-ratio: 900 / 1200;" data-product="$pName" data-category="$categoryName" data-active-index="0">
                     <div class="gallery-track flex w-full h-full transition-transform duration-300 ease-out">
                         $slidesHtml
-                    </div>
-
-                    <!-- Gradient Overlay on Hover -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end pb-6 pt-6 px-6 pointer-events-none z-10">
-                        <div class="flex items-center justify-center gap-2 text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase transform translate-y-3 group-hover:translate-y-0 transition-transform duration-500 delay-75">
-                            <span>Inquire Details</span>
-                            <i class="fa-solid fa-arrow-right-long text-xs"></i>
-                        </div>
                     </div>
 
                     <!-- Slider Nav Arrows -->
@@ -114,17 +113,14 @@ function Generate-ProductLeafPage {
                     </div>
                 </div>
 
-                <!-- Product Information & Micro-Specs -->
-                <div class="pt-5 pb-2 px-2 bg-white flex flex-col flex-grow text-left">
-                    <h3 class="font-serif text-xl md:text-2xl text-deep-charcoal font-semibold tracking-wide group-hover:text-luxury-gold transition-colors duration-300 mb-2">$pName</h3>
-                    <p class="text-gray-600 text-xs leading-relaxed mb-4 flex-grow">$pDesc</p>
+                <!-- Product Information (Sleek Minimal Luxury: Product Name & Single Golden Connect Us Button) -->
+                <div class="pt-5 pb-2 px-2 bg-white flex flex-col items-center justify-center text-center">
+                    <h3 class="font-serif text-xl md:text-2xl text-deep-charcoal font-semibold tracking-wide group-hover:text-luxury-gold transition-colors duration-300 mb-2.5">$pName</h3>
                     
-                    <!-- Micro Bullet Specs -->
-                    <div class="pt-3 border-t border-light-beige/70 space-y-1.5 text-[11px] text-gray-500 font-medium">
-                        <div class="flex items-center gap-2"><i class="fa-solid fa-gem text-luxury-gold text-[10px] w-3.5"></i> <span><strong>Material:</strong> $pMaterial</span></div>
-                        <div class="flex items-center gap-2"><i class="fa-solid fa-ruler text-luxury-gold text-[10px] w-3.5"></i> <span><strong>Size:</strong> $pSize</span></div>
-                        <div class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-luxury-gold text-[10px] w-3.5"></i> <span><strong>Placement:</strong> $pPlacement</span></div>
-                        <div class="flex items-center gap-2"><i class="fa-solid fa-paint-roller text-luxury-gold text-[10px] w-3.5"></i> <span><strong>Finish:</strong> $pFinish</span></div>
+                    <!-- Golden Colour Simple Sleek Text Button (Single Clean Appearance) -->
+                    <div class="inline-flex items-center gap-2 text-luxury-gold text-xs font-bold tracking-[0.22em] uppercase transition-all duration-300 group-hover:text-[#9e7d4f] border-b border-luxury-gold/40 group-hover:border-luxury-gold pb-0.5 pt-0.5">
+                        <span>Connect Us</span>
+                        <i class="fa-solid fa-arrow-right-long text-xs transform group-hover:translate-x-1.5 transition-transform duration-300"></i>
                     </div>
                 </div>
             </div>
@@ -797,18 +793,26 @@ function Generate-ProductLeafPage {
     <!-- Interactive Card Click & Gallery JavaScript -->
     <script>
         function handleCardClick(productName, categoryName, event) {
-            if (event.target.closest('.gallery-arrow') || event.target.closest('.indicator-dot')) {
+            if (event && (event.target.closest('.gallery-arrow') || event.target.closest('.indicator-dot'))) {
                 return;
             }
             const badge = document.getElementById('enquiry-product-badge');
             const badgeName = document.getElementById('enquiry-badge-name');
             const hiddenInput = document.getElementById('enquiry-product');
             const contactSection = document.getElementById('contact');
+            const messageBox = document.getElementById('contact-message');
+            const waLink = document.getElementById('contact-whatsapp-link');
             
             if (badge && badgeName && hiddenInput) {
                 hiddenInput.value = categoryName + ' - ' + productName;
                 badgeName.textContent = productName;
                 badge.classList.remove('hidden');
+            }
+            if (messageBox && (!messageBox.value || messageBox.value.startsWith('I am interested in'))) {
+                messageBox.value = 'I am interested in ' + productName + ' (' + categoryName + '). Please share catalog, custom site dimensions guidance, and quotation.';
+            }
+            if (waLink) {
+                waLink.href = 'https://wa.me/916367607459?text=' + encodeURIComponent('Hello Shree Ram & Company, I am interested in ' + productName + ' (' + categoryName + '). Please share quotation and catalog.');
             }
             if (contactSection) {
                 contactSection.scrollIntoView({ behavior: 'smooth' });
