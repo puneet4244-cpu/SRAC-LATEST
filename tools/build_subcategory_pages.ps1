@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$TargetSlug = "double-height-wall"
 )
 $workspace = "C:\Users\shree\OneDrive\Desktop\NTRY"
@@ -33,7 +33,7 @@ foreach ($item in $targetsToBuild) {
         New-Item -ItemType Directory -Path $pageDir -Force | Out-Null
     }
     $pageFile = "$pageDir\index.html"
-    $canonicalUrl = "https://www.vijetastone.com/stone-carving/$slug/"
+    $canonicalUrl = "https://www.shreeramandcompany.com/stone-carving/$slug/"
     
     # Calculate sibling links for Explore More (Strictly other 5 subcategories)
     $otherSubcategories = $subcategories | Where-Object { $_.slug -ne $slug }
@@ -276,13 +276,13 @@ $joined
     <meta property="og:title" content="$($item.metaTitle)">
     <meta property="og:description" content="$($item.metaDescription)">
     <meta property="og:url" content="$canonicalUrl">
-    <meta property="og:image" content="https://www.vijetastone.com$($item.primaryImage)">
+    <meta property="og:image" content="https://www.shreeramandcompany.com$($item.primaryImage)">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="$($item.metaTitle)">
     <meta name="twitter:description" content="$($item.metaDescription)">
-    <meta name="twitter:image" content="https://www.vijetastone.com$($item.primaryImage)">
+    <meta name="twitter:image" content="https://www.shreeramandcompany.com$($item.primaryImage)">
 
     <!-- JSON-LD Structured Data: Breadcrumb, Service & FAQ -->
     <script type="application/ld+json">
@@ -295,13 +295,13 @@ $joined
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.vijetastone.com/"
+            "item": "https://www.shreeramandcompany.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Stone Carving",
-            "item": "https://www.vijetastone.com/stone-carving/"
+            "item": "https://www.shreeramandcompany.com/stone-carving/"
           },
           {
             "@type": "ListItem",
@@ -315,7 +315,7 @@ $joined
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "$($item.h1)",
-        "image": "https://www.vijetastone.com$($item.primaryImage)",
+        "image": "https://www.shreeramandcompany.com$($item.primaryImage)",
         "description": "$($item.metaDescription)",
         "brand": {
           "@type": "Brand",
@@ -784,7 +784,7 @@ $joined
                                 <input type="hidden" name="_subject" value="New Inquiry for $($item.name) - Shree Ram & Company">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">
-                                <input type="hidden" name="_next" value="https://www.vijetastone.com/get-a-quote/?submitted=true">
+                                <input type="hidden" name="_next" value="https://www.shreeramandcompany.com/get-a-quote/?submitted=true">
                                 <input type="hidden" name="Product_Subcategory" value="$($item.name) (Stone Carving)">
 
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">

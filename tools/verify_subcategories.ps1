@@ -1,4 +1,4 @@
-$baseDir = "c:\Users\shree\OneDrive\Desktop\NTRY"
+﻿$baseDir = "c:\Users\shree\OneDrive\Desktop\NTRY"
 $data = Get-Content "$baseDir\tools\data\stone_carving_data.json" -Raw | ConvertFrom-Json
 
 $slugs = $data.subcategories.slug
@@ -50,7 +50,7 @@ foreach ($sub in $data.subcategories) {
     }
     
     # 3. Canonical URL
-    $expectedCanonical = "https://www.vijetastone.com/stone-carving/$slug/"
+    $expectedCanonical = "https://www.shreeramandcompany.com/stone-carving/$slug/"
     if ($content -match "<link rel=`"canonical`" href=`"$expectedCanonical`"") {
         Write-Host "  [PASS] Canonical URL: $expectedCanonical" -ForegroundColor Green
     } else {

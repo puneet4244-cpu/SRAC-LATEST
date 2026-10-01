@@ -1,5 +1,5 @@
-# Complete SEO, AEO & GEO Engineering Changelog
-**Website:** [Shree Ram & Company (Vijeta Stone)](https://www.vijetastone.com/)  
+﻿# Complete SEO, AEO & GEO Engineering Changelog
+**Website:** [Shree Ram & Company (Vijeta Stone)](https://www.shreeramandcompany.com/)  
 **Implementation Branch:** `seo-aeo-geo`  
 **Execution Date:** October 2026  
 **Auditor & Implementation Engineer:** Senior SEO + AI-Search (AEO/GEO) Engineering Team  
@@ -42,7 +42,7 @@
 ### Phase 2: Schema.org & Knowledge Graph Modernization
 * **Unified `@id` Entity Cross-Referencing:**
   - Established a single canonical master entity on `index.html`, `contact/index.html`, and `about-us/index.html`:  
-    `@id: "https://www.vijetastone.com/#organization"` (`HomeAndConstructionBusiness`, `LocalBusiness`).
+    `@id: "https://www.shreeramandcompany.com/#organization"` (`HomeAndConstructionBusiness`, `LocalBusiness`).
   - Added accurate GPS coordinates (`latitude: 26.8851, longitude: 75.7682`), operational opening hours (Mon–Sat 09:00–20:00, Sun 10:00–18:00), price range (`₹₹₹`), and service areas (`Jaipur`, `Rajasthan`, `Delhi NCR`, `India`).
   - Cleaned social profile links (`sameAs`) by stripping tracking query parameters (`?mibextid=...`, `?igshid=...`, `?si=...`).
 * **Category Page Schema (`CollectionPage` + `ItemList`):**
@@ -106,15 +106,15 @@ Once merged and deployed to production, run the following verification checks:
 ### 1. Google Rich Results Test
 * **Tool:** [Google Rich Results Test](https://search.google.com/test/rich-results)
 * **Pages to Test:**
-  - Homepage: `https://www.vijetastone.com/` (Verify `LocalBusiness`, `WebSite`)
-  - Category: `https://www.vijetastone.com/marble-temple/` (Verify `BreadcrumbList`, `CollectionPage`)
-  - Subcategory: `https://www.vijetastone.com/stone-carving/double-height-wall/` (Verify `BreadcrumbList`, `Product`)
+  - Homepage: `https://www.shreeramandcompany.com/` (Verify `LocalBusiness`, `WebSite`)
+  - Category: `https://www.shreeramandcompany.com/marble-temple/` (Verify `BreadcrumbList`, `CollectionPage`)
+  - Subcategory: `https://www.shreeramandcompany.com/stone-carving/double-height-wall/` (Verify `BreadcrumbList`, `Product`)
 * **Expected Result:** "Page is eligible for rich results" with 0 errors and 0 critical warnings.
 
 ### 2. Google Search Console URL Inspection & Sitemap Submission
 * **Tool:** [Google Search Console](https://search.google.com/search-console)
-* **Action 1:** Submit updated sitemap at `https://www.vijetastone.com/sitemap.xml`.
-* **Action 2:** Use **URL Inspection** on `https://www.vijetastone.com/` and click **"Request Indexing"**.
+* **Action 1:** Submit updated sitemap at `https://www.shreeramandcompany.com/sitemap.xml`.
+* **Action 2:** Use **URL Inspection** on `https://www.shreeramandcompany.com/` and click **"Request Indexing"**.
 * **Expected Result:** Sitemap status "Success", 38 discovered URLs, and image count reflected under indexed entities.
 
 ### 3. Google PageSpeed Insights & Core Web Vitals
@@ -127,10 +127,10 @@ Once merged and deployed to production, run the following verification checks:
 * **Tool:** Terminal / `curl` or [HTTPStatus.io](https://httpstatus.io/)
 * **Test Command:**
   ```bash
-  curl -I https://www.vijetastone.com/stone-art-murals/buddha/
+  curl -I https://www.shreeramandcompany.com/stone-art-murals/buddha/
   ```
 * **Expected Result:** `HTTP/2 301 Moved Permanently` with `location: /stone-art-murals/#buddha`.
 
 ### 5. Bing Webmaster Tools & IndexNow
 * **Tool:** [Bing Webmaster Tools](https://www.bing.com/webmasters)
-* **Action:** Submit `https://www.vijetastone.com/sitemap.xml` and trigger instant URL submission via IndexNow for real-time indexing in Bing and Copilot search engines.
+* **Action:** Submit `https://www.shreeramandcompany.com/sitemap.xml` and trigger instant URL submission via IndexNow for real-time indexing in Bing and Copilot search engines.

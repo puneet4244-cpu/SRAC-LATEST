@@ -1,4 +1,4 @@
-# Complete Site Structure and Category Page Generator
+﻿# Complete Site Structure and Category Page Generator
 $baseDir = "c:\Users\shree\OneDrive\Desktop\NTRY"
 
 # Template generator for Parent / Menu-Only Subcategory Hubs (NO product cards, only links to child subcategories)
@@ -53,7 +53,7 @@ function Generate-MenuOnlyHubPage {
     <title>$title | Shree Ram & Company Jaipur</title>
     <meta name="description" content="$metaDesc">
     <meta name="author" content="Shree Ram & Company">
-    <link rel="canonical" href="https://www.vijetastone.com$([System.IO.Path]::GetDirectoryName($pagePath).Replace($baseDir, '').Replace('\', '/'))/" />
+    <link rel="canonical" href="https://www.shreeramandcompany.com$([System.IO.Path]::GetDirectoryName($pagePath).Replace($baseDir, '').Replace('\', '/'))/" />
 
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

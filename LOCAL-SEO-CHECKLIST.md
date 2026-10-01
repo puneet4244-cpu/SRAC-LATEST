@@ -1,7 +1,7 @@
-# Local SEO & Off-Page Playbook: Jaipur Map Pack & India Market Dominance (2026)
+﻿# Local SEO & Off-Page Playbook: Jaipur Map Pack & India Market Dominance (2026)
 **Business:** Shree Ram & Company (Vijeta Stone)  
 **Location:** Opposite Metro Pillar No. 76, Radha Vihar, Govindpuri, Jaipur, Rajasthan 302019  
-**Phone:** +91 6367607459 | **Website:** [https://www.vijetastone.com/](https://www.vijetastone.com/)
+**Phone:** +91 6367607459 | **Website:** [https://www.shreeramandcompany.com/](https://www.shreeramandcompany.com/)
 
 ---
 
@@ -22,7 +22,7 @@ According to Whitespark's Local Search Ranking Factors, GBP signals account for 
 * **Full Address (Must match website footer verbatim):**  
   `Opposite Metro Pillar No. 76, Radha Vihar, Vishwa Nagar, Shiva Colony, Govindpuri, Jaipur, Rajasthan 302019`
 * **Phone:** `+91 6367607459`
-* **Website Link:** Point to `https://www.vijetastone.com/` (Do NOT add UTM campaign parameters to the primary website URL, as it can cause local rank tracking splits).
+* **Website Link:** Point to `https://www.shreeramandcompany.com/` (Do NOT add UTM campaign parameters to the primary website URL, as it can cause local rank tracking splits).
 
 ### C. Services Catalog Configuration
 Add each service with a dedicated 300-character description and price indicator:
@@ -79,7 +79,7 @@ Ensure identical NAP (Name, Address, Phone, Website) across all business directo
 
 | Directory Platform | Category to Select | Profile Status / Action Item |
 | :--- | :--- | :--- |
-| **IndiaMART** | Stone Carving, Marble Temple, CNC Jali | Claim & verify "Star Supplier / TrustSEAL" profile; link to `vijetastone.com`. |
+| **IndiaMART** | Stone Carving, Marble Temple, CNC Jali | Claim & verify "Star Supplier / TrustSEAL" profile; link to `shreeramandcompany.com`. |
 | **JustDial (Jaipur)** | Stone Carving & Marble Handicrafts | Claim business listing under Govindpuri / Metro Pillar 76. |
 | **TradeIndia** | Architectural Stone, Stone Murals | Setup manufacturer profile with export keywords. |
 | **Bing Places for Business** | Stone Carving Studio / Manufacturer | Import directly from Google Business Profile. |
@@ -106,7 +106,7 @@ Studies from Ahrefs indicate that **brand citations on high-authority platforms 
   - *Board 1: Luxury Pooja Room Marble Mandir Designs 2026*
   - *Board 2: Modern Sandstone Wall Carving Ideas for Living Rooms*
   - *Board 3: Architectural CNC Stone Jali Screens for Facades*
-* Every pin links directly to the corresponding category page on `https://www.vijetastone.com/`.
+* Every pin links directly to the corresponding category page on `https://www.shreeramandcompany.com/`.
 
 ### C. Architectural Co-Marketing & Case Studies
 * Partner with 3 luxury interior design studios in Jaipur, Delhi NCR, and Mumbai.

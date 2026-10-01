@@ -1,4 +1,4 @@
-# Master Script to Build All Restructured Pages for Shree Ram & Company
+﻿# Master Script to Build All Restructured Pages for Shree Ram & Company
 $baseDir = "c:\Users\shree\OneDrive\Desktop\NTRY"
 
 # Helper for Product Pages (Subcategory Page with Product Cards Grid & Full SEO/GEO/AEO Sections)
@@ -342,7 +342,7 @@ function Generate-ProductLeafPage {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>$title | Shree Ram & Company Jaipur</title>
     <meta name="description" content="$metaDesc">
-    <link rel="canonical" href="https://www.vijetastone.com$([System.IO.Path]::GetDirectoryName($pagePath).Replace($baseDir, '').Replace('\', '/'))/" />
+    <link rel="canonical" href="https://www.shreeramandcompany.com$([System.IO.Path]::GetDirectoryName($pagePath).Replace($baseDir, '').Replace('\', '/'))/" />
     <link rel="icon" type="image/jpg" href="/assets/images/brand-logo.jpg">
     <link rel="shortcut icon" href="/assets/images/brand-logo.jpg">
     <link rel="apple-touch-icon" href="/assets/images/brand-logo.jpg">
@@ -351,12 +351,12 @@ function Generate-ProductLeafPage {
     <meta property="og:type" content="website">
     <meta property="og:title" content="$title | Shree Ram & Company Jaipur">
     <meta property="og:description" content="$metaDesc">
-    <meta property="og:image" content="https://www.vijetastone.com/assets/images/brand-logo.jpg">
-    <meta property="og:logo" content="https://www.vijetastone.com/assets/images/brand-logo.jpg">
+    <meta property="og:image" content="https://www.shreeramandcompany.com/assets/images/brand-logo.jpg">
+    <meta property="og:logo" content="https://www.shreeramandcompany.com/assets/images/brand-logo.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="$title | Shree Ram & Company">
     <meta name="twitter:description" content="$metaDesc">
-    <meta name="twitter:image" content="https://www.vijetastone.com/assets/images/brand-logo.jpg">
+    <meta name="twitter:image" content="https://www.shreeramandcompany.com/assets/images/brand-logo.jpg">
 
     <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -364,9 +364,9 @@ function Generate-ProductLeafPage {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Shree Ram & Company (Vijeta Stone)",
-      "image": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
-      "logo": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
-      "url": "https://www.vijetastone.com",
+      "image": "https://www.shreeramandcompany.com/assets/images/brand-logo.jpg",
+      "logo": "https://www.shreeramandcompany.com/assets/images/brand-logo.jpg",
+      "url": "https://www.shreeramandcompany.com",
       "telephone": "+916367607459",
       "email": "Shreeramandcompany07@gmail.com",
       "address": {
@@ -893,7 +893,7 @@ function Generate-RedirectStub {
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="0; url=$targetUrl">
     <title>Redirecting to $title | Shree Ram & Company</title>
-    <link rel="canonical" href="https://www.vijetastone.com$targetUrl">
+    <link rel="canonical" href="https://www.shreeramandcompany.com$targetUrl">
 </head>
 <body>
     <p>Redirecting to <a href="$targetUrl">$title</a>...</p>

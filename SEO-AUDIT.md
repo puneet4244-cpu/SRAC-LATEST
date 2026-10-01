@@ -1,5 +1,5 @@
-# Comprehensive SEO, AEO & GEO Audit Report
-**Website:** [Shree Ram & Company (Vijeta Stone)](https://www.vijetastone.com/)  
+﻿# Comprehensive SEO, AEO & GEO Audit Report
+**Website:** [Shree Ram & Company (Vijeta Stone)](https://www.shreeramandcompany.com/)  
 **Audit Date:** October 2026  
 **Auditor:** Senior SEO, AEO & GEO Engineering Team  
 **Methodology:** Grounded in Google Search Central Documentation, Google AI Optimization Guide (May 2026), and Claude SEO Playbook.
@@ -30,13 +30,13 @@
 * **File Path:** `/404.html` (Missing)
 * **Why it Matters:** When crawlers or users hit a broken link or outdated URL, Vercel/Cloudflare displays an unbranded default error page. A custom branded 404 page preserves crawl budget, retains bounce traffic, and directs visitors back to core product categories.
 * **Exact Fix:** Create `/404.html` maintaining the luxury design system with links to the 5 primary verticals (Wall Surfaces, Exterior Elevation, Temples, Home Decor, CNC Jali) and contact CTAs.
-* **How to Verify:** Request a non-existent path like `https://www.vijetastone.com/random-url-test` in browser and confirm branded 404 page renders with HTTP 404 status.
+* **How to Verify:** Request a non-existent path like `https://www.shreeramandcompany.com/random-url-test` in browser and confirm branded 404 page renders with HTTP 404 status.
 
 #### [Critical] A-2: 42 Client-Side Redirect Stubs (`meta http-equiv="refresh"`) Instead of Server-Side 301 Redirects
 * **File Path:** 42 files across `/stone-art-murals/*/index.html`, `/stone-wall-panels/*/index.html`, and `/mdf-hdmr-work/*/index.html`
 * **Why it Matters:** Client-side HTML refresh redirects (`meta http-equiv="refresh" content="0; url=..."`) are slow, waste crawl budget, and delay or dilute PageRank pass-through compared to permanent HTTP 301 redirects.
 * **Exact Fix:** Add a `vercel.json` file defining server-level `redirects` with status `301`, or native Cloudflare `_redirects`. Clean URLs should redirect permanently at the CDN edge.
-* **How to Verify:** Test headers using `curl -I https://www.vijetastone.com/stone-art-murals/buddha/` and confirm `HTTP/2 301` with `Location` header.
+* **How to Verify:** Test headers using `curl -I https://www.shreeramandcompany.com/stone-art-murals/buddha/` and confirm `HTTP/2 301` with `Location` header.
 
 #### [High] A-3: Missing Robots Meta Tag on All Content Pages
 * **File Path:** All 38 content HTML pages (`/index.html`, `/about-us/index.html`, category pages)
@@ -131,10 +131,10 @@
 
 #### [High] D-2: Entity Pollution & Missing `@id` Graph Cross-Referencing
 * **File Path:** All category pages
-* **Why it Matters:** Each category page currently defines an isolated `LocalBusiness` object with generic properties. In Knowledge Graph SEO, an organization should have a single authoritative `@id` (e.g. `https://www.vijetastone.com/#organization` or `https://www.vijetastone.com/#localbusiness`), and all child pages should cross-reference this ID rather than creating disconnected duplicate entities.
+* **Why it Matters:** Each category page currently defines an isolated `LocalBusiness` object with generic properties. In Knowledge Graph SEO, an organization should have a single authoritative `@id` (e.g. `https://www.shreeramandcompany.com/#organization` or `https://www.shreeramandcompany.com/#localbusiness`), and all child pages should cross-reference this ID rather than creating disconnected duplicate entities.
 * **Exact Fix:** Structure JSON-LD with `@graph`:
-  - Define master `LocalBusiness` / `HomeAndConstructionBusiness` on homepage and contact page with `@id: "https://www.vijetastone.com/#localbusiness"`.
-  - On category pages, declare `CollectionPage` with `publisher: { "@id": "https://www.vijetastone.com/#localbusiness" }`.
+  - Define master `LocalBusiness` / `HomeAndConstructionBusiness` on homepage and contact page with `@id: "https://www.shreeramandcompany.com/#localbusiness"`.
+  - On category pages, declare `CollectionPage` with `publisher: { "@id": "https://www.shreeramandcompany.com/#localbusiness" }`.
 * **How to Verify:** Validate via Schema.org validator; confirm graph nodes resolve to a single unified business entity.
 
 #### [High] D-3: Category Pages Missing `CollectionPage` and `ItemList` Schema
@@ -145,10 +145,10 @@
 
 #### [Medium] D-4: Category Root Pages Missing `BreadcrumbList` Schema
 * **File Path:** `arch-mehrab/index.html`, `gazebo/index.html`, `stone-jali/index.html`, etc.
-* **Why it Matters:** Breadcrumbs enhance search result snippets with navigational trails (`vijetastone.com > CNC Jali > Stone Jali`).
+* **Why it Matters:** Breadcrumbs enhance search result snippets with navigational trails (`shreeramandcompany.com > CNC Jali > Stone Jali`).
 * **Exact Fix:** Add `BreadcrumbList` schema to all category pages:
-  - Item 1: Home (`https://www.vijetastone.com/`)
-  - Item 2: Category (`https://www.vijetastone.com/category-slug/`)
+  - Item 1: Home (`https://www.shreeramandcompany.com/`)
+  - Item 2: Category (`https://www.shreeramandcompany.com/category-slug/`)
 * **How to Verify:** Verify breadcrumb trail rendering in Google Rich Results Test.
 
 ---
@@ -234,7 +234,7 @@
   User-agent: *
   Allow: /
 
-  Sitemap: https://www.vijetastone.com/sitemap.xml
+  Sitemap: https://www.shreeramandcompany.com/sitemap.xml
   ```
 * **How to Verify:** Test robots.txt using Google Search Console robots tester or curl.
 

@@ -1,5 +1,5 @@
-# Comprehensive SEO & AEO Content Strategy Plan (2026)
-**Brand:** Shree Ram & Company (Vijeta Stone) — [vijetastone.com](https://www.vijetastone.com/)  
+﻿# Comprehensive SEO & AEO Content Strategy Plan (2026)
+**Brand:** Shree Ram & Company (Vijeta Stone) — [shreeramandcompany.com](https://www.shreeramandcompany.com/)  
 **Objective:** Capture high-intent B2B and B2C search traffic (Jaipur, Delhi NCR, Mumbai, India & Global Exports), earn Google AI Overviews / AI Mode citations, and guide high-ticket architectural clients into the conversion funnel.
 
 ---

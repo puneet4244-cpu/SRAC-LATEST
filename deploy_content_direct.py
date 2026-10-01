@@ -143,7 +143,7 @@ def build_page_html(data):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} | Shree Ram & Company Jaipur</title>
     <meta name="description" content="{metaDesc}">
-    <link rel="canonical" href="https://www.vijetastone.com/{slug}/" />
+    <link rel="canonical" href="https://www.shreeramandcompany.com/{slug}/" />
     <link rel="icon" type="image/jpg" href="/assets/images/brand-logo.jpg">
     <link rel="shortcut icon" href="/assets/images/brand-logo.jpg">
     <link rel="apple-touch-icon" href="/assets/images/brand-logo.jpg">
@@ -152,12 +152,12 @@ def build_page_html(data):
     <meta property="og:type" content="website">
     <meta property="og:title" content="{title} | Shree Ram & Company Jaipur">
     <meta property="og:description" content="{metaDesc}">
-    <meta property="og:image" content="https://www.vijetastone.com/assets/images/brand-logo.jpg">
-    <meta property="og:logo" content="https://www.vijetastone.com/assets/images/brand-logo.jpg">
+    <meta property="og:image" content="https://www.shreeramandcompany.com/assets/images/brand-logo.jpg">
+    <meta property="og:logo" content="https://www.shreeramandcompany.com/assets/images/brand-logo.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{title} | Shree Ram & Company">
     <meta name="twitter:description" content="{metaDesc}">
-    <meta name="twitter:image" content="https://www.vijetastone.com/assets/images/brand-logo.jpg">
+    <meta name="twitter:image" content="https://www.shreeramandcompany.com/assets/images/brand-logo.jpg">
 
     <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -165,9 +165,9 @@ def build_page_html(data):
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Shree Ram & Company (Vijeta Stone)",
-      "image": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
-      "logo": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
-      "url": "https://www.vijetastone.com",
+      "image": "https://www.shreeramandcompany.com/assets/images/brand-logo.jpg",
+      "logo": "https://www.shreeramandcompany.com/assets/images/brand-logo.jpg",
+      "url": "https://www.shreeramandcompany.com",
       "telephone": "+916367607459",
       "email": "Shreeramandcompany07@gmail.com",
       "address": {{
