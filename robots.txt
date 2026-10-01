@@ -1,4 +1,37 @@
+# Robots.txt for Shree Ram & Company (Vijeta Stone) - https://www.vijetastone.com/
+
+# Search Engine & AI Search Crawlers Allowed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# AI Search & Answer Engine Crawlers Allowed (ChatGPT Search, Perplexity, Claude Search)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# General Crawlers
 User-agent: *
 Allow: /
 
+# Disallow Internal Utility Folders
+Disallow: /tools/
+Disallow: /raw-originals/
+Disallow: /photos/
+Disallow: /preview/
+
+# XML Sitemap
 Sitemap: https://www.vijetastone.com/sitemap.xml
