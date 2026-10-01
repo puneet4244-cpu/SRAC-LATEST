@@ -86,6 +86,19 @@
 
 ---
 
+### Phase 5: Complete E-E-A-T Overhaul & 25-Category De-Boilerplating
+* **About Us Page E-E-A-T Overhaul (`/about-us/`):**
+  - Replaced generic copy with authentic Jaipur workshop narrative, Sompura heritage lineage, and factory-level operations opposite Metro Pillar No. 76, Govindpuri.
+  - Implemented the 4-Stage Architectural Carving Protocol: Block Sourcing & Flaw Detection, Computerized CAD/CNC Diamond Profiling, Sompura Hand-Chiseling & Micro-Undercutting, and Clean-Water Hand Buffing.
+  - Enriched with authentic workshop imagery (`factory-direct-jaipur.webp`, `sompura-carving-handicraft.webp`, `stone-carving-detail.webp`) with descriptive alt tags and schema links.
+* **Complete Category De-Boilerplating Across All 25 Categories:**
+  - **100% eliminated generic duplicate copy** across the entire website (removed old boilerplate phrases like "40 Years of Stone Carving Excellence" and uncustomized tables).
+  - **Custom Craftsmanship Overviews:** Every category now has a vertical-specific subtitle, title, editorial introduction, and 3 custom architectural feature cards (e.g. Vastu shikhara for temples, high-relief undercutting for murals, gem-grade lapidary for Pietra Dura, 0.65 density polymer engineering for WPC jalis).
+  - **Tailored Material & Performance Comparison Tables:** Replaced generic tables with authentic engineering tables comparing real stone and composite grades against commercial market alternatives with exact metrics (e.g., Compressive Strength, UV & Acid Resistance, Density kg/m³, Moisture Swelling, Mohs Hardness, Longevity).
+  - **Deep AEO Answer FAQ Blocks:** Injected 4 authoritative, high-intent AEO Q&A pairs per category page (covering installation methods, civil foundation loads, Vastu orientation, cleaning protocols, and realistic cost ranges per sq ft / running ft in India).
+
+---
+
 ## 2. Post-Deployment Verification & Testing Checklist
 
 Once merged and deployed to production, run the following verification checks:

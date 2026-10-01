@@ -1,0 +1,502 @@
+{
+  "arch-mehrab": {
+    "CraftSubtitle": "HERITAGE ARCHITECTURAL PORTALS",
+    "CraftTitle": "Carved Stone Arches, Mehrabs & Entrance Portals",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our Rajasthani carved stone arches, cusped Mughal mehrabs, and ornamental entrance portals transform standard architectural passageways into palatial heritage statements. Sourced from high-density Gwalior Mint, Bansi Paharpur Pink, and Makrana White marble, each arch is custom-sculpted to site radius, doorway clearance, and structural dead-load requirements.",
+    "Card1": { "Title": "Cusped Mughal Geometry", "Text": "Traditional multi-foil scallops, pointed Persian profiles, and decorative spandrel relief carvings chiseled with microscopic precision." },
+    "Card2": { "Title": "Keystone Weight Distribution", "Text": "Engineered center keystone distribution, interlocking voussoirs, and concealed stainless steel shear ties for structural doorway permanence." },
+    "Card3": { "Title": "Precision Site Calibration", "Text": "Pre-assembled in our Jaipur atelier to guarantee exact springline height, jamb clearance, and smooth seamless transition curves on site." },
+    "TableTitle": "ARCH & MEHRAB STONE COMPARISON",
+    "TableDesc": "Compare structural natural stones for residential passageway arches, entry torans, and sacred prayer mehrabs.",
+    "Col3": "Load-Bearing Strength & Weather Resistance",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Interior Portals, Hallway Passageways, Fluted Wall Arches", "Metric": "High Compressive Strength (55+ MPa, Moisture Immune)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Exterior Entrance Torans, Jharokha Mehrabs, Courtyards", "Metric": "Extreme Weatherproof (Resists UV, Heavy Rain & Frost)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Sacred Prayer Mehrabs, Mosque Niches, Villa Foyers", "Metric": "Supreme Crystalline Calcite (Non-Porous, Zero Yellowing)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Jaisalmer Golden Yellow Stone", "App": "Heritage Villa Doorways, Traditional Rajasthani Haveli Arches", "Metric": "Warm Desert Glow (Excellent Thermal Performance)", "Maint": "Low Maintenance", "Life": "150+ Years" },
+      { "Name": "Cast Plaster (POP) / FRP (Market Alternative)", "App": "Budget Interior False Decorative Openings", "Metric": "Fragile (Zero Load-Bearing, Chips & Cracks on Impact)", "Maint": "Frequent Paint Touch-ups", "Life": "5-10 Years" }
+    ],
+    "FaqTitle": "Architectural Portal Buyer's Guide",
+    "Faqs": [
+      { "Q": "What is the difference between cusped Mughal arches and classical Roman stone arches?", "A": "Cusped Mughal arches (also known as multi-foil or scalloped arches) feature a series of rhythmic foliations radiating from a pointed center apex, representing classical Indo-Islamic palatial architecture. In contrast, classical Roman stone arches feature a continuous semicircular curve with uniform radial voussoirs. At Shree Ram & Company, our Jaipur atelier sculpts both traditional multi-cusped mehrabs with floral spandrels and sleek minimalist fluted arches designed for contemporary luxury residences." },
+      { "Q": "How are heavy carved stone arches installed safely over door frames and hallways?", "A": "Carved stone arches are installed using mechanical dry-cladding anchors and structural lintel tie-backs. Rather than placing unsupported vertical dead load onto wooden door frames or drywall, each stone arch segment (springer, voussoir, and keystone) is pre-grooved with rear slots. Grade-304/316 stainless steel brackets and threaded chemical anchors fasten each stone block directly into the structural RCC lintel or brick masonry, reinforced with high-tensile epoxy along interlocking joints." },
+      { "Q": "What are the standard dimensions and customization options for prayer mehrabs?", "A": "Traditional prayer mehrabs are fully custom-dimensioned to match ceiling heights, ranging from compact 5-foot residential niches to grand 14-foot community prayer halls. Standard wall depths range from 4 inches to 12 inches. Customizations include multi-layered tiered framing, integrated LED light channels along the arch rim, bas-relief Quranic calligraphy or floral arabesque spandrels, and integrated marble pilaster columns." },
+      { "Q": "What is the cost per running foot or square foot for custom carved stone arches from Jaipur?", "A": "The price of custom carved stone arches typically ranges from Rs 1,200 to Rs 3,800 per running foot for standard profiled stone door surrounds, or between Rs 1,800 to Rs 4,500 per square foot for deeply chiseled 3D cusped mehrabs with ornamental spandrels. Pricing depends on stone selection (Gwalior Mint vs Makrana White Marble), arch span, and whether the design requires monolithic or segmented stone carving." }
+    ],
+    "PreserveFaq": false
+  },
+  "customised-name-plate": {
+    "CraftSubtitle": "MONUMENTAL STONE SIGNAGE",
+    "CraftTitle": "Custom Handcrafted Stone & Granite Name Plates",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our architectural stone name plates and villa crest plaques are crafted from monolithic slabs of Jet Black Granite, Makrana Pure White Marble, and Bansi Paharpur Sandstone. Featuring deep V-groove CNC typography, hand-chiseled bas-relief family monograms, and 24K gold leaf gilding, our stone signage endures exterior weathering for decades without fading.",
+    "Card1": { "Title": "V-Carve Deep Relief Lettering", "Text": "High-speed CNC diamond routing and hand-finishing for crisp, shadow-casting typography that remains permanently legible." },
+    "Card2": { "Title": "Weatherproof Gold Leaf & Infill", "Text": "Automotive-grade acrylic lacquer, titanium metallic fills, and genuine gold leafing completely immune to outdoor UV and monsoon rain." },
+    "Card3": { "Title": "Concealed Mechanical Studs", "Text": "Rear threaded SS studs and high-shear epoxy anchoring for flush, fastener-free mounting on exterior boundary wall pillars and gates." },
+    "TableTitle": "SIGNAGE STONE & WEATHERPROOFING COMPARISON",
+    "TableDesc": "Compare monolithic granite, marble, and sandstone grades engineered for high-visibility exterior estate signage.",
+    "Col3": "UV & Acid Rain Resistance",
+    "Rows": [
+      { "Name": "Jet Black / Black Galaxy Granite", "App": "Main Villa Gate Pillars, Modern Architectural Signage", "Metric": "Extreme (Zero Fading, Mohs Hardness 7, High Contrast Gold Infill)", "Maint": "Zero Maintenance", "Life": "Lifetime Legacy" },
+      { "Name": "Makrana Pure White Marble", "App": "Heritage Residence Plaques, Traditional House Crests", "Metric": "Supreme Calcite (Crystalline Luster, Won't Yellow Outdoors)", "Maint": "Periodic Damp Wipe", "Life": "100+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Rustic Villa Gates, Royal Rajasthani Haveli Entrances", "Metric": "Extreme Weatherproof (Resists Direct Sun & Monsoon Splatter)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Gwalior Mint Sandstone", "App": "Contemporary Earth-Tone Facades, Sandblasted Plaque Walls", "Metric": "High Weather Resistance (Warm Sand Texture)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Acrylic / Painted Metal Sheet (Market Alternative)", "App": "Budget Apartment Doorplates", "Metric": "Poor (Fades, Warps under Summer Sun, Peeling Vinyl)", "Maint": "Frequent Replacement", "Life": "3-5 Years" }
+    ],
+    "FaqTitle": "Stone Name Plate Buyer's Guide",
+    "Faqs": [
+      { "Q": "What stone is best for outdoor entrance name plates in Indian climate?", "A": "Natural Jet Black Granite and Bansi Paharpur Pink Sandstone are the two best stones for outdoor entrance name plates in India. Jet Black Granite has a Mohs hardness of 6.5 to 7 and zero porosity, creating maximum visual contrast against 24K gold foil or white engraved letters with zero fading under 48°C summer sun and torrential monsoon rain. Bansi Paharpur sandstone is ideal for heritage and contemporary earthy facades, providing an authentic palatial texture that never warps or deteriorates." },
+      { "Q": "What Vastu guidelines should be followed for home entrance name plates?", "A": "According to Vastu Shastra, an entrance name plate should be mounted on the right side of the main door (when looking from outside) at eye level (around 5 to 5.5 feet above finished ground level). The name plate must be well-lit, clearly legible, and free from dark obscuring shadows. The lettering must be crisp and clean, avoiding broken or chaotic fonts. Natural stones like granite, marble, and sandstone are highly auspicious in Vastu because they represent the grounding Earth element (Prithvi)." },
+      { "Q": "How are stone name plates fixed securely on boundary wall gates and exterior pillars?", "A": "Stone name plates are fixed using concealed rear stainless steel studs and high-strength construction poly-epoxy. At our Jaipur factory, blind holes are drilled into the rear of the stone slab and fitted with threaded grade-304 SS rods. On site, matching holes are drilled into the stone, brick, or concrete pillar, injected with structural epoxy, and the name plate is pressed flush against the surface. This eliminates visible screws while ensuring the plate cannot be stolen or detached by wind." },
+      { "Q": "What is the typical cost and lead time for a customized stone name plate from Jaipur?", "A": "A custom handcrafted stone or granite name plate typically costs between Rs 3,500 to Rs 25,000+ depending on dimensions (e.g., standard 12x18 inch villa plate vs grand 36x24 inch estate plaque), stone grade, depth of relief carving, and whether gold leaf gilding or backlit acrylic backing is requested. Turnaround time is typically 5 to 10 business days from CAD typography approval, followed by nationwide shockproof crate delivery." }
+    ],
+    "PreserveFaq": false
+  },
+  "elevation-facade": {
+    "CraftSubtitle": "EXTERIOR ARCHITECTURAL ENGINEERING",
+    "CraftTitle": "Luxury Stone Elevation & Architectural Facades",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our exterior elevation facade systems combine Rajasthan's most durable natural sandstones with modern dry-cladding structural engineering. Sourced from Bansi Paharpur, Gwalior Mint, and Dholpur quarries, our facade panels, decorative cornices, brackets, and jharokha screens protect luxury villas and commercial landmarks from thermal heat while providing timeless palatial permanence.",
+    "Card1": { "Title": "Quarry Block Calibration", "Text": "Uniform 30mm–50mm calibrated stone thickness with <1.5% water absorption, engineered to endure decades of extreme thermal cycling." },
+    "Card2": { "Title": "Dry-Cladding Anchoring", "Text": "Engineered for SS304/SS316 brackets, cavity air gap ventilation, and expansion relief joints ensuring zero structural cracking." },
+    "Card3": { "Title": "Hydrophobic Sealing", "Text": "Pre-treated with breathable siloxane sealants that repel monsoon moisture, preventing white efflorescence and microbial staining." },
+    "TableTitle": "EXTERIOR FACADE STONE PERFORMANCE COMPARISON",
+    "TableDesc": "Compare natural stone cladding grades engineered for high-rise facades, luxury bungalows, and boundary wall elevations.",
+    "Col3": "Thermal Mass & Weatherproof Rating",
+    "Rows": [
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Heritage Facades, Classical Bungalow Elevation, Jharokhas", "Metric": "Supreme (High Density, Zero UV Fading, 60+ MPa Strength)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Gwalior Mint Sandstone", "App": "Modern Minimalist Elevations, Fluted Panels, Grooved Bands", "Metric": "High Weather Resistance (Cool Surface, Reflects Solar Radiance)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Dholpur Beige / Red Sandstone", "App": "Government Landmarks, Luxury Estate Facades, Boundary Walls", "Metric": "High Compressive Strength (Withstands Industrial Smog & Rain)", "Maint": "Low Maintenance", "Life": "150+ Years" },
+      { "Name": "Teakwood / Rainbow Sandstone", "App": "Contemporary Accent Walls, Porch Cladding, Louver Surrounds", "Metric": "Natural Wood-Grain Texture (UV Stable Natural Mineral Bands)", "Maint": "Periodic Hydrophobic Coat", "Life": "75+ Years" },
+      { "Name": "HPL / ACP Composite Panels (Market Alternative)", "App": "Budget Commercial Building Cladding", "Metric": "Vulnerable to UV Fading, Heat Delamination & Fire Hazards", "Maint": "High Replacement Need", "Life": "10-15 Years" }
+    ],
+    "FaqTitle": "",
+    "Faqs": [],
+    "PreserveFaq": true
+  },
+  "garden-article": {
+    "CraftSubtitle": "OUTDOOR LANDSCAPE SCULPTURE",
+    "CraftTitle": "Handcrafted Stone Garden Articles & Landscape Elements",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), we sculpt architectural garden articles and landscape stone features from all-weather Rajasthan sandstone and marble. Our portfolio includes hand-carved stone benches, monolithic birdbaths, grand ornamental planters, Japanese garden lanterns (Toro), and meditative statues designed to harmonize natural greenery with luxury estate architecture.",
+    "Card1": { "Title": "All-Weather Quarry Sourcing", "Text": "High-density natural sandstone impervious to frost, heavy monsoon downpours, and intense UV sun without surface spalling." },
+    "Card2": { "Title": "Tactile Artisanal Tooling", "Text": "Hand-tooled bush-hammered, rock-faced, and honed finishes that develop a natural, distinguished vintage patina over decades." },
+    "Card3": { "Title": "Landscape Structural Anchoring", "Text": "Concealed subterranean plinth anchoring and integrated root drainage channels engineered for lifetime outdoor stability." },
+    "TableTitle": "GARDEN STONE WEATHER RESISTANCE COMPARISON",
+    "TableDesc": "Evaluate natural stone grades engineered for permanent outdoor landscape exposure and moisture contact.",
+    "Col3": "Moisture, Frost & Algae Resistance",
+    "Rows": [
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Curved Garden Benches, Landscape Statues, Large Urns", "Metric": "Supreme (Zero Water Absorption Spalling, Weather-Immune)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Gwalior Mint Sandstone", "App": "Carved Birdbaths, Japanese Lanterns, Garden Stepping Stones", "Metric": "High (Non-Slippery Natural Grip, Algae-Resistant Honed Finish)", "Maint": "Periodic Water Wash", "Life": "100+ Years" },
+      { "Name": "Natural Black Granite", "App": "Monolithic Water Troughs, Modern Geometric Planters", "Metric": "Extreme Hardness (Mohs 7, Totally Non-Porous, Frost-Proof)", "Maint": "Zero Maintenance", "Life": "Lifetime Legacy" },
+      { "Name": "Dholpur Beige Stone", "App": "Perimeter Balustrades, Garden Boundary Urns, Sundials", "Metric": "High Weathering Resistance (Warm Earth Texture)", "Maint": "Low Maintenance", "Life": "100+ Years" },
+      { "Name": "Cast Concrete / Plastic Resin (Market Alternative)", "App": "Mass-Produced Nursery Planters", "Metric": "Cracks under Summer Sun, Algae Discoloration, Brittle", "Maint": "Frequent Replacement", "Life": "3-5 Years" }
+    ],
+    "FaqTitle": "Garden Stonecraft Buyer's Guide",
+    "Faqs": [
+      { "Q": "How do natural sandstone garden articles withstand severe Indian weather and monsoon moisture?", "A": "Rajasthan sandstones like Bansi Paharpur and Gwalior Mint have formed under millions of years of geological pressure, giving them exceptional silica quartz density and low porosity (<1.5%). When exposed to outdoor monsoons, high humidity, and winter temperatures, natural stone breathes without trapping internal hydrostatic moisture, completely preventing the spalling, flaking, or chemical cracking that ruins concrete or terracotta. Over decades, natural stone develops a rich, noble patina that enhances landscape beauty." },
+      { "Q": "What drainage and planting considerations are needed for heavy carved stone planters?", "A": "All carved stone planters manufactured by Shree Ram & Company feature precision center-core drainage apertures (typically 25mm–40mm diameter) to prevent root rot. We recommend lining the base with geotextile filter fabric and an inch of gravel before adding potting soil. Because natural stone is a superb thermal insulator, it keeps plant root balls significantly cooler during scorching 45°C summers compared to thin plastic or metal pots." },
+      { "Q": "Can heavy stone benches and garden statues be installed on terrace gardens and balconies?", "A": "Yes, provided the structural load-bearing capacity of the terrace slab is verified. A standard 4-foot carved sandstone bench weighs approximately 120 kg to 180 kg, while a decorative stone planter ranges from 40 kg to 90 kg. For rooftop terraces, our engineers design modular hollow-core assemblies or distribute base plinths over structural beam lines to ensure dead load stays well within standard residential slab limits (300–450 kg/m²)." },
+      { "Q": "What is the pricing and delivery process for stone garden articles across India?", "A": "Handcrafted stone garden articles typically range from Rs 4,500 for compact birdbaths and lantern pedestals to Rs 85,000+ for large 6-foot carved estate benches and monolithic tree planters. Each item is pre-assembled, water-tested (for fountains and birdbaths), and packed inside heavy-duty foam-lined wooden crates. We arrange door-to-door transit across all Indian states with hydraulic offloading options." }
+    ],
+    "PreserveFaq": false
+  },
+  "gazebo": {
+    "CraftSubtitle": "HERITAGE GARDEN ARCHITECTURE",
+    "CraftTitle": "Handcrafted Stone Gazebos, Chhatris & Garden Pavilions",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our freestanding stone gazebos and royal Rajasthani chhatris represent the pinnacle of outdoor pavilion architecture. Hand-sculpted in Bansi Paharpur pink sandstone and Dholpur beige stone, each pavilion features load-bearing fluted columns, ornate brackets, carved friezes, and a self-supporting corbelled stone dome topped with a traditional kalash finial.",
+    "Card1": { "Title": "Load-Bearing Quarry Sourcing", "Text": "Selecting high-density structural sandstone blocks with 60+ MPa compressive strength capable of supporting massive dome dead-weight." },
+    "Card2": { "Title": "Corbelled Dome Engineering", "Text": "Segmented stone interlocking rings and self-supporting keystones engineered to withstand high wind shear and seismic vibration." },
+    "Card3": { "Title": "Steel-Dowel Pin Assembly", "Text": "Assembled with internal grade-316 stainless steel central dowel pins and elastomeric expansion joints for lifetime outdoor stability." },
+    "TableTitle": "PAVILION STONE STRUCTURAL COMPARISON",
+    "TableDesc": "Compare architectural natural stones for load-bearing columns, corbelled domes, and all-weather garden chhatris.",
+    "Col3": "Compressive Strength & Weather Rating",
+    "Rows": [
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Royal Chhatris, 8-Pillar Estate Gazebos, Temple Pavilions", "Metric": "Supreme (65+ MPa Strength, Century Weather-Immune)", "Maint": "Zero Maintenance", "Life": "Centuries (300+ Yrs)" },
+      { "Name": "Dholpur Beige Sandstone", "App": "Resort Pavilions, Courtyard Gazebos, Poolside Canopies", "Metric": "High Compressive Density (Excellent Thermal Shade Performance)", "Maint": "Zero Maintenance", "Life": "150+ Years" },
+      { "Name": "Makrana Pure White Marble", "App": "Meditative Sanctuaries, Luxury Estate Chhatris", "Metric": "Supreme Calcite (Reflects Solar Radiation, Cool Marble Underfoot)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Jaisalmer Golden Sandstone", "App": "Heritage Haveli Pavilions, Warm Climate Terraces", "Metric": "Warm Honey Tone (High Heat Resistance, Resists Wind Erosion)", "Maint": "Low Maintenance", "Life": "100+ Years" },
+      { "Name": "Prefab Wood / Metal Gazebo (Market Alternative)", "App": "Budget Residential Backyard Kits", "Metric": "Vulnerable to Termite Rot, Rust, Wind Uplift & Fading", "Maint": "Frequent Paint / Sealing", "Life": "5-10 Years" }
+    ],
+    "FaqTitle": "Stone Gazebo Buyer's Guide",
+    "Faqs": [
+      { "Q": "What civil foundation and concrete slab are required before installing a stone gazebo?", "A": "A stone gazebo imposes significant static dead load—typically between 6 to 25 metric tons depending on the diameter (e.g., 8-foot private gazebo vs 18-foot grand community pavilion). Installation requires a reinforced concrete (RCC) raft slab of 6 to 9 inches thickness, cast with grade M25 concrete, and reinforced with a double grid of 10mm or 12mm TMT steel bars. At Shree Ram & Company, our Jaipur architectural team provides structural foundation load drawings and column anchor-bolt schematics prior to manufacturing." },
+      { "Q": "How are the dome and pillars of a stone gazebo assembled safely on site?", "A": "Stone gazebos are erected using traditional mortise-and-tenon compression joints augmented with modern stainless steel dowel pins. The base plinth is leveled first with high-strength non-shrink grout. Each monolithic pillar is pinned vertically into the foundation slab via central 25mm SS rods. Heavy carved architrave beams bridge the columns, after which the corbelled stone dome rings are set concentric layer by layer until the self-locking keystone and kalash finial are lowered into place." },
+      { "Q": "How do natural sandstone gazebos perform against monsoons, windstorms, and extreme sun?", "A": "Natural Rajasthan sandstone gazebos are virtually impervious to harsh environmental factors. Unlike wood (which rots, warps, and suffers termite damage) or metal (which rusts and overheats in the summer sun), natural sandstone is fireproof, termite-immune, and acts as a natural thermal buffer that keeps interior seating comfortably cool. Due to its massive dead load and aerodynamic dome profile, a properly anchored stone gazebo can withstand hurricane-force wind gusts exceeding 160 km/h." },
+      { "Q": "What is the price range and execution timeline for a custom stone gazebo from Jaipur?", "A": "A custom handcrafted stone gazebo typically costs between Rs 3,50,000 to Rs 18,00,000+ depending on overall diameter (8ft, 12ft, 16ft+), number of pillars (4, 6, 8, or 12 columns), and the density of ornamental 3D relief carving across pillars, arches, and dome ceilings. Production takes approximately 4 to 8 weeks in our Jaipur atelier, including complete factory dry-fitting. We coordinate crating, transport, and on-site master artisan erection across India." }
+    ],
+    "PreserveFaq": false
+  },
+  "handicrafts": {
+    "CraftSubtitle": "JAIPUR ARTISANAL STONECRAFT",
+    "CraftTitle": "Luxury Handcrafted Marble & Stone Decor Objets d'Art",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our Rajasthani stone handicrafts celebrate four decades of master artisanal sculpting in Jaipur. Handcrafted from Makrana white marble, soapstone, and Jaisalmer yellow stone, our creations include intricate lattice tea-light lanterns, carved floral urlis, decorative bowls, inlaid jewelry caskets, and bespoke luxury gifting artifacts.",
+    "Card1": { "Title": "Gem-Grade Marble Selection", "Text": "Selecting flawless crystalline Makrana marble and soft soapstone blocks with uniform grain and zero structural fissures." },
+    "Card2": { "Title": "Microscopic Hand Undercutting", "Text": "Master artisans chisel paper-thin openwork lattices, reticulated spheres, and 3D floral petals using hand-forged steel burins." },
+    "Card3": { "Title": "Natural Mirror Water-Buffing", "Text": "Polished using fine waterstones and natural beeswax for a tactile, silk-smooth touch without toxic chemical lacquers." },
+    "TableTitle": "HANDICRAFT STONE MATERIAL COMPARISON",
+    "TableDesc": "Compare genuine natural stone varieties used for luxury home decor, tabletop artifacts, and royal gifting.",
+    "Col3": "Carving Precision & Acoustic Purity",
+    "Rows": [
+      { "Name": "Makrana Pure White Marble", "App": "Carved Floral Urlis, Decorative Bowls, Royal Jali Lanterns", "Metric": "Supreme (High Calcite Density, Cool Translucent Glow)", "Maint": "Gentle Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Jaisalmer Golden Yellow Stone", "App": "Heritage Tea Coasters, Traditional Carved Elephants, Trays", "Metric": "Warm Golden Luster (Resistant to Thermal Shock & Wax Heat)", "Maint": "Low Maintenance", "Life": "100+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Miniature Chhatris, Architectural Models, Garden Urlis", "Metric": "High Weather Resistance (Develops Rich Antique Patina)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Soapstone / Steatite (Gorara)", "App": "Intricate Undercut Jali Animals, Incense Burners", "Metric": "Extremely Fine Grain (Enables Paper-Thin Lattice Carving)", "Maint": "Soft Cloth Dusting", "Life": "50+ Years" },
+      { "Name": "Cast Resin / Molded Gypsum (Market Alternative)", "App": "Mass-Produced Souvenir Trinkets", "Metric": "Synthetic Plastic (Fragile, Chips Readily, Toxic VOCs)", "Maint": "Unrepairable", "Life": "2-5 Years" }
+    ],
+    "FaqTitle": "Stone Handicrafts Buyer's Guide",
+    "Faqs": [
+      { "Q": "How can I verify genuine handcrafted Makrana marble handicrafts versus machine-molded resin?", "A": "Genuine Makrana marble handicrafts have distinct characteristics that machine-made plastic or resin copies cannot replicate. Natural marble feels noticeably cold to the touch and rings with a clear acoustic chime when tapped gently with a metal coin. Under magnification, you will see subtle natural crystalline calcite veining rather than uniform plastic perfection. Furthermore, genuine stone pieces have natural weight (2.7 g/cm³ density) and will never melt, discolor, or emit chemical smells when exposed to lit tea-light candles or burning camphor." },
+      { "Q": "What are the best ways to care for and clean handcrafted marble urlis and lanterns?", "A": "Handcrafted marble urlis used for floating flowers and floating candles should be emptied and wiped dry every 3 to 4 days to prevent mineral water rings. Clean with lukewarm water and a drop of neutral liquid soap using a soft cotton sponge. Avoid acidic toilet cleansers, lemon juice, or abrasive scouring pads. For delicate openwork jali lanterns with candle soot, use a soft baby toothbrush dipped in mild soapy water to gently reach carved crevices." },
+      { "Q": "Do you provide custom corporate gifting and bulk packaging for stone handicrafts?", "A": "Yes, Shree Ram & Company specializes in bespoke corporate gifts, VIP wedding favors, and architectural presentation pieces. We offer custom laser-engraved corporate branding, brass commemorative plates, and luxury velvet-lined presentation boxes. We accommodate production volumes from small exclusive runs of 20 pieces to large exports of 2,000+ units with guaranteed quality consistency." },
+      { "Q": "How are delicate openwork stone handicrafts packaged for safe domestic and international transit?", "A": "Every delicate stone handicraft is individually wrapped in anti-static poly film, cushioned inside precision-cut high-density EPE foam cavities, and sealed within rigid 5-ply corrugated gift boxes. For export orders or courier shipments across India, these individual boxes are packed into foam-padded wooden master crates that withstand drops, vibrations, and air freight pressure changes with zero breakage risk." }
+    ],
+    "PreserveFaq": false
+  },
+  "marble-inlay": {
+    "CraftSubtitle": "AUTHENTIC MUGHAL PIETRA DURA",
+    "CraftTitle": "Bespoke Marble Inlay Flooring, Medallions & Table Art",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our master artisans practice authentic Mughal Pietra Dura (Parchin Kari), the royal inlay art showcased in the Taj Mahal. Using surgical hand-cut slivers of genuine semi-precious gemstones—including Lapis Lazuli, Malachite, Jasper, Onyx, and Mother of Pearl—we craft heirloom dining table tops, floor medallions, border inlays, and wall panels.",
+    "Card1": { "Title": "Semi-Precious Gemstones", "Text": "Authentic certified gemstones sliced into microscopic floral petals and geometric tesserae with calibrated diamond lapidary wheels." },
+    "Card2": { "Title": "Surgical Cavity Grooving", "Text": "Hand-chiseling sub-millimeter matching recesses into solid Makrana white or black marble slabs with zero edge chipping." },
+    "Card3": { "Title": "Flush Mirror Lead-Buffing", "Text": "Hand-buffed with traditional lead and tin oxide emery powders to achieve an optically seamless, glass-smooth flush finish." },
+    "TableTitle": "PIETRA DURA INLAY MATERIAL COMPARISON",
+    "TableDesc": "Compare genuine semi-precious stone inlay against synthetic commercial imitations.",
+    "Col3": "Gemstone Authenticity & Optical Depth",
+    "Rows": [
+      { "Name": "Makrana Marble + Semi-Precious Gems", "App": "Heirloom Dining Tables, Royal Floor Medallions, Consoles", "Metric": "Supreme (100% Genuine Lapis, Malachite, Carnelian, Jasper)", "Maint": "Neutral Soap Damp Wipe", "Life": "Centuries (Taj Mahal Legacy)" },
+      { "Name": "Black Kadappa / Marquina with Inlay", "App": "High-Contrast Contemporary Table Tops, Entry Portals", "Metric": "High Visual Contrast (Gems Glow Vividly Against Deep Black)", "Maint": "Low Maintenance", "Life": "200+ Years" },
+      { "Name": "Italian Botticino with Onyx Inlay", "App": "Luxury Hotel Lobbies, Master Bathroom Vanity Borders", "Metric": "Subtle Elegant Translucency (Soft Neutral Marble Matrix)", "Maint": "Periodic Soft Buffing", "Life": "100+ Years" },
+      { "Name": "Synthetic Resin Infill (Market Alternative)", "App": "Mass-Produced Commercial Coffee Tables", "Metric": "Colored Chemical Polymer (Fades, Yellows, Soft Scratches)", "Maint": "Prone to Scratches", "Life": "5-10 Years" },
+      { "Name": "Printed Vinyl / Ceramic Inlay (Market Alternative)", "App": "Budget Residential Floors", "Metric": "Surface Printed Ink (Zero Relief, Surface Glaze Wears Away)", "Maint": "Cannot be Repaired", "Life": "3-7 Years" }
+    ],
+    "FaqTitle": "Marble Inlay Buyer's Guide",
+    "Faqs": [
+      { "Q": "What is authentic Mughal Pietra Dura marble inlay and what gemstones are used?", "A": "Authentic Mughal Pietra Dura (known locally as Parchin Kari) is a heritage lapidary art where slivers of genuine semi-precious gemstones are hand-cut and embedded into pre-chiseled cavities in solid marble slabs. Originating in Renaissance Florence and perfected in 17th-century Mughal Agra and Jaipur, this art uses real gemstones including Lapis Lazuli (deep blue), Malachite (banded green), Carnelian (fiery orange), Jasper (earthy red and brown), Turquoise (sky blue), Mother of Pearl (iridescent shell), and Tiger Eye. When completed, the stones sit 100% flush with the marble matrix, creating a lifetime permanent mosaic that never fades or detaches." },
+      { "Q": "How do you distinguish genuine gemstone marble inlay from synthetic resin imitation?", "A": "Genuine Pietra Dura marble inlay can be verified by touching and inspecting the gemstone surface. Natural gemstones are cool to the touch and exhibit natural internal geological striations, mineral inclusions, and variable depth of color. In contrast, synthetic imitations use tinted polyester resin or colored stone dust mixed with epoxy, which feels warm/plastic-like, lacks natural crystalline fire, and shows tiny trapped air bubbles under a loupe. Furthermore, genuine stone inlay will not scratch when tested with a standard brass edge, whereas plastic resin scratches easily." },
+      { "Q": "How should marble inlay dining tables and floor medallions be cleaned and maintained?", "A": "Marble inlay surfaces should be cleaned using a clean microfiber cloth dampened with lukewarm water or neutral pH stone wash. Never use acidic cleaning solutions, vinegar, lemon juice, or abrasive powders, as acid attacks the calcium carbonate of the marble and the natural luster of semi-precious stones. Spills of wine, coffee, or turmeric should be wiped away promptly. For periodic enhancement, applying a thin coat of natural carnauba wax or neutral stone polish restores radiant depth without building up yellow residue." },
+      { "Q": "What is the cost per square foot for bespoke marble inlay work from Jaipur?", "A": "The cost of authentic handcrafted Pietra Dura marble inlay typically ranges from Rs 2,500 to Rs 12,000+ per square foot depending on gemstone selection and floral motif density. A subtle border inlay with Mother of Pearl and Carnelian in Makrana marble starts around Rs 2,500 to Rs 4,500 per sq ft. Complex, museum-grade floral bouquets and central medallions utilizing rare Lapis Lazuli, Malachite, and Turquoise with hundreds of hand-cut petals per square foot range between Rs 6,500 and Rs 15,000+ per sq ft. Complete custom dining tables (6-seater to 12-seater) range from Rs 1,25,000 to Rs 8,50,000+." }
+    ],
+    "PreserveFaq": false
+  },
+  "marble-table-tops": {
+    "CraftSubtitle": "LUXURY STONE FURNITURE",
+    "CraftTitle": "Custom Handcrafted Marble Dining & Coffee Table Tops",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our luxury marble table tops transform living and dining spaces into bespoke architectural statements. Sourced from the finest Makrana white marble, Italian Statuario, Rainforest green, and Black Marquina, each slab is custom-cut, hand-beveled, and sealed with food-grade protective nanotechnology for everyday entertaining.",
+    "Card1": { "Title": "Monolithic Slab Selection", "Text": "Selecting 20mm–30mm crack-free monolithic slabs with bookmatched veining, high density, and superior structural rigidity." },
+    "Card2": { "Title": "Artisanal Edge Profiling", "Text": "Hand-shaping classical ogee, shark-nose, reverse bevel, or full bullnose edge profiles with high-gloss or satin diamond buffing." },
+    "Card3": { "Title": "Nano Anti-Stain Sealing", "Text": "Multi-stage penetrating fluoropolymer nano-sealant protecting against lemon juice, red wine, turmeric, and grease marks." },
+    "TableTitle": "MARBLE TABLE TOP MATERIAL COMPARISON",
+    "TableDesc": "Compare luxury natural marble grades against engineered composite tabletops for dining and lounge furniture.",
+    "Col3": "Stain Resistance & Scratch Hardness",
+    "Rows": [
+      { "Name": "Makrana Pure White Marble", "App": "Royal Dining Tables, Meditative Coffee Tables, Consoles", "Metric": "Supreme (Non-Porous 98%+ Calcite, High Thermal Resistance)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Italian Statuario / Calacatta", "App": "Contemporary Minimalist Dining Slabs, Executive Desks", "Metric": "Opulent Bold Grey Veins (Requires Penetrating Nano Sealer)", "Maint": "Immediate Spill Wipe", "Life": "100+ Years" },
+      { "Name": "Rainforest Green / Brown Marble", "App": "Botanical Living Room Center Tables, Cocktail Slabs", "Metric": "High Hardness (Serpentine Matrix Naturally Resists Everyday Wear)", "Maint": "Low Maintenance", "Life": "100+ Years" },
+      { "Name": "Pietra Dura Inlaid Marble Top", "App": "Heirloom Dining Centerpieces, Luxury Lounge Artifacts", "Metric": "Gemstone Inlay (Resists Fading, 100% Flush Polished Surface)", "Maint": "Neutral Cleaner Wipe", "Life": "Centuries" },
+      { "Name": "Engineered Quartz / Tempered Glass (Market Alternative)", "App": "Commercial Cafeteria Tables", "Metric": "Synthetic Resin (Lacks Natural Thermal Cold Touch, Chips at Edges)", "Maint": "Chemical Spray", "Life": "10-15 Years" }
+    ],
+    "FaqTitle": "Marble Table Top Buyer's Guide",
+    "Faqs": [
+      { "Q": "How do you protect marble dining table tops from food stains, wine, and acidic etching?", "A": "Natural marble is calcium-based and susceptible to acidic etching from lemon juice, vinegar, alcohol, and turmeric if left unprotected. At Shree Ram & Company, every marble table top undergoes a multi-layer deep-penetrating nano-sealing treatment prior to dispatch. This food-grade fluorochemical barrier penetrates into the micro-pores of the stone, repelling liquids without altering the stone's natural color or cool silky touch. For daily maintenance, spills should be blotted with a damp microfiber cloth, and hot pans should be placed on coasters or trivets." },
+      { "Q": "What base structure and weight capacity are required to support a solid marble table top?", "A": "A standard 20mm thick solid marble table top weighs approximately 55 kg per square meter (around 110 kg for a 6-seater dining table), while a 30mm slab weighs nearly 85 kg/m². Supporting bases—whether fabricated from solid teakwood, cast brass, stainless steel, or carved stone pedestals—must feature an intermediate sub-base (such as a 19mm marine-grade plywood or steel perimeter frame) that distributes dead weight evenly and prevents stress concentration along the marble center." },
+      { "Q": "What custom shapes, edge profiles, and sizes can be ordered from Jaipur?", "A": "We fabricate 100% bespoke marble tops to your exact architectural specifications. Popular shapes include racetrack oval, soft rectangular, round circular (from 36-inch coffee tables to 72-inch banquet rounds), pill shape, and boat-neck executive tables. Edge profile options include modern shark-nose (knife-edge), subtle chamfer, full bullnose, half bullnose, and ornate classical double ogee." },
+      { "Q": "How are heavy marble table tops packaged and delivered safely without cracking?", "A": "Marble slabs are highly rigid but vulnerable to bending during transit. We package each tabletop inside a custom-built, ISPM-15 export-compliant wooden A-frame crate. The marble is wrapped in multi-layer EPE foam, corner-cushioned with impact-absorbing blocks, and strapped vertically on edge—the only structurally safe orientation for transporting natural stone slabs. We provide fully insured door-to-door transit across all Indian metro cities." }
+    ],
+    "PreserveFaq": false
+  },
+  "mdf-hdmr-work": {
+    "CraftSubtitle": "ARCHITECTURAL MILLWORK & 3D PANELING",
+    "CraftTitle": "Custom CNC MDF & HDMR Wall Paneling & Millwork",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our architectural millwork division crafts precision 3D wall paneling, parametric fluting, acoustic baffle ceilings, and decorative door cladding using high-density moisture-resistant (HDMR) engineered boards. Cut on high-precision 5-axis CNC routers and finished with multi-coat PU primers and lacquers, our panels bring refined warmth to luxury interiors.",
+    "Card1": { "Title": "High-Density HDMR Substrates", "Text": "Certified Action TESA and Greenpanel HDMR boards with >850 kg/m³ density and low water swelling for humid air-conditioned spaces." },
+    "Card2": { "Title": "5-Axis CNC Diamond Tooling", "Text": "Routing continuous flutes, organic wave textures, and parametric geometric profiles with razor-sharp, fuzz-free relief edges." },
+    "Card3": { "Title": "Automotive PU Coating Prep", "Text": "Sanded to 400-grit smoothness and sealed with moisture-barrier primers, ready for bespoke polyurethane (PU) high-gloss or matte lacquer." },
+    "TableTitle": "ENGINEERED WOOD SUBSTRATE COMPARISON",
+    "TableDesc": "Compare high-density HDMR against standard MDF and commercial plywood for interior architectural 3D wall paneling.",
+    "Col3": "Moisture Resistance & Density (kg/m³)",
+    "Rows": [
+      { "Name": "Action TESA / Greenpanel HDMR", "App": "3D Fluted Wall Panels, Pooja Room Backdrops, Feature Walls", "Metric": "Supreme (>850 kg/m³ Density, High Moisture Resistance)", "Maint": "Easy Wipe Down", "Life": "20-25 Years" },
+      { "Name": "Exterior Grade MDF Board", "App": "Covered Balcony Ceilings, Dry Interior Room Dividers", "Metric": "High Moisture Resistance (750-800 kg/m³ Density)", "Maint": "Low Maintenance", "Life": "15-20 Years" },
+      { "Name": "Calibrated Birch Plywood", "App": "Load-Bearing Wall Units, Concealed French Cleat Backings", "Metric": "High Structural Screw-Holding Strength (700 kg/m³)", "Maint": "Zero Maintenance", "Life": "25+ Years" },
+      { "Name": "Commercial Plywood (MR Grade)", "App": "General Carpentry Sub-Frames, Dry False Walls", "Metric": "Moderate Moisture Resistance (Prone to Core Voids)", "Maint": "Standard Upkeep", "Life": "12-15 Years" },
+      { "Name": "Standard Interior MDF (Market Alternative)", "App": "Budget Flat Furniture", "Metric": "Poor (<650 kg/m³, Swells Rapidly with Atmospheric Humidity)", "Maint": "Prone to Warping", "Life": "5-8 Years" }
+    ],
+    "FaqTitle": "HDMR Millwork Buyer's Guide",
+    "Faqs": [
+      { "Q": "What is HDMR board and why is it superior to standard MDF for interior wall paneling?", "A": "HDMR stands for High Density Moisture Resistant board. Unlike standard MDF (which has a density around 650–700 kg/m³ and swells when exposed to humidity), HDMR is engineered with a density exceeding 850–900 kg/m³ using specialized synthetic resin binders. This higher fiber density gives HDMR superior screw-holding strength, excellent moisture resistance in air-conditioned environments, and clean, fuzz-free edges during detailed CNC routing that achieve a flawless automotive-grade PU paint finish." },
+      { "Q": "How are 3D CNC fluted HDMR wall panels mounted securely on interior masonry walls?", "A": "HDMR wall panels are mounted using an interlocking French cleat or aluminum Z-clip sub-frame system. A calibrated plywood or wooden framework (12mm–18mm) is first anchored to the brick or concrete wall using nylon expansion fasteners, creating an air gap that prevents moisture transfer from the masonry. The pre-finished CNC HDMR panels, fitted with matching reverse cleats on their back, lock securely into the sub-frame without any visible screw holes or nails on the decorative front face." },
+      { "Q": "What paint and polishing options work best on CNC carved HDMR surfaces?", "A": "The ideal finish for CNC carved HDMR is multi-coat Polyurethane (PU) paint applied in a controlled dust-free spray booth. The process involves two coats of high-build polyester/PU primer to seal the routed fibers, thorough sanding to 400-grit smoothness, followed by two coats of premium Italian PU topcoat (available in deep matte, satin 20% sheen, or 100% high-gloss buffed finish). PU coatings provide a waterproof, scratch-resistant, and non-yellowing surface that retains its luster for decades." },
+      { "Q": "What is the cost per square foot for custom CNC 3D HDMR wall paneling?", "A": "The cost of custom CNC 3D HDMR wall paneling typically ranges between Rs 280 to Rs 850 per square foot in India. Standard 2D fluted or reeded patterns in 12mm–18mm HDMR board (unpainted or primer-coated) range from Rs 280 to Rs 450 per sq ft. Complex 3D organic wave panels or geometric parametric designs with professional spray-booth PU duco finish range from Rs 550 to Rs 950+ per sq ft, depending on panel thickness and finish specification." }
+    ],
+    "PreserveFaq": false
+  },
+  "mdf-jali": {
+    "CraftSubtitle": "PRECISION LASER & CNC FRETWORK",
+    "CraftTitle": "Architectural MDF & HDMR CNC Jalis & Partition Screens",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our MDF and HDMR CNC jalis provide sophisticated interior privacy screens, ceiling light diffusers, and decorative pooja room doors. Utilizing heavy-duty moisture-resistant HDMR sheets and advanced computerized routing, our fretwork patterns feature sharp, burn-free edges and seamless perimeter framing tailored to modern residential and commercial interiors.",
+    "Card1": { "Title": "Zero-Fuzz Dense HDMR", "Text": "High-density fiber composition that eliminates frayed edges and fuzzing during intricate micro-detail CNC routing." },
+    "Card2": { "Title": "Islamic & Parametric Geometry", "Text": "Computerized diamond bits routing complex geometric Arabesques, Moroccan motifs, and clean modern chevron patterns." },
+    "Card3": { "Title": "Solid Outer Frame Integration", "Text": "Pre-grooved solid wood or HDMR outer borders that prevent flexing, warping, or sagging across tall partition heights." },
+    "TableTitle": "JALI BOARD MATERIAL PERFORMANCE COMPARISON",
+    "TableDesc": "Compare engineered wood substrates for interior partition jalis, door screens, and backlit ceiling panels.",
+    "Col3": "Edge Sharpness & Moisture Durability",
+    "Rows": [
+      { "Name": "High Moisture Resistant HDMR Jali", "App": "Pooja Room Doors, Living-Dining Dividers, False Ceilings", "Metric": "Supreme (>850 kg/m³ Density, Zero Frayed Edges, Paint-Ready)", "Maint": "Easy Wipe Down", "Life": "20+ Years" },
+      { "Name": "Exterior Grade MDF Jali", "App": "Dry Indoor Partitions, Wardrobe Inset Screens", "Metric": "High Moisture Resistance (Clean Cutting Edge)", "Maint": "Low Maintenance", "Life": "15-20 Years" },
+      { "Name": "PVC Celuka Foam Board Jali", "App": "Bathroom Partitions, High Moisture Areas", "Metric": "100% Waterproof (Lower Rigidity in Tall Spans, Softer Edge)", "Maint": "Zero Maintenance", "Life": "20+ Years" },
+      { "Name": "Calibrated Plywood Jali", "App": "Load-Bearing Framed Screens, Sliders", "Metric": "High Strength (Visible Laminations on Cut Edge Require Edging)", "Maint": "Standard Upkeep", "Life": "15-20 Years" },
+      { "Name": "Standard Interior MDF Jali (Market Alternative)", "App": "Low-Cost Decorative Grilles", "Metric": "Poor (Absorbs Atmospheric Moisture, Fuzzy Cut Edges)", "Maint": "Prone to Warping", "Life": "5-8 Years" }
+    ],
+    "FaqTitle": "MDF & HDMR Jali Buyer's Guide",
+    "Faqs": [
+      { "Q": "Is HDMR jali suitable for pooja room doors and living room room dividers?", "A": "Yes, HDMR is one of the most popular and versatile materials for interior pooja room doors and living room dividers. Because of its dense uniform matrix (>850 kg/m³), it can be intricately routed into sacred Om, Swastika, Lotus, and traditional Indian lattice designs without splintering. When finished with a high-quality PU coating or metallic brass/gold leafing, HDMR jali creates a luxurious, warm architectural screen that complements both modern and traditional home decor." },
+      { "Q": "How should intricate laser/CNC cut MDF jalis be prepped and spray-painted?", "A": "To ensure a smooth, professional finish on intricate CNC-cut jalis, proper surface preparation is critical. First, routed edges are hand-sanded with 220-grit paper to remove any residual micro-fibers. A high-penetrating PU or polyurethane wood sealer is sprayed to seal the porous cut edges, followed by two coats of high-build PU surfacer primer. After fine sanding to 400-grit, automotive-grade PU paint (Duco or Polyurethane) is spray-applied in thin, uniform coats to prevent paint pooling inside small lattice perforations." },
+      { "Q": "What thickness of MDF/HDMR should be chosen for freestanding room partition screens?", "A": "For freestanding or floor-to-ceiling room partition screens, 18mm or 25mm thickness is strongly recommended. Thin 8mm–12mm boards lack structural rigidity over tall spans (above 6 feet) and will flex or bow under air pressure or incidental contact. For screens taller than 7 feet, we fabricate a solid 25mm to 35mm thick outer boundary frame with internal 18mm jali fretwork to ensure absolute vertical stability." },
+      { "Q": "What is the pricing per square foot for custom CNC cut HDMR jali screens?", "A": "Custom CNC cut HDMR jali typically ranges from Rs 180 to Rs 550 per square foot. Plain raw CNC cut 12mm–18mm HDMR sheets range from Rs 180 to Rs 320 per sq ft. Fully factory-painted jali panels—including dual-coat PU primer, sanding, and metallic or solid PU topcoat with perimeter groove framing—range from Rs 450 to Rs 750 per sq ft, depending on pattern intricacy and sheet thickness." }
+    ],
+    "PreserveFaq": false
+  },
+  "murals-wall-art": {
+    "CraftSubtitle": "CONTEMPORARY & HERITAGE RELIEF ART",
+    "CraftTitle": "Hand-Sculpted Stone Murals & Architectural Wall Art",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our architectural murals and 3D stone wall art bring timeless cultural narratives and modern organic forms to living room feature walls, luxury lobbies, and temple courtyards. Hand-carved from Bansi Paharpur sandstone, Gwalior Mint, and crystalline Makrana marble, each artwork is sculpted with deep multi-layered perspective and tactile stone textures.",
+    "Card1": { "Title": "CAD Maquette & Design", "Text": "Transforming architectural concept sketches into calibrated 3D digital depth models and proportional clay maquettes." },
+    "Card2": { "Title": "High-Relief Undercutting", "Text": "Generational Sompura sculptors chiseling up to 75mm relief depth to create dramatic shadow play under grazing lights." },
+    "Card3": { "Title": "Concealed Cleat Mounting", "Text": "Rear-grooved dry-hanging stainless steel bracket systems allowing massive stone art slabs to float securely on interior walls." },
+    "TableTitle": "WALL ART STONE COMPARISON",
+    "TableDesc": "Compare sculptural stone varieties for high-relief indoor feature walls, grand lobby murals, and courtyard art.",
+    "Col3": "Relief Depth Capacity & Carving Finesse",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Double-Height Atriums, Living Room Accent Walls, Lobby Murals", "Metric": "Supreme (Fine Silica Grain Allows 25mm-75mm Deep 3D Undercut)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Courtyard Water Wall Murals, Temple Exterior Narrative Friezes", "Metric": "Extreme Weatherproof (Resists UV Fading & Torrential Monsoons)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Spiritual Deity Reliefs, Divine Pichwai & Floral Art Slabs", "Metric": "Supreme Crystalline Luster (Translucent Depth under Grazing Light)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Natural Slate / Quartzite", "App": "Rustic Layered Mountain Wall Murals, Earthy Hallway Panels", "Metric": "Natural Cleft Texture (Distinct Multicolored Mineral Bands)", "Maint": "Low Maintenance", "Life": "75+ Years" },
+      { "Name": "Cast Resin / POP Relief (Market Alternative)", "App": "Mass-Produced Interior Wall Plaques", "Metric": "Fragile Synthetic Polymer (Chips, Cracks, Fades under Sunlight)", "Maint": "Frequent Touch-ups", "Life": "3-5 Years" }
+    ],
+    "FaqTitle": "Stone Wall Art Buyer's Guide",
+    "Faqs": [
+      { "Q": "How are large multi-panel stone wall murals mounted safely on interior living room walls?", "A": "Large multi-panel stone wall murals are installed using mechanical dry-hanging split-cleats (French cleat system) engineered from grade-304 stainless steel. Each individual stone panel (typically 2x2 ft, 2x4 ft, or 3x5 ft) is pre-machined at our Jaipur atelier with precision horizontal slots on the rear. Matching SS angle runners are anchored into the structural brick or RCC wall using heavy-duty chemical expansion anchors. This mechanical suspension distributes the stone's dead weight evenly across the building structure without relying on cement mortar." },
+      { "Q": "What lighting design best accentuates the 3D relief texture of a carved stone mural?", "A": "To fully highlight the depth and shadow play of a 3D stone carving, grazing light (raking light) is the gold standard. Install warm white (2700K–3000K) recessed ceiling spotlights or linear LED wall grazers positioned 6 to 12 inches away from the wall surface, angled downward at a steep 15°–25° angle. This steep angle casts dramatic micro-shadows behind undercut petals, mythological figures, and textures, creating an ethereal three-dimensional presence in the room." },
+      { "Q": "Can custom artworks, family crests, or corporate logos be carved from reference photos?", "A": "Yes, 100% of our stone art commissions are customized to client specifications. You can provide an architectural sketch, painting photograph (e.g., Pichwai, Tree of Life, Buddha, Royal Elephant procession), or digital artwork. Our in-house designers create a calibrated 3D CAD digital relief model for your dimensional approval, which our Sompura master sculptors then hand-chisel into the selected natural stone slab." },
+      { "Q": "What is the price range per square foot for handcrafted stone art murals from Jaipur?", "A": "Handcrafted stone art murals typically range from Rs 1,600 to Rs 4,800 per square foot. Standard 2D geometric and floral textured wall murals range between Rs 1,600 and Rs 2,400 per sq ft. Deep 3D high-relief sculptures requiring extensive hand undercutting (such as human anatomy, feathers, and layered foliage at 50mm–75mm depth) range from Rs 2,800 to Rs 4,800+ per sq ft. Slabs are dry-assembled, numbered, and crated in shockproof packaging for pan-India delivery." }
+    ],
+    "PreserveFaq": false
+  },
+  "partition-jali": {
+    "CraftSubtitle": "ARCHITECTURAL ROOM DIVIDERS",
+    "CraftTitle": "Custom Partition Jalis & Spatial Privacy Screens",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our partition jali systems deliver functional privacy, light diffusion, and architectural elegance for open-concept homes and luxury commercial spaces. Engineered in natural sandstone, exterior-grade WPC, and high-density HDMR, each partition screen is fabricated with structural perimeter channels for rigid floor-to-ceiling or freestanding installation.",
+    "Card1": { "Title": "Multi-Material Engineering", "Text": "Tailoring the optimal substrate—natural sandstone for courtyards, HDMR for interiors, or WPC for semi-covered terrace dividers." },
+    "Card2": { "Title": "Visual & Acoustic Privacy", "Text": "Balancing open perforation ratios (35%–55%) to maintain natural airflow and gentle light diffusion while ensuring dignified visual privacy." },
+    "Card3": { "Title": "Floor-to-Ceiling Mounting", "Text": "Engineered perimeter channel tracks with concealed tension jacks that mount securely without drilling into finished floor marble." },
+    "TableTitle": "PARTITION SCREEN SUBSTRATE COMPARISON",
+    "TableDesc": "Compare natural stone, composite polymers, and engineered boards for residential and commercial partition screens.",
+    "Col3": "Structural Rigidity & Moisture Rating",
+    "Rows": [
+      { "Name": "Natural Sandstone Partition Jali", "App": "Villas, Courtyards, Pooja Room Enclosures, Outdoor Screens", "Metric": "Supreme Rigidity (Immune to Moisture, Permanent Architectural Asset)", "Maint": "Zero Maintenance", "Life": "100+ Years" },
+      { "Name": "High-Density WPC Composite Jali", "App": "Balconies, Wet Area Dividers, Semi-Covered Terraces", "Metric": "100% Waterproof & Termite-Proof (0.65+ Density, Class-A Fire Safe)", "Maint": "Zero Maintenance", "Life": "25+ Years" },
+      { "Name": "Action TESA HDMR Jali", "App": "Living-Dining Room Dividers, Foyer Screens, Dressing Rooms", "Metric": "High Density (>850 kg/m³, Smooth PU Lacquer Finish Quality)", "Maint": "Easy Wipe Down", "Life": "20+ Years" },
+      { "Name": "Laser-Cut Brass / Steel Screen", "App": "Ultra-Modern Luxury Hotel Lobbies, Bar Backdrops", "Metric": "High Tensile Strength (Vulnerable to Fingerprint Oxidation)", "Maint": "Periodic Metal Polish", "Life": "25+ Years" },
+      { "Name": "Solid Drywall / Gypsum Partition", "App": "Basic Interior Room Separation", "Metric": "Solid Barrier (Blocks 100% Natural Light & Airflow, Zero Aesthetics)", "Maint": "Frequent Repainting", "Life": "7-10 Years" }
+    ],
+    "FaqTitle": "Partition Jali Buyer's Guide",
+    "Faqs": [
+      { "Q": "How do I choose between natural sandstone, WPC, and HDMR for my room partition jali?", "A": "Material selection depends on project location, structural weight limits, and exposure to moisture. Natural sandstone (Gwalior Mint, Pink Sandstone) is the definitive choice for ground-floor villas, entry foyers, temple enclosures, and garden courtyards where natural permanence and tactile luxury are desired. HDMR is ideal for dry interior living-dining separators and bedroom screens where delicate geometric fretwork and automotive PU lacquer finishes are needed. WPC composite is best for semi-covered balconies, bathroom dividers, and exterior terraces because it is 100% waterproof and termite-proof." },
+      { "Q": "How are tall floor-to-ceiling partition screens installed without damaging finished flooring?", "A": "For luxury interiors with finished Italian marble or hardwood flooring, we utilize a specialized perimeter U-channel framing system with high-tensile silicone structural adhesives or concealed pressure jacks. The outer frame is secured into the concrete ceiling slab above, while the bottom channel sits on an elastomeric neoprene vibration pad adhered with neutral-cure structural silicone. This holds the screen rigidly in place against wind and human contact without drilling invasive anchor holes into expensive floor marble." },
+      { "Q": "What perforation percentage is best for balancing visual privacy and natural light flow?", "A": "The optimal perforation ratio for residential partition screens ranges between 35% and 50% open area. An open area of 35% to 40% provides high visual privacy (obscuring direct line of sight between dining and living areas) while casting decorative shadows under ambient light. A 45% to 55% open area is ideal for corridors, foyer dividers, and staircases where maximum light throughput and free air circulation are desired." },
+      { "Q": "What is the cost per square foot for custom room divider partition jalis?", "A": "The cost of custom room divider partition jalis typically ranges from Rs 250 to Rs 1,800 per square foot depending on substrate and finish. High-density WPC jalis range from Rs 250 to Rs 450 per sq ft. HDMR partition screens with complete PU spray finish range from Rs 450 to Rs 750 per sq ft. Handcrafted natural sandstone partition jalis (30mm–50mm thickness) range from Rs 850 to Rs 1,800 per sq ft including structural perimeter groove framing." }
+    ],
+    "PreserveFaq": false
+  },
+  "pillar": {
+    "CraftSubtitle": "STRUCTURAL & DECORATIVE COLUMNS",
+    "CraftTitle": "Hand-Carved Stone Pillars & Classical Columns",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our architectural stone pillars combine classical Indian and Grecian proportions with modern structural engineering. Sourced from dense Bansi Paharpur pink sandstone, Gwalior Mint, and Makrana marble, our columns range from solid monolithic load-bearing veranda pillars to hollow modular cladding columns designed to conceal RCC pillars or steel beams.",
+    "Card1": { "Title": "Monolithic Core Quarrying", "Text": "Extracting crack-free solid sandstone blocks capable of sustaining heavy vertical compressive loads with 60+ MPa strength." },
+    "Card2": { "Title": "Classical Three-Part Turning", "Text": "Precision lathe turning of base plinths, fluted or bell-shaped shafts, and ornate elephant/floral Corinthian capitals." },
+    "Card3": { "Title": "Concealed Core Retrofitting", "Text": "Engineered hollow-core or segmented interlocking pillar sleeves designed to wrap seamlessly around structural RCC columns." },
+    "TableTitle": "ARCHITECTURAL PILLAR STONE COMPARISON",
+    "TableDesc": "Compare load-bearing natural stone grades against hollow precast alternatives for structural and decorative columns.",
+    "Col3": "Compressive Load Capacity & Weather Rating",
+    "Rows": [
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Temple Mandapas, Heritage Verandas, Grand Porch Columns", "Metric": "Supreme Load Capacity (65+ MPa Strength, Century Weather-Immune)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Gwalior Mint Sandstone", "App": "Modern Fluted Villa Pillars, Corridor Colonnades, Balcony Columns", "Metric": "High Compressive Strength (Fine Grain, Resists Surface Weathering)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Makrana Pure White Marble", "App": "Sacred Mandir Pillars, Palatial Foyers, Luxury Courtyards", "Metric": "Supreme Crystalline Density (Cool Translucent Marble Luster)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Jodhpur / Chhatar Pink Stone", "App": "Monumental Public Buildings, Heritage Hotel Entry Porticos", "Metric": "High Density (Withstands Extreme Atmospheric Pollution & Frost)", "Maint": "Zero Maintenance", "Life": "200+ Years" },
+      { "Name": "Precast Concrete / GFRC Columns (Market Alternative)", "App": "Budget Residential Porch Wraps", "Metric": "Vulnerable to Rebar Corrosion, Spalling & Surface Cracking", "Maint": "Periodic Painting", "Life": "15-25 Years" }
+    ],
+    "FaqTitle": "Carved Stone Pillar Buyer's Guide",
+    "Faqs": [
+      { "Q": "What is the difference between solid load-bearing stone pillars and hollow cladding pillars?", "A": "Solid stone pillars are carved from a single monolithic block of natural sandstone or marble and are capable of carrying direct structural dead and live loads from roof beams and upper floors (compressive strength >60 MPa). In contrast, hollow cladding pillars (also called split or modular column wraps) are manufactured in two semicircular halves or 3-part segments designed to wrap around an existing reinforced concrete (RCC) column or structural steel I-beam. Cladding pillars provide the identical regal aesthetic of solid stone while allowing seamless retrofitting around structural building frameworks." },
+      { "Q": "What classical architectural proportions are used for Jaipur carved stone columns?", "A": "Our master Sompura carvers follow classical architectural orders derived from the Manasara and Shilpa Shastra. A traditional stone column is divided into three harmonious sections: the Adhisthana (base plinth, typically 1/5th total height), the Stambha (shaft, typically 3/5th total height, available in octagonal-to-round fluted taper), and the Shirsha (carved bracket capital, typically 1/5th total height, featuring carved elephants, lotus petals, or classical scrolls). Standard diameter-to-height ratios range from 1:6 for sturdy heritage porticos to 1:8 for graceful interior colonnades." },
+      { "Q": "How are heavy stone pillars anchored safely to concrete foundations and roof beams?", "A": "Solid stone pillars are anchored using concealed vertical central dowel pins forged from grade-316 stainless steel (typically 25mm to 32mm diameter). The pin is embedded 150mm into the concrete foundation slab with non-shrink structural epoxy grout and extends 150mm upward into a pre-drilled core hole in the base of the stone shaft. A matching top dowel pin locks the capital securely into the overhead beam, eliminating any possibility of horizontal shear movement during seismic events or high winds." },
+      { "Q": "What is the cost and delivery lead time for custom carved stone pillars from Jaipur?", "A": "Custom carved stone pillars typically cost between Rs 18,000 to Rs 1,20,000+ per column depending on total height (e.g., 7ft residential vs 14ft monumental), shaft diameter (8 inches to 18 inches), stone grade, and the complexity of capital carving. Production time in our Jaipur atelier takes approximately 3 to 5 weeks. Pillars are pre-fitted, numbered, wrapped in protective foam, and shipped in reinforced wooden crates with nationwide door-to-site delivery." }
+    ],
+    "PreserveFaq": false
+  },
+  "stone-art-murals": {
+    "CraftSubtitle": "NARRATIVE ARCHITECTURAL BAS-RELIEF",
+    "CraftTitle": "Handcrafted 3D Stone Art Murals & Storytelling Reliefs",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our stone art murals transform plain architectural walls into timeless gallery masterpieces. Sculpted in Rajasthan's finest sandstones and marbles, our thematic reliefs—featuring Pichwai cows, Tree of Life, royal Rajput processions, and tropical botanical foliage—are chiseled with 40mm to 100mm relief depths that bring dynamic shadow play to luxury spaces.",
+    "Card1": { "Title": "High-Density Sintered Sandstone", "Text": "Quarrying dense, fine-grained Gwalior Mint and Bansi Paharpur slabs that sustain multi-level chiseling without micro-fracturing." },
+    "Card2": { "Title": "Multi-Tiered Bas-Relief Undercutting", "Text": "Artisans chisel foreground subjects, secondary floral textures, and deeply undercut background voids for dramatic 3D visual projection." },
+    "Card3": { "Title": "Continuous Multi-Slab Joinery", "Text": "Laser-aligned interlocking tile cuts ensuring continuous relief flow across grand single and double-height architectural walls." },
+    "TableTitle": "MURAL STONE PERFORMANCE COMPARISON",
+    "TableDesc": "Compare stone varieties for narrative bas-relief murals, entryway feature walls, and garden courtyards.",
+    "Col3": "Relief Depth Capacity & Weather Resistance",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Double-Height Atriums, Living Room Accent Walls, Lobby Murals", "Metric": "Supreme (Fine Grain Allows 40mm-100mm Deep 3D Chiseling)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Courtyard Water Wall Murals, Temple Exterior Narrative Friezes", "Metric": "Extreme Weatherproof (Resists UV Fading & Torrential Monsoons)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Spiritual Deity Reliefs, Divine Pichwai & Floral Art Slabs", "Metric": "Supreme Crystalline Luster (Translucent Depth under Grazing Light)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Red Agra Sandstone", "App": "Heritage Villa Wall Reliefs, Fort-Style Landscape Murals", "Metric": "High Density Quartzite (Rich Terracotta Red, High Heat Safe)", "Maint": "Zero Maintenance", "Life": "150+ Years" },
+      { "Name": "Cast Fiber / POP Murals (Market Alternative)", "App": "Mass-Produced Interior Wall Plaques", "Metric": "Fragile Polymer (Prone to Cracking, Chips on Impact, Fades)", "Maint": "Frequent Touch-ups", "Life": "3-5 Years" }
+    ],
+    "FaqTitle": "Stone Art Mural Buyer's Guide",
+    "Faqs": [
+      { "Q": "What relief depth is typical for a 3D stone mural, and how does it affect the visual impact?", "A": "Stone relief murals are typically categorized into low relief (Bas-Relief: 15mm–25mm depth), medium relief (Mezzo-Relief: 30mm–50mm depth), and high relief (Alto-Relief: 50mm–100mm depth). Greater relief depth allows our sculptors to undercut features like tree branches, peacock feathers, and deity garments so they cast real shadow play on the background stone. In grand double-height spaces, high-relief carving ensures the artwork remains crisp and visually commanding even when viewed from 30 feet away." },
+      { "Q": "How are large multi-slab stone murals assembled seamlessly without visible grout lines?", "A": "Grand stone murals spanning 10 to 30 feet are divided into a grid of interlocking modular stone slabs (typically 2x2 ft or 2x3 ft each). At our Jaipur workshop, the entire mural is sculpted as a continuous whole. Edge seams are cut along natural contour lines (such as tree branches or architectural borders) rather than straight geometric cuts. On site, panels are dry-fitted with matching stone-dust epoxy adhesive tinted to the exact mineral shade of the stone, rendering joint lines virtually invisible." },
+      { "Q": "Can stone art murals be installed outdoors on boundary walls and exposed garden courtyards?", "A": "Yes, our sandstone art murals (particularly those chiseled from Bansi Paharpur pink stone and Gwalior Mint) are 100% weather-resistant and thrive in exposed outdoor environments. Natural sandstone does not deteriorate under ultraviolet sunlight, monsoon deluge, or winter frost. Exterior murals receive a breathable hydrophobic impregnating sealant that prevents rainwater absorption, moss growth, and dirt buildup while allowing the stone to breathe naturally." },
+      { "Q": "What is the cost per square foot for custom hand-carved stone art murals from Jaipur?", "A": "The price of custom hand-carved stone art murals typically ranges from Rs 1,800 to Rs 4,500 per square foot. Factors influencing the cost include stone variety (sandstone vs Makrana marble), relief depth (low relief vs 75mm deep 3D undercutting), and design intricacy (geometric floral vs complex multi-figure narrative scenes). All orders include custom 3D shop drawings, pre-assembly testing in our Jaipur atelier, and insured crate packaging." }
+    ],
+    "PreserveFaq": false
+  },
+  "stone-carving": {
+    "CraftSubtitle": "SOMPURA HERITAGE & 5-AXIS PRECISION",
+    "CraftTitle": "Master Hand-Chiseled & 3D CNC Stone Carving",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), every stone carving commission represents a harmony of generational Sompura hand-chiseling and advanced 5-axis CNC diamond routing. Sourced directly from Rajasthan's certified royal quarries in Makrana, Bansi Paharpur, and Gwalior, our carved stone surfaces bring timeless architectural permanence to luxury villas, sacred temples, and landmark commercial spaces.",
+    "Card1": { "Title": "Quarry-Direct Sourcing", "Text": "Selecting zero-defect monolithic natural stone blocks directly from certified mines across Pink City, Jaisalmer, and Karauli." },
+    "Card2": { "Title": "Master Hand Chiseling", "Text": "Generational artisans hand-sculpt fine deep 3D reliefs, floral tracery, and geometric lattice patterns with surgical precision." },
+    "Card3": { "Title": "Engineered Dry-Hanging", "Text": "Delivered with rear SS dry-hanging anchors, interlocking tongue-and-groove joints, and protective silicone sealants for lifetime durability." },
+    "TableTitle": "CARVING STONE PERFORMANCE & WORKABILITY COMPARISON",
+    "TableDesc": "Compare authentic Rajasthan natural stones for architectural relief carving, deep 3D sculpting, and wall cladding.",
+    "Col3": "Compressive Strength & Weather Resistance",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Interior Feature Walls, Double-Height Cladding, 3D Murals", "Metric": "High (55+ MPa, Fine Grain Allows 50mm+ Deep 3D Relief Chiseling)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Pink Bansi Paharpur Sandstone", "App": "Temples, Classical Bungalow Facades, Statues, Jharokhas", "Metric": "Extreme Weatherproof (Resists UV Fading & Torrential Monsoons)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Sacred Pooja Mandirs, Divine Statues, Pietra Dura Inlay", "Metric": "Supreme Calcite (98%+ Pure, Non-Porous, Translucent Luster)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Teakwood / Rainbow Sandstone", "App": "Contemporary Accent Walls, Ripple Textures, Water Features", "Metric": "High Density (Natural Mineral Bands Mimicking Wood Grain)", "Maint": "Low Maintenance", "Life": "75+ Years" },
+      { "Name": "Cast Concrete / GFRC Panels (Market Alternative)", "App": "Budget Exterior Cladding", "Metric": "Vulnerable to Micro-Cracking, Surface Spalling & Acid Staining", "Maint": "Frequent Repainting", "Life": "15-25 Years" }
+    ],
+    "FaqTitle": "",
+    "Faqs": [],
+    "PreserveFaq": true
+  },
+  "stone-jali": {
+    "CraftSubtitle": "ARCHITECTURAL LATTICE SCREENS",
+    "CraftTitle": "5-Axis CNC & Hand-Carved Natural Stone Jalis",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our natural stone jalis combine classical Rajasthani haveli heritage with 5-axis CNC diamond routing precision. Chiseled from Bansi Paharpur pink sandstone, Gwalior Mint, and Makrana marble, our architectural lattice screens provide passive climate control, diffuse harsh sunlight, and cast mesmerizing geometric shadow patterns across luxury residences and sacred shrines.",
+    "Card1": { "Title": "Monolithic Quarry Slabs", "Text": "Calibrated 30mm–50mm thick natural stone slabs selected for uniform quartz density without internal bedding planes or fissures." },
+    "Card2": { "Title": "Precision Diamond Waterjet & CNC", "Text": "Computerized 5-axis diamond bit routing and hand-beveled chamfers producing clean, shadow-casting lattice apertures." },
+    "Card3": { "Title": "Perimeter Load-Bearing Frame", "Text": "Engineered solid perimeter border frames with interlocking tongue-and-groove joints built to resist severe facade wind loads." },
+    "TableTitle": "STONE JALI MATERIAL PERFORMANCE COMPARISON",
+    "TableDesc": "Compare natural stone grades engineered for exterior ventilation jalis, balcony screens, and privacy partitions.",
+    "Col3": "Tensile Shear Strength & Weather Rating",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Exterior Facade Screens, Balcony Jalis, Privacy Partitions", "Metric": "High Tensile Strength (Withstands High Wind Shear at Height)", "Maint": "Zero Maintenance", "Life": "100+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Temple Enclosures, Heritage Haveli Jharokhas, Courtyards", "Metric": "Extreme Weatherproof (Resists UV Fading & Torrential Monsoons)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Pooja Room Screens, Sacred Sanctum Doors, Luxury Foyers", "Metric": "Supreme Crystalline Purity (Translucent Glow, Cool to Touch)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "Red Agra Sandstone", "App": "Heritage Boundary Screens, Fort-Style Ventilation Jalis", "Metric": "High Compressive Strength (Rich Terracotta Hue, Weather-Immune)", "Maint": "Zero Maintenance", "Life": "150+ Years" },
+      { "Name": "Cast Concrete / Precast Jali (Market Alternative)", "App": "Budget Boundary Walls", "Metric": "Brittle (Rebar Corrodes, Cracks under Rain, Requires Painting)", "Maint": "Frequent Paint Touch-ups", "Life": "10-15 Years" }
+    ],
+    "FaqTitle": "",
+    "Faqs": [],
+    "PreserveFaq": true
+  },
+  "stone-wall-panels": {
+    "CraftSubtitle": "TEXTURED ARCHITECTURAL CLADDING",
+    "CraftTitle": "3D Textured Stone Wall Panels & Feature Surfaces",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our 3D stone wall panels deliver architectural texture, acoustic dampening, and natural earth-tone luxury to feature walls, double-height foyers, and TV console backdrops. Utilizing CNC diamond routing and hand-tooled artisanal finishes on Gwalior Mint, Rainbow, and Bansi Paharpur sandstones, our panels feature interlocking edges for seamless monolithic spans.",
+    "Card1": { "Title": "Calibrated Slab Thickness", "Text": "Precision sawn to uniform 25mm–40mm thickness with calibrated backs for rapid, perfectly level dry-hanging or adhesive fixing." },
+    "Card2": { "Title": "Continuous CNC Wave Flow", "Text": "Continuous wave textures, parametric flutes, and geometric facets engineered to match seamlessly across multi-panel arrays." },
+    "Card3": { "Title": "Interlocking Beveled Joinery", "Text": "Micro-beveled interlocking perimeter tongue-and-groove joints that conceal structural wall settlement seams over time." },
+    "TableTitle": "TEXTURED STONE WALL PANEL COMPARISON",
+    "TableDesc": "Compare natural stone varieties for 3D textured feature walls, double-height foyers, and accent surfaces.",
+    "Col3": "3D Relief Capability & Acoustic Density",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Double-Height Atriums, Living Room Accent Walls, Lobby Murals", "Metric": "Supreme (High Density, Fluted & Wave Textures, Natural Acoustic Buffer)", "Maint": "Very Low", "Life": "100+ Years" },
+      { "Name": "Rainbow / Teakwood Sandstone", "App": "Modern Living Rooms, TV Console Backdrops, Lounge Walls", "Metric": "Organic Wood-Grain Veining (High Density Quartzite Matrix)", "Maint": "Low Maintenance", "Life": "75+ Years" },
+      { "Name": "Bansi Paharpur Pink Sandstone", "App": "Exterior Feature Columns, Courtyard Walls, Verandas", "Metric": "Extreme Weatherproof (Resists UV Fading & Monsoon Deluge)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Luxury Master Bed Backdrops, Sacred Niche Paneling", "Metric": "Supreme Calcite (Reflects Ambient Lighting with Translucent Luster)", "Maint": "Periodic Milk/Water Wipe", "Life": "Lifetime Legacy" },
+      { "Name": "PU / Charcoal Foam Panels (Market Alternative)", "App": "Budget DIY Interior Feature Walls", "Metric": "Flammable Synthetic Plastic (Prone to Dents, Scratches, Fades)", "Maint": "Fragile / Disposable", "Life": "3-5 Years" }
+    ],
+    "FaqTitle": "3D Stone Wall Panel Buyer's Guide",
+    "Faqs": [
+      { "Q": "What wall substructure is required to safely support heavy 3D stone wall panels?", "A": "Natural stone wall panels (typically 25mm to 35mm thick) weigh approximately 55 kg to 75 kg per square meter. For solid brick masonry or RCC concrete walls, panels can be fixed using high-tensile polymer-modified cementitious tile adhesives (Class C2TE S1) combined with mechanical stainless steel anchor pins. For lightweight drywall partitions (gypsum or cement fiber board), an internal structural framework of heavy-gauge galvanised steel studs (at 300mm centers) with concealed French cleat brackets is required to support the dead load safely." },
+      { "Q": "How are continuous textured wave and flute patterns aligned across multiple stone panels?", "A": "Every continuous textured panel project at Shree Ram & Company is manufactured as a coordinated CAD batch. Large natural stone slabs are precision-cut into modular tiles, labeled sequentially on the rear, and machined in numerical order on our computerized 5-axis CNC router. This ensures that the peak of every wave and the groove of every flute transfers seamlessly across tile seams with zero dimensional mismatch." },
+      { "Q": "Do natural stone wall panels offer acoustic and thermal insulation benefits for interiors?", "A": "Yes, natural stone is an outstanding thermal and acoustic dampening material. Due to its high mass and irregular 3D textured relief surfaces, stone panels diffuse and break up sound waves, significantly reducing echo and reverberation in large double-height living rooms and hard-surface foyers. Thermally, natural sandstone's high thermal inertia buffers interior rooms against exterior temperature swings, maintaining a comfortable ambient microclimate." },
+      { "Q": "What is the price range per square foot for 3D textured stone wall panels in India?", "A": "The cost of 3D textured stone wall panels typically ranges between Rs 850 to Rs 2,800 per square foot in India. Standard linear fluted or grooved texture panels in Gwalior Mint or Teakwood Sandstone range from Rs 850 to Rs 1,400 per sq ft. Complex 3D multi-directional wave patterns, convex faceted panels, and deeply chiseled stone relief tiles range from Rs 1,500 to Rs 2,800+ per sq ft, depending on stone grade and relief depth." }
+    ],
+    "PreserveFaq": false
+  },
+  "wall-cladding": {
+    "CraftSubtitle": "NATURAL EXTERIOR & INTERIOR SURFACES",
+    "CraftTitle": "Natural Stone Wall Cladding & Facade Tiles",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our natural stone wall cladding systems deliver weatherproof protection and organic architectural beauty to exterior facades, boundary walls, and interior accent surfaces. Available in split-face, honed, fluted, and rock-face textures in Gwalior Mint, Bansi Paharpur, Slate, and Dholpur stone, our cladding tiles insulate buildings against extreme heat while eliminating repainting.",
+    "Card1": { "Title": "Calibrated Modular Tiles", "Text": "Precision-sawn strips and tiles calibrated to uniform thickness for rapid, level exterior dry-hanging or adhesive fixing." },
+    "Card2": { "Title": "Split-Face & Honed Textures", "Text": "Hand-split cleft surfaces and machine-honed finishes that highlight raw mineral grain and earthy geological veining." },
+    "Card3": { "Title": "Thermal & Moisture Barrier", "Text": "Natural stone matrix provides superior thermal mass, shielding interior building envelopes from harsh 45°C summer heat." },
+    "TableTitle": "WALL CLADDING STONE MATERIAL COMPARISON",
+    "TableDesc": "Compare natural stone cladding varieties against artificial vitrified tiles for interior and exterior walls.",
+    "Col3": "Thermal Insulation & Weather Resistance",
+    "Rows": [
+      { "Name": "Natural Sandstone Strips & Tiles", "App": "Exterior Bungalow Facades, Boundary Walls, Porch Columns", "Metric": "Supreme (High Thermal Mass, Withstands Extreme Weather & UV)", "Maint": "Zero Maintenance", "Life": "100+ Years" },
+      { "Name": "Slate & Quartzite Split-Face Cladding", "App": "Water Feature Backdrops, Rustic Accent Walls, Living Rooms", "Metric": "High Density (Rich Organic Color Variations, Non-Porous Surface)", "Maint": "Very Low", "Life": "75+ Years" },
+      { "Name": "Travertine Natural Stone Tiles", "App": "Luxury Bathroom Walls, Interior Feature Columns, Hallways", "Metric": "Sophisticated Earth Tones (Natural Pores Honeycomb Texture)", "Maint": "Periodic Hydrophobic Coat", "Life": "100+ Years" },
+      { "Name": "Natural Granite Cladding Slabs", "App": "High-Traffic Commercial Plinths, External Elevation Base", "Metric": "Extreme Hardness (Mohs 7, Totally Impervious to Moisture & Acid)", "Maint": "Zero Maintenance", "Life": "Lifetime Legacy" },
+      { "Name": "Vitrified Ceramic Tiles (Market Alternative)", "App": "Budget Residential Cladding", "Metric": "Zero Thermal Mass (Hollow Sounding, Prone to Debonding)", "Maint": "Re-grouting Required", "Life": "10-15 Years" }
+    ],
+    "FaqTitle": "Stone Wall Cladding Buyer's Guide",
+    "Faqs": [
+      { "Q": "What is the difference between dry-hanging mechanical cladding and wet mortar fixing?", "A": "Dry-hanging mechanical cladding uses stainless steel (grade 304 or 316) brackets and anchor bolts to suspend stone panels from the structural wall, creating an insulated air cavity (typically 25mm–50mm) between the stone and the masonry. This cavity allows natural air ventilation, facilitates drainage of any incidental moisture, and accommodates thermal expansion without cracking. Wet mortar fixing attaches tiles directly to masonry using cement mortar or adhesive; while suitable for smaller tiles under 300x600mm, dry cladding is the engineering standard for exterior heights and heavy stone panels." },
+      { "Q": "How does natural stone wall cladding prevent water seepage, dampness, and white efflorescence?", "A": "Natural sandstone wall cladding acts as an external rain-screen shield that prevents driving monsoon rain from penetrating the core brickwork. In dry cladding systems, the ventilated air gap prevents moisture from reaching the inner wall. At Shree Ram & Company, all exterior stone cladding is treated with a breathable siloxane hydrophobic penetrating sealant that repels liquid water while allowing water vapor to escape, completely eliminating the unsightly white salt stains (efflorescence) common in unsealed masonry." },
+      { "Q": "Does stone cladding provide thermal insulation to reduce air conditioning costs?", "A": "Yes. Natural sandstone possesses high volumetric heat capacity (thermal mass). During peak summer afternoons when exterior temperatures reach 42°C–48°C, the stone cladding absorbs solar radiation slowly, delaying heat transmission into the building envelope by up to 6 to 8 hours. By the time heat reaches the inner wall, the outside air has cooled in the evening. This natural thermal lag significantly reduces interior heat gain and lowers residential air conditioning power consumption by up to 20%–30%." },
+      { "Q": "What is the cost per square foot for exterior natural stone wall cladding in India?", "A": "The cost of natural stone wall cladding in India typically ranges from Rs 180 to Rs 850 per square foot. Standard split-face sandstone strips and ledge-stone tiles range from Rs 180 to Rs 350 per sq ft. Calibrated large-format sandstone panels (600x1200mm) with grooved profiles range from Rs 380 to Rs 650 per sq ft. Complete turnkey dry-cladding systems (including stone, SS304 bracket hardware, anchor fasteners, and installation labor) range between Rs 650 and Rs 1,200 per sq ft." }
+    ],
+    "PreserveFaq": false
+  },
+  "water-fountain": {
+    "CraftSubtitle": "HYDRO-ENGINEERED STONE ARTISTRY",
+    "CraftTitle": "Handcrafted Monolithic Stone Fountains & Water Features",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our architectural water fountains combine royal Rajasthani palace aesthetics with modern hydro-engineering. Hand-sculpted from dense Bansi Paharpur pink sandstone, Gwalior Mint, and Makrana white marble, our tiered fountains, courtyard pools, and wall cascades feature integrated internal plumbing, laminar overflow spillways, and splash-free acoustic balance.",
+    "Card1": { "Title": "Monolithic Hydro Quarrying", "Text": "Selecting dense, zero-fissure sandstone blocks capable of withstanding constant water immersion and hydrostatic pressure." },
+    "Card2": { "Title": "Core Hydro-Chiseling", "Text": "Internal water conduits, threaded brass spout fittings, and calibrated weir spillways chiseled for silent or rhythmic water flow." },
+    "Card3": { "Title": "Closed-Loop Plumbing Systems", "Text": "Engineered with energy-efficient submersible pumps, sediment filtration, marine-grade epoxy sealing, and concealed power feeds." },
+    "TableTitle": "WATER FOUNTAIN STONE COMPARISON",
+    "TableDesc": "Compare natural stone varieties engineered for continuous water immersion and outdoor weather exposure.",
+    "Col3": "Water Immersion & Algae Resistance",
+    "Rows": [
+      { "Name": "Gwalior Mint Sandstone", "App": "Tiered Courtyard Fountains, Zen Water Bowls, Garden Cascades", "Metric": "High (Dense Silica Quartz Matrix, Naturally Algae-Resistant)", "Maint": "Periodic Water Refresh", "Life": "100+ Years" },
+      { "Name": "Pink Bansi Paharpur Sandstone", "App": "Heritage Palace Fountains, Grand Central Pools, Spouts", "Metric": "Extreme Weatherproof (Resists Mineral Staining & Water Erosion)", "Maint": "Zero Maintenance", "Life": "Centuries" },
+      { "Name": "Makrana Pure White Marble", "App": "Luxury Indoor Water Bowls, Meditative Lotus Fountains", "Metric": "Supreme Calcite (Non-Porous, Translucent Glow under Submersible LEDs)", "Maint": "Periodic Soft Clean", "Life": "Lifetime Legacy" },
+      { "Name": "Natural Black Granite", "App": "Modern Overflow Infinity Spheres, Reflecting Pool Coping", "Metric": "Extreme Hardness (Mohs 7, Totally Non-Porous, Frost-Proof)", "Maint": "Zero Maintenance", "Life": "Lifetime Legacy" },
+      { "Name": "Cast Fiberglass / Resin Fountains (Market Alternative)", "App": "Mass-Produced Garden Fountains", "Metric": "Synthetic Plastic (Cracks in Sun, Algae Discoloration, Brittle)", "Maint": "Frequent Replacement", "Life": "2-5 Years" }
+    ],
+    "FaqTitle": "",
+    "Faqs": [],
+    "PreserveFaq": true
+  },
+  "wpc-jali": {
+    "CraftSubtitle": "WATERPROOF COMPOSITE FRETWORK",
+    "CraftTitle": "High-Density WPC & PVC CNC Jalis & Exterior Screens",
+    "CraftText": "At Shree Ram & Company (Vijeta Stone), our Wood Polymer Composite (WPC) and PVC jalis provide 100% waterproof, termite-proof, and weather-resistant architectural screens for exterior balconies, duct coverings, boundary walls, and semi-covered terraces. Routed on high-precision CNC machines from high-density virgin polymer boards, our composite jalis offer long-term durability with zero rot or swelling.",
+    "Card1": { "Title": "High-Density Polymer Formulation", "Text": "Utilizing 0.65–0.70 high-density virgin WPC boards with high tensile strength, screw-holding capacity, and Class-A fire rating." },
+    "Card2": { "Title": "Computerized CNC Routing", "Text": "Clean, burr-free diamond tooling cutting complex geometric lattices, floral arabesques, and modern chevron louvers." },
+    "Card3": { "Title": "UV & Weatherproof Durability", "Text": "100% moisture-immune, termite-proof, and rot-proof, ideal for exterior monsoons and high-humidity bathroom environments." },
+    "TableTitle": "COMPOSITE JALI PERFORMANCE COMPARISON",
+    "TableDesc": "Compare WPC composite boards against PVC foam sheets and MDF for exterior and wet area screens.",
+    "Col3": "Waterproofing & Outdoor Weather Stability",
+    "Rows": [
+      { "Name": "High Density WPC Board (0.65-0.70)", "App": "Exterior Balconies, Building Duct Screens, Boundary Walls", "Metric": "100% Waterproof (UV-Stabilized, Termite-Proof, Class-A Fire Retardant)", "Maint": "Zero Maintenance", "Life": "25+ Years" },
+      { "Name": "PVC Celuka Foam Sheet", "App": "Interior Bathroom Partitions, AC Vent Grilles", "Metric": "100% Waterproof (Lightweight, Softer Surface Density)", "Maint": "Zero Maintenance", "Life": "20+ Years" },
+      { "Name": "Aluminum Composite Panel (ACP) Jali", "App": "Commercial Building Cladding Screens", "Metric": "High Rigidity (Metallic Finish, Sharper Cut Edges)", "Maint": "Low Maintenance", "Life": "15-20 Years" },
+      { "Name": "Action TESA HDMR Board", "App": "Dry Indoor Partitions, Pooja Room Screens", "Metric": "Moisture Resistant (Not for Direct Outdoor Rain Exposure)", "Maint": "Easy Wipe Down", "Life": "20+ Years" },
+      { "Name": "Standard Exterior MDF (Market Alternative)", "App": "Low-Cost Decorative Grilles", "Metric": "Vulnerable (Swells and Delaminates under Direct Monsoon Rain)", "Maint": "Prone to Rot", "Life": "3-5 Years" }
+    ],
+    "FaqTitle": "WPC & PVC Jali Buyer's Guide",
+    "Faqs": [
+      { "Q": "Why is WPC jali better than MDF or PVC for exterior balconies and wet areas?", "A": "WPC (Wood Polymer Composite) blends fine wood fibers with high-density thermoplastics (PVC/PE) and specialized UV stabilizers, creating an engineered board with zero water absorption (<0.2%). Unlike MDF (which swells and disintegrates when exposed to rain) and cheap PVC foam sheets (which soften and warp under direct 45°C summer sun), WPC possesses high structural stiffness (density 0.65–0.70 g/cm³), complete termite immunity, and superior thermal stability, making it the premier choice for exterior architectural screens." },
+      { "Q": "How does WPC composite jali hold up under extreme Indian sun and monsoon rain?", "A": "High-density WPC boards used by Shree Ram & Company are formulated with titanium dioxide and UV-inhibiting additives that prevent polymer brittleness and ultraviolet photodegradation. In regions with heavy monsoon downpours and high coastal humidity, WPC will never absorb water, rot, breed mold, or warp. For painted applications, we use exterior-grade polyurethane (PU) coatings with automotive cross-linking agents that maintain vibrant color for over 10 to 15 years." },
+      { "Q": "What thickness of WPC board should be selected for exterior building duct screens?", "A": "For exterior building duct coverings and balcony elevations subject to wind loads, an 18mm or 25mm thickness is strongly recommended. Boards thinner than 12mm lack the bending stiffness required to span across 4 to 8 foot structural openings and may flutter during storms. For extra-large vertical duct spans, panels are mounted within a heavy-gauge aluminum or galvanised iron (GI) perimeter box frame (50x25mm or 50x50mm) to ensure absolute structural safety." },
+      { "Q": "How are WPC jali screens fixed and painted on outdoor balcony railings and facade frames?", "A": "WPC jali screens are installed by framing them within an aluminum, MS, or wooden U-channel perimeter track and securing them with stainless steel countersunk screws. For painting, WPC requires a solvent-based plastic primer (such as an epoxy or polyurethane tie-coat) to ensure strong adhesion to the polymer surface. Once primed, two coats of exterior PU enamel or automotive Duco paint are spray-applied in your desired color, resulting in a smooth, weatherproof satin or gloss finish." }
+    ],
+    "PreserveFaq": false
+  }
+}
