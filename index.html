@@ -33,15 +33,30 @@
 
     <!-- Schema.org JSON-LD Structured Data with Logo -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Shree Ram & Company (Vijeta Stone)",
-      "image": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
-      "logo": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
+      "@type": "WebSite",
+      "@id": "https://www.vijetastone.com/#website",
       "url": "https://www.vijetastone.com",
+      "name": "Shree Ram & Company",
+      "description": "Luxury Stone Carving, Marble Temples & Architecture in Jaipur, Rajasthan",
+      "publisher": {
+        "@id": "https://www.vijetastone.com/#organization"
+      }
+    },
+    {
+      "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+      "@id": "https://www.vijetastone.com/#organization",
+      "name": "Shree Ram & Company (Vijeta Stone)",
+      "alternateName": "Vijeta Stone",
+      "url": "https://www.vijetastone.com",
+      "logo": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
+      "image": "https://www.vijetastone.com/assets/images/hero-peacock-carving.webp",
       "telephone": "+916367607459",
-      "email": "Shreeramandcompany07@gmail.com",
+      "email": "shreeramandcompany07@gmail.com",
+      "priceRange": "₹₹₹",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Opposite Metro Pillar No. 76, Radha Vihar, Vishwa Nagar, Shiva Colony, Govindpuri",
@@ -50,13 +65,40 @@
         "postalCode": "302019",
         "addressCountry": "IN"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.8851,
+        "longitude": 75.7682
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Jaipur" },
+        { "@type": "State", "name": "Rajasthan" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "AdministrativeArea", "name": "Delhi NCR" }
+      ],
       "sameAs": [
-        "https://www.facebook.com/profile.php?id=61560293691544&mibextid=ZbWKwL",
-        "https://instagram.com/shreeramandcompanyvijetastone?igshid=MzNlNGNkZWQ4Mg==",
-        "https://youtube.com/@shreeramandcompanyvijetastone?si=3ogOT-0k8mtIOBn9",
+        "https://www.facebook.com/profile.php?id=61560293691544",
+        "https://instagram.com/shreeramandcompanyvijetastone",
+        "https://youtube.com/@shreeramandcompanyvijetastone",
         "https://share.google/bpdCxT1BCT38gSesw"
       ]
     }
+  ]
+}
     </script>
 
     <!-- Preconnect & Fonts -->
@@ -232,15 +274,30 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- Schema.org Structured Data for LocalBusiness, GEO, and AEO -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "HomeAndConstructionBusiness",
-      "name": "Shree Ram & Company (Vijeta Stone)",
-      "image": "https://www.vijetastone.com/assets/images/jaipur-artisan.jpg",
-      "@id": "https://www.vijetastone.com/#organization",
+      "@type": "WebSite",
+      "@id": "https://www.vijetastone.com/#website",
       "url": "https://www.vijetastone.com",
+      "name": "Shree Ram & Company",
+      "description": "Luxury Stone Carving, Marble Temples & Architecture in Jaipur, Rajasthan",
+      "publisher": {
+        "@id": "https://www.vijetastone.com/#organization"
+      }
+    },
+    {
+      "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+      "@id": "https://www.vijetastone.com/#organization",
+      "name": "Shree Ram & Company (Vijeta Stone)",
+      "alternateName": "Vijeta Stone",
+      "url": "https://www.vijetastone.com",
+      "logo": "https://www.vijetastone.com/assets/images/brand-logo.jpg",
+      "image": "https://www.vijetastone.com/assets/images/hero-peacock-carving.webp",
       "telephone": "+916367607459",
-      "priceRange": "\u20B9\u20B9\u20B9",
+      "email": "shreeramandcompany07@gmail.com",
+      "priceRange": "₹₹₹",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Opposite Metro Pillar No. 76, Radha Vihar, Vishwa Nagar, Shiva Colony, Govindpuri",
@@ -254,26 +311,35 @@
         "latitude": 26.8851,
         "longitude": 75.7682
       },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "opens": "09:00",
-        "closes": "19:00"
-      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Jaipur" },
+        { "@type": "State", "name": "Rajasthan" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "AdministrativeArea", "name": "Delhi NCR" }
+      ],
       "sameAs": [
-        "https://www.facebook.com/profile.php?id=61560293691544&mibextid=ZbWKwL",
-        "https://instagram.com/shreeramandcompanyvijetastone?igshid=MzNlNGNkZWQ4Mg==",
-        "https://youtube.com/@shreeramandcompanyvijetastone?si=3ogOT-0k8mtIOBn9",
+        "https://www.facebook.com/profile.php?id=61560293691544",
+        "https://instagram.com/shreeramandcompanyvijetastone",
+        "https://youtube.com/@shreeramandcompanyvijetastone",
         "https://share.google/bpdCxT1BCT38gSesw"
       ]
     }
+  ]
+}
     </script>
 </head>
 
