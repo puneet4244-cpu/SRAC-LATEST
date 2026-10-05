@@ -1,7 +1,7 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
   <defs>
-    <!-- 1. Rich Luxury Metallic Gold Gradient (userSpaceOnUse for exact rendering across all browsers) -->
-    <linearGradient id="malabarGoldLustre" gradientUnits="userSpaceOnUse" x1="15" y1="12" x2="85" y2="88">
+    <!-- 1. Rich Luxury Metallic Gold Gradient -->
+    <linearGradient id="malabarGoldLustre" gradientUnits="userSpaceOnUse" x1="12" y1="10" x2="88" y2="90">
       <stop offset="0%" stop-color="#FFF8E0"/>
       <stop offset="16%" stop-color="#FCDD85"/>
       <stop offset="38%" stop-color="#D9A838"/>
@@ -12,14 +12,14 @@
 
     <!-- 2. Specular Top-Left Chisel Highlight -->
     <linearGradient id="malabarGoldHighlight" gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="60" y2="60">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.92"/>
       <stop offset="40%" stop-color="#FFF9DE" stop-opacity="0.6"/>
       <stop offset="80%" stop-color="#E5BF60" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#996D15" stop-opacity="0"/>
     </linearGradient>
 
     <!-- 3. Deep Warm Contact Shadow Gradient -->
-    <linearGradient id="malabarGoldShadow" gradientUnits="userSpaceOnUse" x1="20" y1="20" x2="80" y2="80">
+    <linearGradient id="malabarGoldShadow" gradientUnits="userSpaceOnUse" x1="15" y1="15" x2="85" y2="85">
       <stop offset="0%" stop-color="#6B4608"/>
       <stop offset="100%" stop-color="#3D2500"/>
     </linearGradient>
@@ -35,49 +35,49 @@
 
     <!-- 5. Realistic Soft Drop Shadow / Ambient Occlusion -->
     <filter id="malabarRealDepth" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="1.6" stdDeviation="1.4" flood-color="#473005" flood-opacity="0.35"/>
-      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#000000" flood-opacity="0.18"/>
+      <feDropShadow dx="0" dy="1.8" stdDeviation="1.5" flood-color="#473005" flood-opacity="0.36"/>
+      <feDropShadow dx="0" dy="0.6" stdDeviation="0.7" flood-color="#000000" flood-opacity="0.18"/>
     </filter>
   </defs>
 
   <g filter="url(#malabarRealDepth)">
     <!-- 1. BASE DEPTH RELIEF / CONTACT SHADOW LAYER -->
-    <g stroke="url(#malabarGoldShadow)" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" transform="translate(0, 0.7)">
-      <line x1="22" y1="16" x2="22" y2="84" stroke-width="5.6"/>
-      <line x1="78" y1="16" x2="78" y2="84" stroke-width="5.6"/>
-      <line x1="22" y1="16" x2="57" y2="56" stroke-width="5.6"/>
-      <line x1="78" y1="16" x2="43" y2="56" stroke-width="5.6"/>
+    <g stroke="url(#malabarGoldShadow)" stroke-linecap="round" stroke-linejoin="round" opacity="0.42" transform="translate(0, 0.8)">
+      <line x1="17" y1="13" x2="17" y2="87" stroke-width="6.6"/>
+      <line x1="83" y1="13" x2="83" y2="87" stroke-width="6.6"/>
+      <line x1="17" y1="13" x2="59.5" y2="58" stroke-width="6.6"/>
+      <line x1="83" y1="13" x2="40.5" y2="58" stroke-width="6.6"/>
     </g>
 
-    <!-- 2. MAIN REALISTIC METALLIC GOLD BODY -->
+    <!-- 2. MAIN REALISTIC METALLIC GOLD BODY (Larger Proportions) -->
     <g stroke="url(#malabarGoldLustre)" stroke-linecap="round" stroke-linejoin="round">
-      <!-- Left Stem -->
-      <line x1="22" y1="16" x2="22" y2="84" stroke-width="5.4"/>
+      <!-- Left Vertical Stem -->
+      <line x1="17" y1="13" x2="17" y2="87" stroke-width="6.2"/>
       
-      <!-- Right Stem -->
-      <line x1="78" y1="16" x2="78" y2="84" stroke-width="5.4"/>
+      <!-- Right Vertical Stem -->
+      <line x1="83" y1="13" x2="83" y2="87" stroke-width="6.2"/>
       
       <!-- Left Diagonal crossing down to right wing -->
-      <line x1="22" y1="16" x2="57" y2="56" stroke-width="5.4"/>
+      <line x1="17" y1="13" x2="59.5" y2="58" stroke-width="6.2"/>
       
       <!-- Right Diagonal crossing down to left wing -->
-      <line x1="78" y1="16" x2="43" y2="56" stroke-width="5.4"/>
+      <line x1="83" y1="13" x2="40.5" y2="58" stroke-width="6.2"/>
     </g>
 
     <!-- 3. TOP-LEFT SPECULAR CHISEL HIGHLIGHT (3D Metallic Light Reflection) -->
-    <g stroke="url(#malabarGoldHighlight)" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.4, -0.4)">
-      <line x1="22" y1="16.5" x2="22" y2="83.5" stroke-width="1.8"/>
-      <line x1="78" y1="16.5" x2="78" y2="83.5" stroke-width="1.8"/>
-      <line x1="22" y1="16.5" x2="56.5" y2="55.5" stroke-width="1.8"/>
-      <line x1="78" y1="16.5" x2="43.5" y2="55.5" stroke-width="1.8"/>
+    <g stroke="url(#malabarGoldHighlight)" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)">
+      <line x1="17" y1="13.5" x2="17" y2="86.5" stroke-width="2"/>
+      <line x1="83" y1="13.5" x2="83" y2="86.5" stroke-width="2"/>
+      <line x1="17" y1="13.5" x2="59" y2="57.5" stroke-width="2"/>
+      <line x1="83" y1="13.5" x2="41" y2="57.5" stroke-width="2"/>
     </g>
 
     <!-- 4. REALISTIC 3D GOLDEN BINDU / PEARL -->
     <!-- Soft shadow behind pearl -->
-    <circle cx="50" cy="64.6" r="3.9" fill="url(#malabarGoldShadow)" opacity="0.35"/>
+    <circle cx="50" cy="67.8" r="4.4" fill="url(#malabarGoldShadow)" opacity="0.35"/>
     <!-- 3D Pearl Body -->
-    <circle cx="50" cy="64" r="3.9" fill="url(#malabarGoldSphere)"/>
+    <circle cx="50" cy="67" r="4.4" fill="url(#malabarGoldSphere)"/>
     <!-- Micro Specular Glint on Pearl -->
-    <circle cx="48.8" cy="62.8" r="1.1" fill="#FFFFFF" opacity="0.75"/>
+    <circle cx="48.6" cy="65.6" r="1.3" fill="#FFFFFF" opacity="0.8"/>
   </g>
 </svg>
