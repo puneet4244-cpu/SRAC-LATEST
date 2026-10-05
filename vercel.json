@@ -1,17 +1,6 @@
 {
     "redirects":  [
                       {
-                          "source":  "/:path*",
-                          "has":  [
-                                      {
-                                          "type":  "host",
-                                          "value":  "www.shreeramandcompany.com"
-                                      }
-                                  ],
-                          "destination":  "https://shreeramandcompany.com/:path*",
-                          "permanent":  true
-                      },
-                      {
                           "destination":  "/articles/",
                           "permanent":  true,
                           "source":  "/blog"
