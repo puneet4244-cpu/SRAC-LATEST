@@ -1,157 +1,157 @@
-﻿{
-    "redirects":  [
-                      {
-                          "destination":  "/articles/",
-                          "permanent":  true,
-                          "source":  "/blog"
-                      },
-                      {
-                          "destination":  "/mdf-hdmr-work/fluted-mdf-panels/",
-                          "permanent":  true,
-                          "source":  "/mdf-hdmr-work/fluted"
-                      },
-                      {
-                          "destination":  "/mdf-hdmr-work/geometrical-mdf-panels/",
-                          "permanent":  true,
-                          "source":  "/mdf-hdmr-work/geometrical"
-                      },
-                      {
-                          "destination":  "/mdf-hdmr-work/textured-mdf-panels/",
-                          "permanent":  true,
-                          "source":  "/mdf-hdmr-work/textured"
-                      },
-                      {
-                          "destination":  "/mdf-hdmr-work/mdf-hdmr-wall-panels/",
-                          "permanent":  true,
-                          "source":  "/mdf-hdmr-work/wall-panels"
-                      },
-                      {
-                          "destination":  "/mdf-hdmr-work/wave-mdf-panels/",
-                          "permanent":  true,
-                          "source":  "/mdf-hdmr-work/wave"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/buddha-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/buddha"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/durga-mata-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/durga-mata-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/ganesh-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/ganesh-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/hanuman-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/hanuman-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/laxmi-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/laxmi-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/radhe-krishna-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/radhe-krishna"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/ram-darbar-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/ram-darbar"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/shiv-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/shiv-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/shreenath-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/shreenath-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/swaminarayan-ji-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/swaminarayan-ji"
-                      },
-                      {
-                          "destination":  "/stone-art-murals/village-stone-art-mural/",
-                          "permanent":  true,
-                          "source":  "/stone-art-murals/village-stone-art"
-                      },
-                      {
-                          "destination":  "/stone-wall-panels/fluted-stone-panels/",
-                          "permanent":  true,
-                          "source":  "/stone-wall-panels/fluted"
-                      },
-                      {
-                          "destination":  "/stone-wall-panels/geometrical-stone-panels/",
-                          "permanent":  true,
-                          "source":  "/stone-wall-panels/geometrical"
-                      },
-                      {
-                          "destination":  "/stone-wall-panels/textured-stone-panels/",
-                          "permanent":  true,
-                          "source":  "/stone-wall-panels/textured"
-                      },
-                      {
-                          "destination":  "/stone-wall-panels/wave-stone-panels/",
-                          "permanent":  true,
-                          "source":  "/stone-wall-panels/wave"
-                      },
-                      {
-                          "source":  "/murals-wall-art",
-                          "destination":  "/stone-art-murals/",
-                          "permanent":  true
-                      },
-                      {
-                          "source":  "/temple",
-                          "destination":  "/marble-temple/",
-                          "permanent":  true
-                      }
-                  ],
-    "trailingSlash":  true,
-    "headers":  [
-                    {
-                        "headers":  [
-                                        {
-                                            "key":  "Cache-Control",
-                                            "value":  "public, max-age=31536000, immutable"
-                                        }
-                                    ],
-                        "source":  "/assets/(.*)"
-                    },
-                    {
-                        "headers":  [
-                                        {
-                                            "key":  "X-Content-Type-Options",
-                                            "value":  "nosniff"
-                                        },
-                                        {
-                                            "key":  "X-Frame-Options",
-                                            "value":  "SAMEORIGIN"
-                                        },
-                                        {
-                                            "key":  "Referrer-Policy",
-                                            "value":  "strict-origin-when-cross-origin"
-                                        },
-                                        {
-                                            "key":  "Content-Security-Policy",
-                                            "value":  "default-src \u0027self\u0027 https: data: \u0027unsafe-inline\u0027 \u0027unsafe-eval\u0027; img-src \u0027self\u0027 https: data: blob:; font-src \u0027self\u0027 https: data:; frame-src \u0027self\u0027 https://www.google.com https://maps.google.com;"
-                                        },
-                                        {
-                                            "key":  "Permissions-Policy",
-                                            "value":  "camera=(), microphone=(), geolocation=()"
-                                        }
-                                    ],
-                        "source":  "/(.*)"
-                    }
-                ],
-    "cleanUrls":  true
+{
+  "redirects": [
+    {
+      "source": "/blog",
+      "destination": "/articles/",
+      "permanent": true
+    },
+    {
+      "source": "/mdf-hdmr-work/fluted",
+      "destination": "/mdf-hdmr-work/fluted-mdf-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/mdf-hdmr-work/geometrical",
+      "destination": "/mdf-hdmr-work/geometrical-mdf-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/mdf-hdmr-work/textured",
+      "destination": "/mdf-hdmr-work/textured-mdf-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/mdf-hdmr-work/wall-panels",
+      "destination": "/mdf-hdmr-work/mdf-hdmr-wall-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/mdf-hdmr-work/wave",
+      "destination": "/mdf-hdmr-work/wave-mdf-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/buddha",
+      "destination": "/stone-art-murals/buddha-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/durga-mata-ji",
+      "destination": "/stone-art-murals/durga-mata-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/ganesh-ji",
+      "destination": "/stone-art-murals/ganesh-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/hanuman-ji",
+      "destination": "/stone-art-murals/hanuman-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/laxmi-ji",
+      "destination": "/stone-art-murals/laxmi-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/radhe-krishna",
+      "destination": "/stone-art-murals/radhe-krishna-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/ram-darbar",
+      "destination": "/stone-art-murals/ram-darbar-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/shiv-ji",
+      "destination": "/stone-art-murals/shiv-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/shreenath-ji",
+      "destination": "/stone-art-murals/shreenath-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/swaminarayan-ji",
+      "destination": "/stone-art-murals/swaminarayan-ji-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-art-murals/village-stone-art",
+      "destination": "/stone-art-murals/village-stone-art-mural/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-wall-panels/fluted",
+      "destination": "/stone-wall-panels/fluted-stone-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-wall-panels/geometrical",
+      "destination": "/stone-wall-panels/geometrical-stone-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-wall-panels/textured",
+      "destination": "/stone-wall-panels/textured-stone-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/stone-wall-panels/wave",
+      "destination": "/stone-wall-panels/wave-stone-panels/",
+      "permanent": true
+    },
+    {
+      "source": "/murals-wall-art",
+      "destination": "/stone-art-murals/",
+      "permanent": true
+    },
+    {
+      "source": "/temple",
+      "destination": "/marble-temple/",
+      "permanent": true
+    }
+  ],
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data: blob:; font-src 'self' https: data:; frame-src 'self' https://www.google.com https://maps.google.com;"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ],
+  "cleanUrls": true
 }
