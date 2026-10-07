@@ -1,0 +1,38 @@
+﻿<USER_REQUEST>
+STOP GATE 2: NOT YET APPROVED. Do not start Phase 2. Complete these items and send me the results.
+
+1. PILOT_COPY_REVIEW.md. For each of the 6 pilot pages show: URL, title tag (+ character count), meta description (+ count), H1, lead line, full visible body text, all FAQs, and 5 sample image alt texts. For the homepage show the actual H1, hero text and intro, before vs after. Your report showed "Preserved Hero Layout" in the H1 column but no text.
+
+2. THE 19 CONVERTED STUBS WITHOUT CONTENT. You removed redirects from 21 stubs, but only 2 (Radhe Krishna, Fluted Stone Panels) were rewritten. List the other 19 and what each page contains right now. Any page without real content must be noindex, excluded from sitemap.xml and not linked from the mega-menu until its batch is written. Remove the noindex batch by batch. Confirm no preview page shows empty content or "Redirecting...".
+
+3. SCHEMA. Syntax validity is not enough. Show the JSON-LD for Radhe Krishna and Fluted Stone Panels and list every page carrying a Product type. Product without offers/review/aggregateRating gives errors in Google's Rich Results Test. Category pages use CollectionPage + ItemList + BreadcrumbList, plus FAQPage for visible FAQs. Product only for a genuine single product, with no fake price, offers or ratings. Fix, run each pilot URL through a schema validator and report errors and warnings. Also show the LocalBusiness block (name, alternateName, full address, postalCode 302019, telephone).
+
+4. KEYWORD SWAPS. You gave /cnc-jali-work/ the primary "cnc jali design" and /stone-jali/ the primary "stone jali design". The map had "cnc jali" and "stone jali" as those primaries, and used the other two for blogs #4 and #17. Update SEO_KEYWORD_MAP.md (page map, blog plan, coverage tracker) to match what is built. Re-run the check that no primary keyword is shared by two pages or blogs and show me the new primaries for blogs #4 and #17.
+
+5. QA ITEMS MISSING FROM YOUR REPORT. Run and report: title length (max 65) and meta length 
+<truncated 254 bytes>
+tual claim on the pilot pages with its source (verified fact, existing site, or general knowledge). Explain how your overlap metric works and list the sentences shared between unrelated pages (17% between the CNC hub and Radhe Krishna suggests shared boilerplate).
+
+6. PRICE AND SIZE CLAIMS. You removed per-sq-ft prices from the pilot pages. Search the whole site for the rupee symbol, "Rs", "per sq ft", "starting at", "from" with a number, and any size or thickness claim. Add them to the Rule 4 report.
+
+7. LIVE VS LOCAL CANONICAL. Still unanswered from the previous round. Fetch the live homepage and 3 inner pages and report their canonical, og:url and JSON-LD URLs. If production shows a wrong canonical, tell me. That fix may need to ship before the content work.
+
+8. HOST. www as the primary host is accepted because production already redirects non-www to www. Confirm sitemap.xml, the robots.txt Sitemap line, llms.txt, schema, OG tags and redirect rules all use https://www.shreeramandcompany.com consistently.
+
+9. MOLDINGS. Moldings is not an existing category. Do not create a page or nav item. Propose where it could live (new page, or a section inside Stone Carving or Marble Inlay) and wait for my decision.
+
+10. BEFORE/AFTER SCREENSHOTS. Overflow checks are not enough. Give a live-vs-preview comparison of the homepage hero and one category page at 375px and 1280px, and state any visual difference.
+
+Do not deploy anything. Send the results and wait.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-06T15:13:11+05:30.
+
+The user's current state is as follows:
+Other open documents:
+- c:\Users\shree\OneDrive\Desktop\NTRY\index.html (LANGUAGE_HTML)
+- c:\Users\shree\OneDrive\Desktop\NTRY\SEO-CHANGELOG.md (LANGUAGE_MARKDOWN)
+- c:\Users\shree\OneDrive\Desktop\NTRY\tools\verify_subcategories.ps1 (LANGUAGE_POWERSHELL)
+- c:\Users\shree\OneDrive\Desktop\NTRY\terms-of-service\index.html (LANGUAGE_HTML)
+- c:\Users\shree\OneDrive\Desktop\NTRY\blog\index.html (LANGUAGE_HTML)
+</ADDITIONAL_METADATA>

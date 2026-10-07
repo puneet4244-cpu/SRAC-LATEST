@@ -1,0 +1,81 @@
+﻿                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="relative pt-40 pb-20 lg:pt-48 lg:pb-32 min-h-[90vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white via-luxury-bg to-luxury-bg opacity-70 z-0"></div>
+        
+        <div class="container mx-auto px-6 lg:px-12 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left: Text Content -->
+                <div class="lg:col-span-7 max-w-3xl reveal">
+                    <h2 class="font-serif text-5xl lg:text-7xl leading-[1.1] text-deep-charcoal mb-8">
+                        Generational Mastery Carved Into <span class="italic text-luxury-gold">Luxury Architecture</span>
+                    </h2>
+                    
+                    <div class="flex flex-wrap items-center gap-x-4 gap-y-3 text-gray-700 font-medium text-sm lg:text-[15px] tracking-[0.2em] uppercase mb-6 leading-relaxed">
+                        <span>Bespoke Stone Carvings</span>
+                        <span class="text-luxury-gold text-lg">&bull;</span>
+                        <span>Custom Murals</span>
+                        <span class="text-luxury-gold text-lg">&bull;</span>
+                        <span>Marble Temples</span>
+                        <span class="text-luxury-gold text-lg">&bull;</span>
+                        <span>CNC Jali Work</span>
+                        <span class="text-luxury-gold text-lg">&bull;</span>
+                        <span>Water Fountains</span>
+                    </div>
+
+                    <p class="text-luxury-gold tracking-[0.3em] text-xs font-semibold uppercase mb-10">Established in Jaipur, Rajasthan, India</p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-5">
+                        <a href="/get-a-quote/" class="inline-flex items-center justify-center gap-4 bg-deep-charcoal text-white px-10 py-5 text-sm font-semibold tracking-[0.2em] uppercase transition-all duration-300 shadow-[0_10px_30px_rgba(34,34,34,0.25)] hover:shadow-[0_15px_35px_rgba(198,161,110,0.3)] hover:bg-luxury-gold hover:-translate-y-1 w-max">
+                            CONNECT WITH US <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Luxury Image -->
+                <div class="lg:col-span-5 reveal relative mt-12 lg:mt-0">
+                    <div class="absolute -inset-3 bg-luxury-gold/20 transform translate-x-4 translate-y-4"></div>
+                    <div class="relative h-[400px] lg:h-[550px] w-full bg-white p-2 shadow-luxury overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80" alt="Premium Stone Carving by Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-5 shadow-luxury border border-light-beige flex items-center gap-4 z-20">
+                        <div class="w-12 h-12 bg-luxury-bg rounded-full flex items-center justify-center text-luxury-gold border border-luxury-gold">
+                            <i class="fa-solid fa-gem text-xl"></i>
+                        </div>
+                        <div>
+                            <span class="block font-serif text-xl text-deep-charcoal leading-tight">Master Artisans</span>
+                            <span class="block text-[10px] tracking-[0.2em] text-gray-500 uppercase mt-1">Jaipur Heritage</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. REFINED TRUST STATISTICS SECTION -->
+    <section id="trust-stats"
+        class="bg-deep-charcoal border-t-[4px] border-b-[4px] border-luxury-gold py-8 relative z-20 shadow-2xl flex flex-col justify-center">
+        <div class="container mx-auto px-6 lg:px-12 reveal">
+            <h3 class="text-center text-luxury-gold tracking-[0.25em] text-[10px] md:text-xs font-bold uppercase mb-3">
+                Trusted by Luxury Clients & Homeowners</h3>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 lg:gap-y-0 max-w-6xl mx-auto text-center items-center">
+
+                <div class="flex flex-col items-center">
+                    <span class="font-serif text-5xl lg:text-6xl text-white mb-2 leading-none"><span class="counter"
+                            data-target="40">0</span>+</span>
+                    <span class="text-[9px] md:text-[10px] tracking-[0.2em] text-gray-400 uppercase">Years
+                        Experience</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <span class="font-serif text-5xl lg:text-6xl text-white mb-2 leading-none"><span class="counter"
+                            data-target="2500">0</span>+</span>
+                    <span class="text-[9px] md:text-[10px] tracking-[0.2em] text-gray-400 uppercase">Projects
+                        Completed</span>
