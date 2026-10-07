@@ -47,3 +47,50 @@ Branch: `content-seo`
   - **Content Overlap:** All pairwise pilot page overlaps are between 17.27% and 26.76% (well below the 30% ceiling).
   - **HTML Structure:** Exactly 1 `<h1>` per page, balanced tags (0 div delta).
   - **Responsive & Viewport Screenshots:** Tested at desktop (1280px) and mobile (375px) via Edge CDP — 0 horizontal scroll overflow on any page. 12 screenshot artifacts generated.
+
+---
+
+## [Phase 2: Category & Sub-Category Rollout] — 2026-10-07
+
+### Batch 2a: Stone Carving Group & Wall Panels (10 Pages)
+- **Hub Optimization:**
+  - `stone-carving/index.html`: Integrated dedicated Architectural Stone & Marble Moldings section (`id="stone-moldings"`), removed fictitious MPa claims, eliminated rupee pricing, and linked down to all subpages.
+  - `stone-wall-panels/index.html`: Corrected acoustic claims (dense stone reflects sound, 3D relief/fluting scatters/diffuses flutter echo), removed rupee pricing, updated schema to `CollectionPage`.
+- **5 Stone Carving Subpages Upgraded:**
+  - `double-height-wall`, `sofa-wall`, `statement-wall`, `living-room-wall`, `featured-wall`.
+  - Replaced legacy `Product` schemas with rich `CollectionPage` + `ItemList` + `BreadcrumbList` + `FAQPage` schemas (0 rupee prices, 0 Product warnings).
+  - Cleaned all unverified claims (`silane-siloxane`, `atelier`, `generational`, and `over 40 years`).
+- **3 Wall Panels Subpages Expanded:**
+  - `textured-stone-panels`, `wave-stone-panels`, `geometrical-stone-panels`.
+  - Converted from `noindex` stubs into full luxury 10-section standalone pages matching `fluted-stone-panels`.
+  - Removed `noindex, nofollow`, updated `sitemap.xml`, and normalized host to `https://www.shreeramandcompany.com`.
+- **Validation:** 100% passed shingle overlap test across 45 pairs (max sentence overlap 9.01%, max shingle overlap 13.47%).
+
+### Batch 2b: Stone Art & Murals (1 Hub + 11 Subpages Expanded)
+- **Hub Optimization:**
+  - `stone-art-murals/index.html`: Removed `Rs 1,800 to Rs 4,500` pricing bracket and `Jaipur atelier` from visible copy and schema FAQ 4. Replaced with transparent quote factors. Cleaned footer `generational` claim and `Contact Atelier`. Normalized canonical and all internal URLs to `https://www.shreeramandcompany.com`.
+- **9 Deity Subpages Expanded:**
+  - `buddha-stone-art-mural`, `durga-mata-ji-stone-art-mural`, `ganesh-ji-stone-art-mural`, `hanuman-ji-stone-art-mural`, `laxmi-ji-stone-art-mural`, `ram-darbar-stone-art-mural`, `shiv-ji-stone-art-mural`, `shreenath-ji-stone-art-mural`, `swaminarayan-ji-stone-art-mural`.
+  - Expanded into full luxury responsive standalone pages following the approved `radhe-krishna-stone-art-mural` architectural template.
+  - Authentic, tradition-specific, reverent iconography:
+    - Buddha: Meditative Dhyana/Bhumisparsha mudras, non-sectarian Buddhist iconography, zero "Vedic" confusion.
+    - Durga Mata Ji: Royal lion (Simha) vahana, divya ayudhas (Trishul, Chakra, Shankha), Abhaya mudra.
+    - Ganesh Ji: Pratham pujya, Ekadanta, modakpatra, mushak vahana, Vakratunda curls.
+    - Hanuman Ji: Heroic Veer posture, Gada, Dronagiri mountain, and humble Anjali mudra devotion.
+    - Laxmi Ji: Padmasana, twin Gajalakshmi royal elephants, Varada mudra with dhan shower.
+    - Ram Darbar: Maryada Purushottam Shri Ram, Mata Sita, Lakshman with Kodanda bow, Hanuman in humble seva.
+    - Shiv Ji: Adiyogi Kailash Dhyana posture, crescent moon, Ganga, Trishul, and Damru.
+    - Shreenath Ji: Authentic Pushtimarg Govardhandhara posture (left hand raised, right on waist, lotus eyes, chin diamond).
+    - Swaminarayan Ji: Authentic pagh (turban), sacred kanthi, mandir shikhara archway framing.
+  - Vastu advisory disclaimer included across all sacred placement guidance.
+- **2 Secular Subpages Expanded:**
+  - `floral-stone-art`: Architectural lotus rosettes, acanthus scrolls, and Rajasthani bel-buta wall reliefs.
+  - `village-stone-art-mural`: Pastoral Rajasthani folk heritage, panihari well scenes, shepherds, and village banyan trees.
+- **Schema & Compliance:**
+  - 100% valid `CollectionPage` + `ItemList` + `BreadcrumbList` + `FAQPage` schemas. Zero `Product` schema. Zero rupee figures (`₹`, `INR`, `Rs.`).
+  - Swapped `noindex, nofollow` to `index, follow` across all 11 pages.
+  - Added all 11 expanded URLs to `sitemap.xml`.
+- **Quality Audits:**
+  - Zero banned terms, zero prices, zero placeholders across all 12 files.
+  - Shingle & sentence overlap validated across all 66 page pairs (all strictly < 22%, well below 30% ceiling).
+- **Status:** **MANDATORY STOP GATE: Paused immediately after Batch 2b for Owner Review of Deity & Religious Copy before starting Phase 3/4.**

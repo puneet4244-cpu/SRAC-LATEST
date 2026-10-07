@@ -1,4 +1,156 @@
-﻿<!DOCTYPE html>
+# generate_batch2b_html.ps1
+$jsonFile = Join-Path $PSScriptRoot "batch2b_data.json"
+$batch2bPages = Get-Content $jsonFile -Raw -Encoding UTF8 | ConvertFrom-Json
+
+Write-Host "Loaded $($batch2bPages.Count) pages from batch2b_data.json"
+
+foreach ($p in $batch2bPages) {
+    $slug = $p.Slug
+    $name = $p.Name
+    $targetDir = Join-Path $PSScriptRoot "..\$($p.TargetDir)"
+    if (-not (Test-Path $targetDir)) {
+        New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+    }
+    $targetFile = Join-Path $targetDir "index.html"
+    
+    # Build FAQs JSON-LD
+    $faqJsonArray = @()
+    foreach ($faq in $p.Faqs) {
+        $qEsc = $faq.Q.Replace('"', '\"')
+        $aEsc = $faq.A.Replace('"', '\"')
+        $faqJsonArray += @"
+            {
+              "@type": "Question",
+              "name": "$qEsc",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "$aEsc"
+              }
+            }
+"@
+    }
+    $faqJsonJoined = [string]::Join(",`n", $faqJsonArray)
+
+    # Build Gallery JSON-LD items
+    $galleryJsonArray = @()
+    $pos = 1
+    foreach ($g in $p.Gallery) {
+        $gTitleEsc = $g.Title.Replace('"', '\"')
+        $galleryJsonArray += @"
+              {
+                "@type": "ListItem",
+                "position": $pos,
+                "url": "https://www.shreeramandcompany.com/stone-art-murals/$slug/#item-$pos",
+                "name": "$gTitleEsc"
+              }
+"@
+        $pos++
+    }
+    $galleryJsonJoined = [string]::Join(",`n", $galleryJsonArray)
+
+    # Build Features HTML (6 cards)
+    $featuresHtml = ""
+    foreach ($f in $p.Features) {
+        $featuresHtml += @"
+                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
+                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
+                            <i class="fa-solid $($f.Icon)"></i>
+                        </div>
+                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">$($f.Title)</h4>
+                        <p class="text-gray-600 text-xs font-light leading-relaxed">$($f.Desc)</p>
+                    </div>
+"@
+    }
+
+    # Build Placement Cards HTML (2 cards)
+    $placeHtml = ""
+    foreach ($pc in $p.PlaceCards) {
+        $placeHtml += @"
+                    <div class="p-8 bg-white border border-light-beige shadow-sm rounded-sm">
+                        <div class="flex items-center gap-3 pb-4 mb-6 border-b border-light-beige">
+                            <div class="w-10 h-10 rounded-full bg-luxury-bg border border-luxury-gold flex items-center justify-center text-luxury-gold text-sm">
+                                <i class="fa-solid $($pc.Icon)"></i>
+                            </div>
+                            <div>
+                                <span class="text-luxury-gold text-[10px] tracking-widest font-bold uppercase block">$($pc.Tag)</span>
+                                <h4 class="font-serif text-xl text-deep-charcoal font-semibold">$($pc.Title)</h4>
+                            </div>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-luxury-gold text-xs mt-1 shrink-0"></i>
+                                <div>
+                                    <strong class="text-deep-charcoal font-semibold text-xs tracking-wide block">$($pc.P1Title)</strong>
+                                    <p class="text-gray-600 text-xs font-light leading-relaxed">$($pc.P1Desc)</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-luxury-gold text-xs mt-1 shrink-0"></i>
+                                <div>
+                                    <strong class="text-deep-charcoal font-semibold text-xs tracking-wide block">$($pc.P2Title)</strong>
+                                    <p class="text-gray-600 text-xs font-light leading-relaxed">$($pc.P2Desc)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+"@
+    }
+
+    # Build Gallery Cards HTML
+    $galleryHtml = ""
+    foreach ($g in $p.Gallery) {
+        $galleryHtml += @"
+                    <div class="group relative overflow-hidden bg-white border border-light-beige shadow-sm hover:shadow-luxury transition-all duration-500 rounded-sm">
+                        <div class="aspect-[3/4] overflow-hidden bg-[#F0EDE6] relative">
+                            <img src="$($g.Img)" alt="$($g.Alt)" loading="lazy" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out" width="800" height="600" decoding="async">
+                            <div class="absolute inset-0 bg-gradient-to-t from-deep-charcoal/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
+                                <span class="text-white text-xs font-serif tracking-wide">$($g.Title)</span>
+                            </div>
+                        </div>
+                        <div class="p-3.5 bg-white text-center border-t border-light-beige/50">
+                            <span class="text-[11px] font-semibold text-deep-charcoal tracking-wide block">$($g.Title)</span>
+                        </div>
+                    </div>
+"@
+    }
+
+    # Build FAQs HTML
+    $faqsHtml = ""
+    $faqIdx = 1
+    foreach ($faq in $p.Faqs) {
+        $faqsHtml += @"
+                    <div class="border border-light-beige bg-white rounded-sm overflow-hidden transition-all duration-300">
+                        <button type="button" onclick="toggleFaq('faq-$faqIdx')" class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-luxury-bg transition-colors">
+                            <span class="font-serif text-base md:text-lg text-deep-charcoal font-medium">$($faq.Q)</span>
+                            <i id="faq-icon-$faqIdx" class="fa-solid fa-chevron-down text-luxury-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div id="faq-content-$faqIdx" class="hidden px-5 pb-5 pt-1 text-gray-600 text-xs md:text-sm font-light leading-relaxed border-t border-light-beige/40">
+                            <p>$($faq.A)</p>
+                        </div>
+                    </div>
+"@
+        $faqIdx++
+    }
+
+    # Build Related HTML
+    $relatedHtml = ""
+    foreach ($rel in $p.Related) {
+        $relatedHtml += @"
+                    <a href="$($rel.Url)" class="group block bg-[#FAF8F4] p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-lg transition-all duration-300 rounded-sm text-center">
+                        <div class="aspect-[3/4] overflow-hidden relative bg-white rounded-sm mb-3">
+                            <img src="$($rel.Img)" alt="$($rel.Name) - Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" width="800" height="600" loading="lazy" decoding="async">
+                        </div>
+                        <h4 class="font-serif text-base text-deep-charcoal group-hover:text-luxury-gold transition-colors">$($rel.Name)</h4>
+                    </a>
+"@
+    }
+
+    # URL-encode whatsapp text
+    $waText = [System.Uri]::EscapeDataString("Hello Shree Ram & Company, I am interested in $($p.Name). Please share design catalog, custom dimensions, and quotation.")
+
+    # Assemble complete HTML
+    $fullHtml = @"
+<!DOCTYPE html>
 <html lang="en-IN" class="scroll-smooth">
 
 <head>
@@ -7,11 +159,11 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
     <!-- SEO Meta Tags -->
-    <title>Ram Darbar Stone Mural & Carved Wall Art | Shree Ram & Co</title>
-    <meta name="description" content="Sacred Ram Darbar stone mural relief featuring Shri Ram, Sita, Lakshman, and Hanuman. Hand-sculpted in natural stone at Jaipur with pan-India delivery.">
-    <meta name="keywords" content="Ram Darbar stone mural, Ram Darbar wall art, Shri Ram Darbar stone carving panel, Ram Sita Laxman Hanuman stone mural, sacred Ram Darbar stone carving">
+    <title>$($p.Title)</title>
+    <meta name="description" content="$($p.MetaDesc)">
+    <meta name="keywords" content="$($p.Keywords)">
     <meta name="author" content="Shree Ram & Company">
-    <link rel="canonical" href="https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/" />
+    <link rel="canonical" href="https://www.shreeramandcompany.com/stone-art-murals/$slug/" />
 
     <!-- Favicon & Icons -->
     <link rel="icon" type="image/jpg" href="/assets/images/brand-logo.jpg">
@@ -20,16 +172,16 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Ram Darbar Stone Mural & Carved Wall Art | Shree Ram & Co">
-    <meta property="og:description" content="Sacred Ram Darbar stone mural relief featuring Shri Ram, Sita, Lakshman, and Hanuman. Hand-sculpted in natural stone at Jaipur with pan-India delivery.">
-    <meta property="og:url" content="https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/">
-    <meta property="og:image" content="https://www.shreeramandcompany.com/assets/images/ram-darbar-mural.webp">
+    <meta property="og:title" content="$($p.Title)">
+    <meta property="og:description" content="$($p.MetaDesc)">
+    <meta property="og:url" content="https://www.shreeramandcompany.com/stone-art-murals/$slug/">
+    <meta property="og:image" content="https://www.shreeramandcompany.com$($p.HeroImg)">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ram Darbar Stone Mural & Carved Wall Art | Shree Ram & Co">
-    <meta name="twitter:description" content="Sacred Ram Darbar stone mural relief featuring Shri Ram, Sita, Lakshman, and Hanuman. Hand-sculpted in natural stone at Jaipur with pan-India delivery.">
-    <meta name="twitter:image" content="https://www.shreeramandcompany.com/assets/images/ram-darbar-mural.webp">
+    <meta name="twitter:title" content="$($p.Title)">
+    <meta name="twitter:description" content="$($p.MetaDesc)">
+    <meta name="twitter:image" content="https://www.shreeramandcompany.com$($p.HeroImg)">
 
     <!-- JSON-LD Structured Data: Breadcrumb, CollectionPage & FAQ -->
     <script type="application/ld+json">
@@ -38,7 +190,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/#breadcrumb",
+          "@id": "https://www.shreeramandcompany.com/stone-art-murals/$slug/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -55,17 +207,17 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Ram Darbar Stone Art & Mural",
-              "item": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/"
+              "name": "$($p.Name)",
+              "item": "https://www.shreeramandcompany.com/stone-art-murals/$slug/"
             }
           ]
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/#webpage",
-          "url": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/",
-          "name": "Ram Darbar Stone Mural & Carved Wall Art | Shree Ram & Co",
-          "description": "Sacred Ram Darbar stone mural relief featuring Shri Ram, Sita, Lakshman, and Hanuman. Hand-sculpted in natural stone at Jaipur with pan-India delivery.",
+          "@id": "https://www.shreeramandcompany.com/stone-art-murals/$slug/#webpage",
+          "url": "https://www.shreeramandcompany.com/stone-art-murals/$slug/",
+          "name": "$($p.Title)",
+          "description": "$($p.MetaDesc)",
           "isPartOf": {
             "@type": "WebSite",
             "@id": "https://www.shreeramandcompany.com/#website",
@@ -92,74 +244,18 @@
           },
           "mainEntity": {
             "@type": "ItemList",
-            "name": "Ram Darbar Stone Art & Mural Collection",
-            "numberOfItems": 3,
+            "name": "$($p.Name) Collection",
+            "numberOfItems": $($p.Gallery.Count),
             "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "url": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/#item-1",
-                "name": "Classical Ayodhya Ram Darbar Stone Relief"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "url": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/#item-2",
-                "name": "Multi-Figure Devotional Temple Panel"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "url": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/#item-3",
-                "name": "White Marble Ram Darbar Relief Sculpture"
-              }
+$galleryJsonJoined
             ]
           }
         },
         {
           "@type": "FAQPage",
-          "@id": "https://www.shreeramandcompany.com/stone-art-murals/ram-darbar-stone-art-mural/#faq",
+          "@id": "https://www.shreeramandcompany.com/stone-art-murals/$slug/#faq",
           "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What figures are included in a standard Ram Darbar stone mural?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Our classical Ram Darbar mural features Bhagwan Shri Ram seated on the Simhasana with Mata Sita, flanked by Lakshman Ji standing with the bow and royal parasol, and Shri Hanuman Ji kneeling in devotion at their feet. On larger architectural panels, Bharata and Shatrughna can also be sculpted into the flanking composition."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What stone variety is most authentic for Ram Darbar reliefs?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bansi Paharpur Pink Sandstone is historically revered for Shri Ram murals because it is the exact sacred stone used in historic temple architecture in Rajasthan and Ayodhya. Indian White Marble is equally chosen for luminous, refined indoor temple sanctums."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How are wide panoramic murals (such as 8x5 ft) transported and installed?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Large murals are crafted as modular interlocking slabs with puzzle-cut seams aligned with pillars or throne contours. This ensures the seams become invisible once grouted on site with mineral-matched stone dust mortar."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can the mural be illuminated with recessed LED strip lights?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We frequently engineer perimeter rebates (coves) along the outer stone border frame, allowing lighting designers to conceal warm 2700K or 3000K LED strips that wash over the relief faces."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does your workshop ensure proportional facial expressions on multiple figures?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Facial expressions are sculpted strictly by senior Sompura carvers in Jaipur using traditional chisel-and-mallet techniques following detailed clay models and 3D CAD approvals."
-              }
-            }
+$faqJsonJoined
           ]
         }
       ]
@@ -329,7 +425,7 @@
         <!-- 1. HERO SECTION -->
         <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-[#181818] text-white overflow-hidden">
             <div class="absolute inset-0 z-0">
-                <img src="/assets/images/ram-darbar-mural.webp" alt="Shri Ram Darbar Stone Art and Mural relief carving in natural sandstone" class="w-full h-full object-cover opacity-25 filter brightness-90" width="800" height="600" decoding="async">
+                <img src="$($p.HeroImg)" alt="$($p.HeroAlt)" class="w-full h-full object-cover opacity-25 filter brightness-90" width="800" height="600" decoding="async">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#181818]/90 via-[#181818]/80 to-[#FAF8F4]"></div>
             </div>
 
@@ -340,19 +436,19 @@
                     <i class="fa-solid fa-chevron-right text-[9px] text-luxury-gold"></i>
                     <a href="/stone-art-murals/" class="hover:text-luxury-gold transition-colors">Stone Art & Murals</a>
                     <i class="fa-solid fa-chevron-right text-[9px] text-luxury-gold"></i>
-                    <span class="text-luxury-gold font-semibold">Ram Darbar Stone Art & Mural</span>
+                    <span class="text-luxury-gold font-semibold">$($p.Name)</span>
                 </nav>
 
                 <div class="max-w-3xl">
-                    <span class="text-luxury-gold text-xs tracking-[0.25em] font-bold uppercase mb-3 block">Maryada Purushottam Royalty</span>
-                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight mb-6">Ram Darbar Stone Art & Mural</h1>
-                    <p class="text-gray-300 text-sm md:text-base font-light leading-relaxed mb-8">Infuse your home with righteous harmony, ideal family virtues, and divine tranquility. Handcrafted Ram Darbar stone murals sculpted in solid Rajasthan sandstone and marble by Jaipur carvers.</p>
+                    <span class="text-luxury-gold text-xs tracking-[0.25em] font-bold uppercase mb-3 block">$($p.Badge)</span>
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight mb-6">$($p.H1)</h1>
+                    <p class="text-gray-300 text-sm md:text-base font-light leading-relaxed mb-8">$($p.Lead)</p>
                     
                     <div class="flex flex-wrap items-center gap-4">
                         <a href="#contact" class="bg-luxury-gold hover:bg-[#b08c5c] text-white px-8 py-3.5 text-xs font-bold tracking-widest uppercase transition-colors inline-flex items-center gap-2 shadow-lg">
                             Request Custom Quotation <i class="fa-solid fa-arrow-right-long text-xs"></i>
                         </a>
-                        <a href="https://wa.me/916367607459?text=Hello%20Shree%20Ram%20%26%20Company%2C%20I%20am%20interested%20in%20Ram%20Darbar%20Stone%20Art%20%26%20Mural.%20Please%20share%20design%20catalog%2C%20custom%20dimensions%2C%20and%20quotation." target="_blank" rel="noopener noreferrer" class="border border-white/60 hover:bg-white hover:text-deep-charcoal text-white px-6 py-3.5 text-xs font-bold tracking-widest uppercase transition-colors inline-flex items-center gap-2">
+                        <a href="https://wa.me/916367607459?text=$waText" target="_blank" rel="noopener noreferrer" class="border border-white/60 hover:bg-white hover:text-deep-charcoal text-white px-6 py-3.5 text-xs font-bold tracking-widest uppercase transition-colors inline-flex items-center gap-2">
                             <i class="fa-brands fa-whatsapp text-sm text-[#25D366]"></i> WhatsApp Inquiry
                         </a>
                     </div>
@@ -367,12 +463,12 @@
                     <div class="lg:col-span-7 space-y-6">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-[2px] bg-luxury-gold"></div>
-                            <span class="text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase">Ayodhya Maryada & Royal Darbar Relief</span>
+                            <span class="text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase">$($p.OverviewSub)</span>
                         </div>
-                        <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold leading-snug">Divine Righteousness: Shri Ram Darbar in Handcrafted Stone Relief</h2>
+                        <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold leading-snug">$($p.OverviewH2)</h2>
                         <div class="text-gray-700 text-sm md:text-[15px] font-light leading-relaxed space-y-4">
-                            <p>The sacred composition of Shri Ram Darbar depicts the zenith of Sanatana dharma, family unity, and righteous rule (Ramrajya). In this grand multi-figure narrative, our Jaipur master sculptors depict Maryada Purushottam Bhagwan Shri Ram seated in royal majesty with Mata Sita at his left on the ornate Simhasana, accompanied by Lakshman Ji standing vigilantly with his sacred bow, and Bhakta Hanuman kneeling reverently at their lotus feet.</p>
-                            <p>Sculpted in expansive multi-layered depths (30mm to 70mm), each figure showcases distinctive regal attributes: Shri Ram's divine Kodanda bow and Abhaya blessing, Mata Sita's graceful poise and lotus blossom, Lakshman's royal chhatra, and Hanuman Ji's folded-hands devotion. Chiseled from Bansi Paharpur sandstone or high-grade white marble, these monumental murals become revered spiritual focal points for family prayer sanctuaries and grand double-height living rooms.</p>
+                            <p>$($p.OverviewP1)</p>
+                            <p>$($p.OverviewP2)</p>
                         </div>
                     </div>
                     
@@ -381,23 +477,23 @@
                         <div class="space-y-3.5 text-xs">
                             <div class="flex justify-between py-1.5 border-b border-gray-100">
                                 <span class="text-gray-500 uppercase tracking-wider font-medium">Origin</span>
-                                <span class="text-deep-charcoal font-bold">Jaipur, Rajasthan (India)</span>
+                                <span class="text-deep-charcoal font-bold">$($p.SpecOrigin)</span>
                             </div>
                             <div class="flex justify-between py-1.5 border-b border-gray-100">
                                 <span class="text-gray-500 uppercase tracking-wider font-medium">Stone Mediums</span>
-                                <span class="text-deep-charcoal font-bold">Bansi Paharpur Pink Sandstone, Gwalior Mint, White Marble</span>
+                                <span class="text-deep-charcoal font-bold">$($p.SpecMediums)</span>
                             </div>
                             <div class="flex justify-between py-1.5 border-b border-gray-100">
                                 <span class="text-gray-500 uppercase tracking-wider font-medium">Relief Depth</span>
-                                <span class="text-deep-charcoal font-bold">30mm to 70mm Multi-Layer Relief</span>
+                                <span class="text-deep-charcoal font-bold">$($p.SpecDepth)</span>
                             </div>
                             <div class="flex justify-between py-1.5 border-b border-gray-100">
                                 <span class="text-gray-500 uppercase tracking-wider font-medium">Standard Sizing</span>
-                                <span class="text-deep-charcoal font-bold">Custom Sized to Architectural Blueprints</span>
+                                <span class="text-deep-charcoal font-bold">$($p.SpecSizing)</span>
                             </div>
                             <div class="flex justify-between py-1.5">
                                 <span class="text-gray-500 uppercase tracking-wider font-medium">Installation Method</span>
-                                <span class="text-deep-charcoal font-bold">Concealed SS-304 Clamping / High-Strength Adhesive</span>
+                                <span class="text-deep-charcoal font-bold">$($p.SpecInstall)</span>
                             </div>
                         </div>
                     </div>
@@ -412,47 +508,11 @@
                     <span class="text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase block mb-2">Artisanal Mastery</span>
                     <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold mb-4">Sculptural Details Carved with Precision</h2>
                     <div class="w-16 h-[2px] bg-luxury-gold mx-auto mb-4"></div>
-                    <p class="text-gray-600 text-xs md:text-sm font-light leading-relaxed">Every facet of the Ram Darbar Stone Art & Mural is planned in our Jaipur design studio to ensure authentic proportions, deep relief undercuts, and long-lasting structural strength.</p>
+                    <p class="text-gray-600 text-xs md:text-sm font-light leading-relaxed">Every facet of the $($p.Name) is planned in our Jaipur design studio to ensure authentic proportions, deep relief undercuts, and long-lasting structural strength.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
-                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
-                            <i class="fa-solid fa-crown"></i>
-                        </div>
-                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">Royal Simhasana & Chhatra</h4>
-                        <p class="text-gray-600 text-xs font-light leading-relaxed">Deeply carved royal throne, imperial parasol, and ornate pillar motifs framing the divine assembly.</p>
-                    </div>                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
-                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
-                            <i class="fa-solid fa-shield-halved"></i>
-                        </div>
-                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">Sacred Kodanda Bow & Quiver</h4>
-                        <p class="text-gray-600 text-xs font-light leading-relaxed">Millimeter-precision chisel work detailing the divine bows and arrows of Shri Ram and Lakshman.</p>
-                    </div>                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
-                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">Bhakta Hanuman in Seva</h4>
-                        <p class="text-gray-600 text-xs font-light leading-relaxed">Tender devotional posture of Shri Hanuman kneeling in humble adoration at the lotus feet of the Lord.</p>
-                    </div>                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
-                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
-                            <i class="fa-solid fa-lightbulb"></i>
-                        </div>
-                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">Chiaroscuro Depth Under Grazing Light</h4>
-                        <p class="text-gray-600 text-xs font-light leading-relaxed">Multi-planar relief depths engineered to produce dramatic sculptural shadows with warm accent spotlights.</p>
-                    </div>                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
-                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
-                            <i class="fa-solid fa-droplet-slash"></i>
-                        </div>
-                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">Breathable Protective Sealer</h4>
-                        <p class="text-gray-600 text-xs font-light leading-relaxed">Pre-treated with breathable impregnating sealer that protects natural stone from humidity and ritual stains.</p>
-                    </div>                    <div class="p-6 bg-[#FAF8F4] border border-light-beige/80 hover:border-luxury-gold/60 shadow-sm transition-all duration-300 rounded-sm">
-                        <div class="w-10 h-10 rounded-full bg-white text-luxury-gold border border-luxury-gold/40 flex items-center justify-center text-sm font-bold mb-4 shadow-sm">
-                            <i class="fa-solid fa-layer-group"></i>
-                        </div>
-                        <h4 class="font-serif text-lg text-deep-charcoal font-semibold mb-2">Interlocking Multi-Panel Design</h4>
-                        <p class="text-gray-600 text-xs font-light leading-relaxed">Precision-jointed across natural architectural contours to allow effortless transport into luxury high-rise homes.</p>
-                    </div>
+$featuresHtml
                 </div>
             </div>
         </section>
@@ -573,66 +633,14 @@
         <section class="py-20 bg-luxury-bg border-t border-light-beige">
             <div class="container mx-auto px-6 lg:px-12">
                 <div class="text-center max-w-2xl mx-auto mb-16">
-                    <span class="text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase block mb-2">Devotional Centerpieces</span>
-                    <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold mb-4">Ideal Wall Placement for Ram Darbar Murals</h2>
+                    <span class="text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase block mb-2">$($p.PlaceSub)</span>
+                    <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold mb-4">$($p.PlaceH2)</h2>
                     <div class="w-16 h-[2px] bg-luxury-gold mx-auto mb-4"></div>
-                    <p class="text-gray-600 text-xs md:text-sm font-light">Dignified placement that anchors household integrity, righteous values, and spiritual peace.</p>
+                    <p class="text-gray-600 text-xs md:text-sm font-light">$($p.PlaceLead)</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="p-8 bg-white border border-light-beige shadow-sm rounded-sm">
-                        <div class="flex items-center gap-3 pb-4 mb-6 border-b border-light-beige">
-                            <div class="w-10 h-10 rounded-full bg-luxury-bg border border-luxury-gold flex items-center justify-center text-luxury-gold text-sm">
-                                <i class="fa-solid fa-hands-praying"></i>
-                            </div>
-                            <div>
-                                <span class="text-luxury-gold text-[10px] tracking-widest font-bold uppercase block">Family Sanctuary</span>
-                                <h4 class="font-serif text-xl text-deep-charcoal font-semibold">Grand Pooja Room Sanctum</h4>
-                            </div>
-                        </div>
-                        <ul class="space-y-4">
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-luxury-gold text-xs mt-1 shrink-0"></i>
-                                <div>
-                                    <strong class="text-deep-charcoal font-semibold text-xs tracking-wide block">East / North-East Sanctum Focal Wall</strong>
-                                    <p class="text-gray-600 text-xs font-light leading-relaxed">Positioned centrally on the East or North-East wall of the prayer room where morning aarti illuminates the divine darbar.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-luxury-gold text-xs mt-1 shrink-0"></i>
-                                <div>
-                                    <strong class="text-deep-charcoal font-semibold text-xs tracking-wide block">Advisory Vastu Note</strong>
-                                    <p class="text-gray-600 text-xs font-light leading-relaxed">Directional recommendations can depend on architectural layouts; we recommend consulting your personal Vastu consultant for project guidance.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>                    <div class="p-8 bg-white border border-light-beige shadow-sm rounded-sm">
-                        <div class="flex items-center gap-3 pb-4 mb-6 border-b border-light-beige">
-                            <div class="w-10 h-10 rounded-full bg-luxury-bg border border-luxury-gold flex items-center justify-center text-luxury-gold text-sm">
-                                <i class="fa-solid fa-house"></i>
-                            </div>
-                            <div>
-                                <span class="text-luxury-gold text-[10px] tracking-widest font-bold uppercase block">Living Elegance</span>
-                                <h4 class="font-serif text-xl text-deep-charcoal font-semibold">Double-Height Foyer & Living Room</h4>
-                            </div>
-                        </div>
-                        <ul class="space-y-4">
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-luxury-gold text-xs mt-1 shrink-0"></i>
-                                <div>
-                                    <strong class="text-deep-charcoal font-semibold text-xs tracking-wide block">Monumental Living Hall Wall</strong>
-                                    <p class="text-gray-600 text-xs font-light leading-relaxed">Anchors two-story living spaces with spiritual grandeur, creating an inspiring conversation piece for family gatherings.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-luxury-gold text-xs mt-1 shrink-0"></i>
-                                <div>
-                                    <strong class="text-deep-charcoal font-semibold text-xs tracking-wide block">Courtyard Verandah Installation</strong>
-                                    <p class="text-gray-600 text-xs font-light leading-relaxed">Weatherproof sandstone relief composition brings historic temple majesty to enclosed traditional courtyards.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+$placeHtml
                 </div>
             </div>
         </section>
@@ -642,43 +650,13 @@
             <div class="container mx-auto px-6 lg:px-12">
                 <div class="text-center max-w-2xl mx-auto mb-16">
                     <span class="text-luxury-gold text-xs font-bold tracking-[0.2em] uppercase block mb-2">Portfolio</span>
-                    <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold mb-4">Ram Darbar Stone Art & Mural Gallery</h2>
+                    <h2 class="font-serif text-3xl md:text-4xl text-deep-charcoal font-semibold mb-4">$($p.Name) Gallery</h2>
                     <div class="w-16 h-[2px] bg-luxury-gold mx-auto mb-4"></div>
                     <p class="text-gray-600 text-xs md:text-sm font-light">Natural stone relief compositions sculpted at our workshop in Jaipur.</p>
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="group relative overflow-hidden bg-white border border-light-beige shadow-sm hover:shadow-luxury transition-all duration-500 rounded-sm">
-                        <div class="aspect-[3/4] overflow-hidden bg-[#F0EDE6] relative">
-                            <img src="/assets/images/ram-darbar-mural.webp" alt="Ram Darbar Stone Art and Mural in natural Rajasthan sandstone - Shree Ram and Company Jaipur" loading="lazy" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out" width="800" height="600" decoding="async">
-                            <div class="absolute inset-0 bg-gradient-to-t from-deep-charcoal/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                                <span class="text-white text-xs font-serif tracking-wide">Classical Ayodhya Ram Darbar Stone Relief</span>
-                            </div>
-                        </div>
-                        <div class="p-3.5 bg-white text-center border-t border-light-beige/50">
-                            <span class="text-[11px] font-semibold text-deep-charcoal tracking-wide block">Classical Ayodhya Ram Darbar Stone Relief</span>
-                        </div>
-                    </div>                    <div class="group relative overflow-hidden bg-white border border-light-beige shadow-sm hover:shadow-luxury transition-all duration-500 rounded-sm">
-                        <div class="aspect-[3/4] overflow-hidden bg-[#F0EDE6] relative">
-                            <img src="/assets/images/mural-art.jpg" alt="Shri Ram Darbar wall relief panel with Sita Lakshman Hanuman - Shree Ram and Company" loading="lazy" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out" width="800" height="600" decoding="async">
-                            <div class="absolute inset-0 bg-gradient-to-t from-deep-charcoal/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                                <span class="text-white text-xs font-serif tracking-wide">Multi-Figure Devotional Temple Panel</span>
-                            </div>
-                        </div>
-                        <div class="p-3.5 bg-white text-center border-t border-light-beige/50">
-                            <span class="text-[11px] font-semibold text-deep-charcoal tracking-wide block">Multi-Figure Devotional Temple Panel</span>
-                        </div>
-                    </div>                    <div class="group relative overflow-hidden bg-white border border-light-beige shadow-sm hover:shadow-luxury transition-all duration-500 rounded-sm">
-                        <div class="aspect-[3/4] overflow-hidden bg-[#F0EDE6] relative">
-                            <img src="/assets/images/statue.webp" alt="Handcrafted Ram Darbar stone relief in white marble - Shree Ram and Company Jaipur" loading="lazy" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out" width="800" height="600" decoding="async">
-                            <div class="absolute inset-0 bg-gradient-to-t from-deep-charcoal/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                                <span class="text-white text-xs font-serif tracking-wide">White Marble Ram Darbar Relief Sculpture</span>
-                            </div>
-                        </div>
-                        <div class="p-3.5 bg-white text-center border-t border-light-beige/50">
-                            <span class="text-[11px] font-semibold text-deep-charcoal tracking-wide block">White Marble Ram Darbar Relief Sculpture</span>
-                        </div>
-                    </div>
+$galleryHtml
                 </div>
             </div>
         </section>
@@ -694,47 +672,7 @@
                 </div>
 
                 <div class="space-y-4">
-                    <div class="border border-light-beige bg-white rounded-sm overflow-hidden transition-all duration-300">
-                        <button type="button" onclick="toggleFaq('faq-1')" class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-luxury-bg transition-colors">
-                            <span class="font-serif text-base md:text-lg text-deep-charcoal font-medium">What figures are included in a standard Ram Darbar stone mural?</span>
-                            <i id="faq-icon-1" class="fa-solid fa-chevron-down text-luxury-gold text-xs transition-transform duration-300"></i>
-                        </button>
-                        <div id="faq-content-1" class="hidden px-5 pb-5 pt-1 text-gray-600 text-xs md:text-sm font-light leading-relaxed border-t border-light-beige/40">
-                            <p>Our classical Ram Darbar mural features Bhagwan Shri Ram seated on the Simhasana with Mata Sita, flanked by Lakshman Ji standing with the bow and royal parasol, and Shri Hanuman Ji kneeling in devotion at their feet. On larger architectural panels, Bharata and Shatrughna can also be sculpted into the flanking composition.</p>
-                        </div>
-                    </div>                    <div class="border border-light-beige bg-white rounded-sm overflow-hidden transition-all duration-300">
-                        <button type="button" onclick="toggleFaq('faq-2')" class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-luxury-bg transition-colors">
-                            <span class="font-serif text-base md:text-lg text-deep-charcoal font-medium">What stone variety is most authentic for Ram Darbar reliefs?</span>
-                            <i id="faq-icon-2" class="fa-solid fa-chevron-down text-luxury-gold text-xs transition-transform duration-300"></i>
-                        </button>
-                        <div id="faq-content-2" class="hidden px-5 pb-5 pt-1 text-gray-600 text-xs md:text-sm font-light leading-relaxed border-t border-light-beige/40">
-                            <p>Bansi Paharpur Pink Sandstone is historically revered for Shri Ram murals because it is the exact sacred stone used in historic temple architecture in Rajasthan and Ayodhya. Indian White Marble is equally chosen for luminous, refined indoor temple sanctums.</p>
-                        </div>
-                    </div>                    <div class="border border-light-beige bg-white rounded-sm overflow-hidden transition-all duration-300">
-                        <button type="button" onclick="toggleFaq('faq-3')" class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-luxury-bg transition-colors">
-                            <span class="font-serif text-base md:text-lg text-deep-charcoal font-medium">How are wide panoramic murals (such as 8x5 ft) transported and installed?</span>
-                            <i id="faq-icon-3" class="fa-solid fa-chevron-down text-luxury-gold text-xs transition-transform duration-300"></i>
-                        </button>
-                        <div id="faq-content-3" class="hidden px-5 pb-5 pt-1 text-gray-600 text-xs md:text-sm font-light leading-relaxed border-t border-light-beige/40">
-                            <p>Large murals are crafted as modular interlocking slabs with puzzle-cut seams aligned with pillars or throne contours. This ensures the seams become invisible once grouted on site with mineral-matched stone dust mortar.</p>
-                        </div>
-                    </div>                    <div class="border border-light-beige bg-white rounded-sm overflow-hidden transition-all duration-300">
-                        <button type="button" onclick="toggleFaq('faq-4')" class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-luxury-bg transition-colors">
-                            <span class="font-serif text-base md:text-lg text-deep-charcoal font-medium">Can the mural be illuminated with recessed LED strip lights?</span>
-                            <i id="faq-icon-4" class="fa-solid fa-chevron-down text-luxury-gold text-xs transition-transform duration-300"></i>
-                        </button>
-                        <div id="faq-content-4" class="hidden px-5 pb-5 pt-1 text-gray-600 text-xs md:text-sm font-light leading-relaxed border-t border-light-beige/40">
-                            <p>Yes. We frequently engineer perimeter rebates (coves) along the outer stone border frame, allowing lighting designers to conceal warm 2700K or 3000K LED strips that wash over the relief faces.</p>
-                        </div>
-                    </div>                    <div class="border border-light-beige bg-white rounded-sm overflow-hidden transition-all duration-300">
-                        <button type="button" onclick="toggleFaq('faq-5')" class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-luxury-bg transition-colors">
-                            <span class="font-serif text-base md:text-lg text-deep-charcoal font-medium">How does your workshop ensure proportional facial expressions on multiple figures?</span>
-                            <i id="faq-icon-5" class="fa-solid fa-chevron-down text-luxury-gold text-xs transition-transform duration-300"></i>
-                        </button>
-                        <div id="faq-content-5" class="hidden px-5 pb-5 pt-1 text-gray-600 text-xs md:text-sm font-light leading-relaxed border-t border-light-beige/40">
-                            <p>Facial expressions are sculpted strictly by senior Sompura carvers in Jaipur using traditional chisel-and-mallet techniques following detailed clay models and 3D CAD approvals.</p>
-                        </div>
-                    </div>
+$faqsHtml
                 </div>
             </div>
         </section>
@@ -750,27 +688,7 @@
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
-                    <a href="/stone-art-murals/hanuman-ji-stone-art-mural/" class="group block bg-[#FAF8F4] p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-lg transition-all duration-300 rounded-sm text-center">
-                        <div class="aspect-[3/4] overflow-hidden relative bg-white rounded-sm mb-3">
-                            <img src="/assets/images/hanuman-ji-mural.webp" alt="Hanuman Ji Mural - Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" width="800" height="600" loading="lazy" decoding="async">
-                        </div>
-                        <h4 class="font-serif text-base text-deep-charcoal group-hover:text-luxury-gold transition-colors">Hanuman Ji Mural</h4>
-                    </a>                    <a href="/stone-art-murals/radhe-krishna-stone-art-mural/" class="group block bg-[#FAF8F4] p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-lg transition-all duration-300 rounded-sm text-center">
-                        <div class="aspect-[3/4] overflow-hidden relative bg-white rounded-sm mb-3">
-                            <img src="/assets/images/radhe-krishna-mural.webp" alt="Radhe Krishna Mural - Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" width="800" height="600" loading="lazy" decoding="async">
-                        </div>
-                        <h4 class="font-serif text-base text-deep-charcoal group-hover:text-luxury-gold transition-colors">Radhe Krishna Mural</h4>
-                    </a>                    <a href="/stone-art-murals/laxmi-ji-stone-art-mural/" class="group block bg-[#FAF8F4] p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-lg transition-all duration-300 rounded-sm text-center">
-                        <div class="aspect-[3/4] overflow-hidden relative bg-white rounded-sm mb-3">
-                            <img src="/assets/images/laxmi-ji-mural.webp" alt="Laxmi Ji Mural - Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" width="800" height="600" loading="lazy" decoding="async">
-                        </div>
-                        <h4 class="font-serif text-base text-deep-charcoal group-hover:text-luxury-gold transition-colors">Laxmi Ji Mural</h4>
-                    </a>                    <a href="/stone-art-murals/ganesh-ji-stone-art-mural/" class="group block bg-[#FAF8F4] p-3 border border-transparent hover:border-luxury-gold/50 hover:shadow-lg transition-all duration-300 rounded-sm text-center">
-                        <div class="aspect-[3/4] overflow-hidden relative bg-white rounded-sm mb-3">
-                            <img src="/assets/images/ganesh-ji-mural.webp" alt="Ganesh Ji Mural - Shree Ram & Company" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" width="800" height="600" loading="lazy" decoding="async">
-                        </div>
-                        <h4 class="font-serif text-base text-deep-charcoal group-hover:text-luxury-gold transition-colors">Ganesh Ji Mural</h4>
-                    </a>
+$relatedHtml
                 </div>
 
                 <div class="text-center pt-4">
@@ -841,8 +759,8 @@
                         <p class="text-gray-500 text-xs mb-8">Direct manufacturer pricing with no middlemen commissions.</p>
 
                         <form action="https://formspree.io/f/mqaeawbl" method="POST" class="space-y-5">
-                            <input type="hidden" name="_subject" value="New Inquiry for Ram Darbar Stone Art & Mural">
-                            <input type="hidden" name="product" value="Ram Darbar Stone Art & Mural">
+                            <input type="hidden" name="_subject" value="New Inquiry for $($p.Name)">
+                            <input type="hidden" name="product" value="$($p.Name)">
                             
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Your Full Name *</label>
@@ -939,7 +857,7 @@
         <a href="tel:6367607459" class="flex-1 py-3 text-center text-xs font-bold uppercase tracking-wider text-deep-charcoal border-r border-light-beige flex items-center justify-center gap-2">
             <i class="fa-solid fa-phone text-luxury-gold"></i> Call Workshop
         </a>
-        <a href="https://wa.me/916367607459?text=Hello%20Shree%20Ram%20%26%20Company%2C%20I%20am%20interested%20in%20Ram%20Darbar%20Stone%20Art%20%26%20Mural.%20Please%20share%20design%20catalog%2C%20custom%20dimensions%2C%20and%20quotation." target="_blank" rel="noopener noreferrer" class="flex-1 py-3 text-center text-xs font-bold uppercase tracking-wider text-white bg-[#25D366] flex items-center justify-center gap-2">
+        <a href="https://wa.me/916367607459?text=$waText" target="_blank" rel="noopener noreferrer" class="flex-1 py-3 text-center text-xs font-bold uppercase tracking-wider text-white bg-[#25D366] flex items-center justify-center gap-2">
             <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
         </a>
     </div>
@@ -961,3 +879,10 @@
 
 </body>
 </html>
+"@
+
+    [System.IO.File]::WriteAllText($targetFile, $fullHtml, [System.Text.Encoding]::UTF8)
+    Write-Host "Generated: $targetFile (Title: $($p.Title.Length) chars, Meta: $($p.MetaDesc.Length) chars)"
+}
+
+Write-Host "All $($batch2bPages.Count) Batch 2b pages successfully generated!"

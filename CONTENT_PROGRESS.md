@@ -29,27 +29,28 @@ Website: https://shreeramandcompany.com
 ## Phase 2: Category & Sub-Category Rollout
 
 ### Batch 2a: Stone Carving Group (7 Pages)
-- [ ] `Stone Carving` (`/stone-carving/`): NOT_STARTED
-- [ ] `Double Height Wall` (`/stone-carving/double-height-wall/`): NOT_STARTED
-- [ ] `Sofa Wall` (`/stone-carving/sofa-wall/`): NOT_STARTED
-- [ ] `Statement Wall` (`/stone-carving/statement-wall/`): NOT_STARTED
-- [ ] `Living Room Wall` (`/stone-carving/living-room-wall/`): NOT_STARTED
-- [ ] `Featured Wall` (`/stone-carving/featured-wall/`): NOT_STARTED
-- [ ] `Wall Surfaces (Pillar context / Navigation)`: NOT_STARTED
+- [x] `Stone Carving` (`/stone-carving/`): COMPLETED
+- [x] `Double Height Wall` (`/stone-carving/double-height-wall/`): COMPLETED
+- [x] `Sofa Wall` (`/stone-carving/sofa-wall/`): COMPLETED
+- [x] `Statement Wall` (`/stone-carving/statement-wall/`): COMPLETED
+- [x] `Living Room Wall` (`/stone-carving/living-room-wall/`): COMPLETED
+- [x] `Featured Wall` (`/stone-carving/featured-wall/`): COMPLETED
+- [x] `Wall Surfaces (Pillar context / Navigation)`: COMPLETED
 
 ### Batch 2b: Stone Art & Murals (1 Parent + 12 Thematic Murals)
-- [ ] `Stone Art & Murals Parent` (`/stone-art-murals/`): NOT_STARTED
-- [ ] `Buddha Stone Art & Mural`: NOT_STARTED
-- [ ] `Hanuman Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Durga Mata Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Ganesh Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Laxmi Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Ram Darbar Stone Art & Mural`: NOT_STARTED
-- [ ] `Shiv Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Swaminarayan Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Shreenath Ji Stone Art & Mural`: NOT_STARTED
-- [ ] `Village Stone Art & Mural`: NOT_STARTED
-- [ ] `Floral Stone Art`: NOT_STARTED
+- [x] `Stone Art & Murals Parent` (`/stone-art-murals/`): COMPLETED (Cleaned pricing, claims, and normalized host)
+- [x] `Radhe Krishna Stone Art & Mural`: COMPLETED (Pilot Page)
+- [x] `Buddha Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Hanuman Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Durga Mata Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Ganesh Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Laxmi Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Ram Darbar Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Shiv Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Swaminarayan Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Shreenath Ji Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Village Stone Art & Mural`: PENDING_OWNER_REVIEW
+- [x] `Floral Stone Art`: PENDING_OWNER_REVIEW
 
 ### Batch 2c: Wall Panels (Stone & MDF/HDMR)
 - [ ] `Stone Wall Panels Parent` (`/stone-wall-panels/`): NOT_STARTED

@@ -1,0 +1,783 @@
+[
+  {
+    "Slug": "buddha-stone-art-mural",
+    "Name": "Buddha Stone Art & Mural",
+    "TargetDir": "stone-art-murals/buddha-stone-art-mural",
+    "Title": "Buddha Wall Art & Stone Mural Relief | Shree Ram & Co",
+    "MetaDesc": "Handcrafted Buddha wall art sculpted in natural sandstone and marble. Meditative 3D wall murals hand-carved in Jaipur with custom sizing and pan-India delivery.",
+    "Keywords": "buddha wall art, buddha wall decor, buddha wall mural designs, buddha for wall, buddha mural, buddha mural art, buddha wall mural, buddha stone mural",
+    "HeroImg": "/assets/images/statue.webp",
+    "HeroAlt": "Buddha Stone Art and Mural sculpted in natural Gwalior Mint sandstone relief",
+    "Badge": "Tranquil Meditative Sculpture",
+    "H1": "Buddha Stone Art & Mural",
+    "Lead": "Cultivate profound serenity and mindfulness in your living sanctuary. Handcrafted Buddha wall art reliefs sculpted from natural Rajasthan sandstone and white marble at our Jaipur workshop.",
+    "OverviewSub": "Mindful Iconography & Zen Sculpture",
+    "OverviewH2": "Timeless Serenity: Lord Buddha in Hand-Carved Stone Relief",
+    "OverviewP1": "A masterfully sculpted Buddha stone mural transforms residential and wellness interiors into tranquil sanctuaries of contemplation. Our Jaipur sculptors carve Lord Buddha seated in classical Padmasana upon a blooming multi-layered lotus pedestal, displaying the grounding Bhumisparsha mudra (earth-touching gesture) or meditative Dhyana mudra beneath the protective canopy of the Bodhi tree.",
+    "OverviewP2": "Each relief is carved with subtle contoured planar gradations (30mm to 70mm relief depth) that capture the serene oval countenance, elongated earlobes symbolizing spiritual renunciation, curling ushnisha cranial protuberance, and translucent monastic sanghati drapery. Chiseled from solid slabs of fine-grain sandstone or crystalline white marble, these non-sectarian spiritual compositions harmonize effortlessly with modern minimalist, Japandi, and luxury neoclassical architecture.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Gwalior Mint Sandstone, Bansi Pink, White Marble",
+    "SpecDepth": "30mm to 70mm Dimensional Relief",
+    "SpecSizing": "Customised to Architectural Site Dimensions",
+    "SpecInstall": "Concealed SS-304 Clamping / Polymer Adhesive",
+    "Features": [
+      { "Icon": "fa-om", "Title": "Dhyana & Bhumisparsha Mudras", "Desc": "Accurately carved hand gestures expressing grounding resolve, inner peace, and compassionate enlightenment." },
+      { "Icon": "fa-spa", "Title": "Multi-Tiered Lotus Throne", "Desc": "Deeply sculpted lotus petals symbolizing spiritual detachment and pristine purity rising above worldly turbulence." },
+      { "Icon": "fa-tree", "Title": "Bodhi Foliage Canopy", "Desc": "Gracefully arching peepal leaves delicately undercut to cast soft, rhythmic shadows across the upper wall expanse." },
+      { "Icon": "fa-lightbulb", "Title": "Subtle Raking Light Response", "Desc": "Gentle surface curvatures designed to capture soft 2700K warm graze illumination, accentuating calm facial contours." },
+      { "Icon": "fa-shield-halved", "Title": "Penetrating Natural Sealant", "Desc": "Treated with breathable impregnating stone sealers that resist environmental dust and dampness while maintaining stone breathability." },
+      { "Icon": "fa-ruler-combined", "Title": "Seamless Large Format Joinery", "Desc": "Engineered as single monolithic slabs or interlocking modular tiles with disguised edge contours for tranquil visual continuity." }
+    ],
+    "PlaceSub": "Peaceful Living Environments",
+    "PlaceH2": "Ideal Architectural Settings for Buddha Murals",
+    "PlaceLead": "Strategically positioned to anchor peaceful contemplation, wellness routines, and serene hospitality spaces.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-spa",
+        "Tag": "Mindfulness Sanctuary",
+        "Title": "Meditation Room & Yoga Studio",
+        "P1Title": "Focal Contemplation Wall",
+        "P1Desc": "Serves as the anchoring focal point for daily meditation, calming mental agitation with balanced stone aesthetics.",
+        "P2Title": "Gentle Morning Sunlight Axis",
+        "P2Desc": "Optimally positioned along East-facing light wells where natural daylight highlights the gentle meditative smile."
+      },
+      {
+        "Icon": "fa-couch",
+        "Tag": "Contemporary Living",
+        "Title": "Minimalist Living Room & Foyer",
+        "P1Title": "Tranquil Entry Vestibule",
+        "P1Desc": "Greets residents and guests with an immediate visual sense of equilibrium, softness, and timeless architectural grace.",
+        "P2Title": "Water Feature Integration",
+        "P2Desc": "Pairs exquisitely with indoor stone fountain cascades and bamboo greenery in sheltered atrium courtyards."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/statue.webp", "Title": "Meditative Buddha Sandstone Relief Panel", "Alt": "Meditating Buddha Stone Art and Mural in Gwalior Mint Sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/marble-statue.webp", "Title": "Luminous White Marble Buddha Relief", "Alt": "Buddha wall art carved in pristine white marble relief - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Bodhi Tree Meditative Wall Composition", "Alt": "Handcrafted stone Buddha mural with Bodhi tree relief - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What does the Bhumisparsha mudra represent in a Buddha stone mural?", "A": "The Bhumisparsha mudra, or earth-witness gesture, depicts Lord Buddha touching the ground with his right fingertips while seated in meditation, calling the earth to witness his spiritual resolve and enlightenment. In home interiors, it symbolizes unwavering stability, inner clarity, and grounding peace." },
+      { "Q": "Which stone variety is most recommended for a Buddha wall relief?", "A": "Gwalior Mint Sandstone is exceptionally popular for its velvety ivory cream tone that imparts modern Scandinavian or Japandi warmth. For formal indoor sanctums, dense Indian White Marble provides immaculate luminosity, while Bansi Paharpur Pink Sandstone yields an earthy historic temple character." },
+      { "Q": "Can the Buddha stone mural be installed near water features or outdoor courtyards?", "A": "Yes. Natural sandstone and crystalline marble withstand outdoor weather gracefully. When placed adjacent to fountains or in open atriums, we coat the stone with breathable penetrating water repellents that guard against algae and water spotting without creating artificial sheen." },
+      { "Q": "How do we decide the optimal dimensions for a residential Buddha wall mural?", "A": "Our drafting team evaluates your room dimensions, ceiling height, and viewing distance to recommend balanced proportions. We produce scaled CAD elevations before stone extraction, ensuring the mural complements surrounding joinery and furniture." },
+      { "Q": "What is the delivery and installation timeframe from your Jaipur workshop?", "A": "Fabrication timelines depend on carved scale and undercut complexity. Each panel is dry-fitted and photographed for client sign-off in Jaipur before dispatch in foam-padded timber crates for insured doorstep delivery across India." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/floral-stone-art/", "Name": "Floral Stone Art", "Img": "/assets/images/floral-stone-art.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" },
+      { "Url": "/stone-art-murals/shiv-ji-stone-art-mural/", "Name": "Shiv Ji Mural", "Img": "/assets/images/shiv-ji-mural.webp" },
+      { "Url": "/stone-art-murals/village-stone-art-mural/", "Name": "Village Stone Art", "Img": "/assets/images/village-stone-art.webp" }
+    ]
+  },
+  {
+    "Slug": "durga-mata-ji-stone-art-mural",
+    "Name": "Durga Mata Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/durga-mata-ji-stone-art-mural",
+    "Title": "Durga Stone Mural & 3D Wall Art Relief | Shree Ram & Co",
+    "MetaDesc": "Bespoke Durga stone mural bas-relief in Rajasthan sandstone and marble. Handcrafted Sherawali Maa wall carvings made in Jaipur with pan-India insured shipping.",
+    "Keywords": "Durga stone mural, 3d durga, Durga Mata stone wall art, Maa Durga stone carving panel, Sherawali Mata stone mural Jaipur, religious Durga stone relief",
+    "HeroImg": "/assets/images/durga-mata-mural.webp",
+    "HeroAlt": "Maa Durga Stone Art and Mural relief carving in natural Rajasthan sandstone",
+    "Badge": "Sacred Shakti Iconography",
+    "H1": "Durga Mata Ji Stone Art & Mural",
+    "Lead": "Invoke supreme divine protection, spiritual energy, and auspicious grace. Handcrafted Durga stone mural bas-reliefs sculpted in solid Rajasthan sandstone and pristine white marble in Jaipur.",
+    "OverviewSub": "Supreme Shakti & Artisanal Chisel Work",
+    "OverviewH2": "Divine Valour & Protection: Maa Durga in Hand-Carved Stone Relief",
+    "OverviewP1": "A handcrafted Durga stone mural embodies the triumph of righteous cosmic order over negative energies. In this majestic iconography, our Jaipur master sculptors depict Jagadamba Maa Durga astride her royal lion (Simha Vahana), poised in protective regal stature with radiant arms bearing sacred astras including the Trishul, Sudarshana Chakra, Shankha, bow, and lotus blossom.",
+    "OverviewP2": "Every composition is carved in high-relief depth (35mm to 75mm) that brings dramatic kinetic power to the flowing mukut (diadem), ornate jewelry strands, billowing saree folds, and the muscular anatomy of the roaring guardian lion. Sculpted at our Jaipur workshop from quarry-tested Bansi Paharpur sandstone or high-density white marble, these devotional murals serve as unyielding spiritual guardians in pooja sanctums, private entryways, and villa courtyards.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Bansi Paharpur Pink Stone, Gwalior Mint, White Marble",
+    "SpecDepth": "35mm to 75mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Architectural Blueprints",
+    "SpecInstall": "Concealed SS-304 Clamping / Structural Adhesive",
+    "Features": [
+      { "Icon": "fa-shield-halved", "Title": "Sacred Astra Detailing", "Desc": "Meticulously chiseled Trishul, Chakra, and Conch emblems executed with fine diamond tools for crisp ritual sanctity." },
+      { "Icon": "fa-paw", "Title": "Lion Vahana Sculpting", "Desc": "Powerful anatomical relief depicting the mane, claws, and vigilant posture of Maa Durga's fearless royal vahana." },
+      { "Icon": "fa-crown", "Title": "Ornate Mukut & Chhatra", "Desc": "Multi-tiered Rajasthani crown tracery and halo aureole carved with intricate radial floral filigree." },
+      { "Icon": "fa-lightbulb", "Title": "Dynamic Graze Light Play", "Desc": "Deep relief undercutting engineered to produce striking chiaroscuro contrast when lit by warm vertical cove lighting." },
+      { "Icon": "fa-droplet-slash", "Title": "Protective Breathable Seal", "Desc": "Workshop-applied penetrating stone sealers shield the carving from ritual moisture and dust without altering natural stone color." },
+      { "Icon": "fa-layer-group", "Title": "Structural Stone Backing", "Desc": "Slab thicknesses calibrated between 40mm and 90mm to support deep dimensional relief without structural cracking." }
+    ],
+    "PlaceSub": "Auspicious Shakti Sanctums",
+    "PlaceH2": "Sacred Wall Placement for Maa Durga Murals",
+    "PlaceLead": "Reverently placed to establish divine spiritual security and spiritual upliftment throughout the residential estate.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-om",
+        "Tag": "Temple Sanctum",
+        "Title": "Home Pooja Room & Shakti Mandir",
+        "P1Title": "North-East Wall Alignment",
+        "P1Desc": "Traditionally situated on the North or North-East wall facing East or South, fostering focused Navratri prayers and daily aarti.",
+        "P2Title": "Advisory Vastu Note",
+        "P2Desc": "Specific directional placement traditions vary by family tradition; we advise consulting your personal Vastu consultant for project alignments."
+      },
+      {
+        "Icon": "fa-archway",
+        "Tag": "Protective Gateway",
+        "Title": "Grand Entrance Lobby & Courtyard",
+        "P1Title": "Guardian Foyer Statement",
+        "P1Desc": "Commands reverence at entrance vestibules, creating an atmosphere of safety, righteousness, and profound dignity.",
+        "P2Title": "Outdoor Verandah Cladding",
+        "P2Desc": "Weatherproof sandstone relief composition withstands torrential rains and sun in sheltered perimeter garden verandas."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/durga-mata-mural.webp", "Title": "Sherawali Mata Lion Relief Mural", "Alt": "Durga Mata Ji Stone Art and Mural in Pink Sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Multi-Armed Shakti Bas-Relief Panel", "Alt": "Maa Durga devotional stone relief panel carving - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/statue.webp", "Title": "Classical Temple Durga Stone Relief", "Alt": "Handcrafted Durga stone mural for temple wall - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What sacred attributes are depicted in the Durga stone mural?", "A": "Our sculptors depict Maa Durga with her classical divya ayudhas (sacred attributes) including the Trishul (trident representing the three gunas), Sudarshana Chakra (cosmic righteousness), Shankha (divine sound of creation), bow and arrow, and lotus flower, complemented by the benevolent Abhaya mudra blessing protection to devotees." },
+      { "Q": "Can this Durga mural be carved in pink sandstone for an exterior courtyard?", "A": "Yes. Bansi Paharpur Pink Sandstone is quarried in Rajasthan and has proven durability spanning centuries in major temple complexes. It naturally repels weathering and thermal expansion, making it superlative for both indoor mandirs and open garden feature walls." },
+      { "Q": "What architectural wall preparations are necessary before mounting?", "A": "Because high-relief stone murals range from 150 kg to over 600 kg depending on dimensions, we provide detailed anchor point diagrams. Installation utilizes concealed SS-304 mechanical dowels anchored into RCC or solid masonry, backed by high-tensile stone adhesive for lifetime safety." },
+      { "Q": "Is custom sizing available for compact residential pooja room niches?", "A": "Yes. Every mural is custom sculpted to your exact niche width and height. We scale the proportions of the deity, lion, and border moldings in 3D CAD so that visual majesty remains intact even in compact 3x4 ft alcoves." },
+      { "Q": "How should the carved stone surface be maintained during daily rituals?", "A": "Dusting with a dry soft horsehair brush or microfiber cloth is recommended. The mural is sealed at our factory with breathable hydrophobic penetrating sealers, allowing accidental splashes of aarti water or gangajal to wipe clean with a damp cloth." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/ganesh-ji-stone-art-mural/", "Name": "Ganesh Ji Mural", "Img": "/assets/images/ganesh-ji-mural.webp" },
+      { "Url": "/stone-art-murals/hanuman-ji-stone-art-mural/", "Name": "Hanuman Ji Mural", "Img": "/assets/images/hanuman-ji-mural.webp" },
+      { "Url": "/stone-art-murals/shiv-ji-stone-art-mural/", "Name": "Shiv Ji Mural", "Img": "/assets/images/shiv-ji-mural.webp" },
+      { "Url": "/stone-art-murals/laxmi-ji-stone-art-mural/", "Name": "Laxmi Ji Mural", "Img": "/assets/images/laxmi-ji-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "ganesh-ji-stone-art-mural",
+    "Name": "Ganesh Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/ganesh-ji-stone-art-mural",
+    "Title": "Ganesha Mural Art & Stone Wall Relief | Shree Ram & Co",
+    "MetaDesc": "Handcrafted Ganesha mural art in natural sandstone and white marble. Auspicious Vighnaharta 3D stone wall reliefs from Jaipur with custom dimensions.",
+    "Keywords": "ganesha mural art, mural art ganesha, ganesh elevation wall mural, mural ganesha, ganapathi mural art, ganesha mural designs, Ganesh stone mural",
+    "HeroImg": "/assets/images/ganesh-ji-mural.webp",
+    "HeroAlt": "Lord Ganesha Stone Art and Mural relief carving in natural sandstone",
+    "Badge": "Auspicious Pratham Pujya",
+    "H1": "Ganesh Ji Stone Art & Mural",
+    "Lead": "Welcome supreme wisdom, prosperity, and obstacle removal into your home. Handcrafted Ganesha mural art sculpted in solid Rajasthan sandstone and white marble by master carvers in Jaipur.",
+    "OverviewSub": "Vighnaharta Symbolism & Relief Mastery",
+    "OverviewH2": "Auspicious Beginnings: Lord Ganesha in Handcrafted Stone Relief",
+    "OverviewP1": "Revered as Pratham Pujya and Vighnaharta, Lord Ganesha brings auspicious harmony to every home threshold. In this signature devotional mural, our Jaipur sculptors carve Shri Ganesha seated comfortably upon a sculpted lotus throne or royal simhasana, holding the sacred parasu (axe), pasa (noose), delicate modakpatra with sweet modaks, and raising his right hand in reassuring Abhaya mudra.",
+    "OverviewP2": "Every nuance from the single broken tusk (Ekadanta) representing focused discernment to the curled trunk (Vakratunda) and sweet mouse (Mushak) at his feet is sculpted with dimensional relief depths of 25mm to 65mm. Carved from quarry-selected natural sandstone or gleaming white marble at our Jaipur factory, these sacred murals create an indelible first impression on entrance feature walls, living room foyers, and pooja sanctuaries.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Gwalior Mint, Bansi Pink, White Marble, Jaisalmer Yellow",
+    "SpecDepth": "25mm to 65mm Dimensional Relief",
+    "SpecSizing": "Bespoke to Client Blueprint & Wall Size",
+    "SpecInstall": "Dry-Clad SS Brackets / Structural Polymer",
+    "Features": [
+      { "Icon": "fa-om", "Title": "Ekadanta & Vakratunda Detailing", "Desc": "Carefully chiseled trunk curls and single tusk iconography adhering to authentic scriptural proportions." },
+      { "Icon": "fa-gem", "Title": "Modakpatra & Mushak Carving", "Desc": "Delicately sculpted bowl of sweet modaks and devoted mushak vahana symbolizing restrained desire and wisdom." },
+      { "Icon": "fa-sun", "Title": "Prabhavali Aureole Arch", "Desc": "Radiant back archway adorned with carved floral tendrils, peacocks, and auspicious kalash emblems." },
+      { "Icon": "fa-lightbulb", "Title": "Grazing Accent Illumination", "Desc": "Relief planes engineered to produce warm, welcoming shadows under top-down recessed LED warm lighting." },
+      { "Icon": "fa-shield-halved", "Title": "Stain-Resistant Pre-Treatment", "Desc": "Breathable factory-applied protective impregnator that repels dust and handles gentle cleansing with ease." },
+      { "Icon": "fa-border-all", "Title": "Carved Framing Moldings", "Desc": "Available with integrated architectural stone moldings or contemporary shadow gaps for flush wall installations." }
+    ],
+    "PlaceSub": "Auspicious Living Spaces",
+    "PlaceH2": "Ideal Wall Placement for Ganesh Ji Murals",
+    "PlaceLead": "Optimally positioned at the threshold of residential spaces to invoke prosperity and dissolve architectural obstacles.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-door-open",
+        "Tag": "Threshold Blessing",
+        "Title": "Entrance Foyer & Vestibule Wall",
+        "P1Title": "Main Entrance Facing Wall",
+        "P1Desc": "Installed directly facing the entrance door, welcoming arriving family and guests with immediate peace and blessings.",
+        "P2Title": "Advisory Vastu Consultation",
+        "P2Desc": "Traditions often suggest placing Ganesha over or opposite the entry; consult your trusted Vastu advisor for site-specific alignment."
+      },
+      {
+        "Icon": "fa-hands-praying",
+        "Tag": "Devotional Center",
+        "Title": "Home Mandir & Living Room Accent",
+        "P1Title": "Mandir Central Altar Backdrop",
+        "P1Desc": "Provides an uplifting, solid stone back-relief that elevates daily prayer rituals in residential prayer rooms.",
+        "P2Title": "Double-Height Living Wall",
+        "P2Desc": "Complemented by fluted sandstone panels or stone jalis to create a grand spiritual centerpiece in luxury villas."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/ganesh-ji-mural.webp", "Title": "Vighnaharta Ganesha Lotus Relief Panel", "Alt": "Ganesh Ji Stone Art and Mural in natural Rajasthan sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/jaipur-artisan.jpg", "Title": "Artisan Carving Ganesha Crown Relief", "Alt": "Master artisan detailing Ganesha stone mural at Jaipur workshop - Shree Ram and Company" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Traditional Ganesha Mandir Wall Relief", "Alt": "Handcrafted Ganesha stone wall relief panel - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What does the trunk direction (left vs right) signify on a Ganesha stone mural?", "A": "In traditional sculpture, a trunk turned toward the deity's left (Vamamukhi) is associated with peaceful, householder prosperity and lunar energy, making it widely favored for residential living rooms and entrances. A trunk turned right (Dakshinmukhi) requires stricter ritual worship. Our workshop carves both configurations based on client preference." },
+      { "Q": "Can this Ganesha mural be installed on an outdoor villa boundary wall?", "A": "Yes. When sculpted in Bansi Paharpur Pink Sandstone or Gwalior Mint, the stone is entirely frost- and sun-proof. It withstands harsh summer heat and monsoons without warping, fading, or peeling." },
+      { "Q": "What sizes are commonly fabricated for entrance foyers?", "A": "Residential foyer murals commonly range from 3x4 ft (compact portrait) to 5x7 ft or 6x9 ft (monumental wall centerpiece). Because we quarry and carve custom slabs, we can fulfill any exact millimeter dimensions specified by your interior designer." },
+      { "Q": "How is the heavy stone panel anchored to interior brick or dry walls?", "A": "For solid masonry or brick walls, concealed SS-304 anchor pins and structural epoxy are used. For drywall or false partitions, we provide rear structural cleat diagrams to tie directly into underlying steel framing." },
+      { "Q": "Can additional personalized motifs like family swastik or Om be incorporated?", "A": "Yes. 100% of our murals are bespoke. Our CAD design team can incorporate sacred Om, Shubh-Labh calligraphy, kalash emblems, or customized floral border frames into the 3D elevation prior to chiseling." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/laxmi-ji-stone-art-mural/", "Name": "Laxmi Ji Mural", "Img": "/assets/images/laxmi-ji-mural.webp" },
+      { "Url": "/stone-art-murals/ram-darbar-stone-art-mural/", "Name": "Ram Darbar Mural", "Img": "/assets/images/ram-darbar-mural.webp" },
+      { "Url": "/stone-art-murals/durga-mata-ji-stone-art-mural/", "Name": "Durga Mata Ji Mural", "Img": "/assets/images/durga-mata-mural.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "hanuman-ji-stone-art-mural",
+    "Name": "Hanuman Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/hanuman-ji-stone-art-mural",
+    "Title": "Hanuman Stone Mural & Devotional Carving | Shree Ram & Co",
+    "MetaDesc": "Sacred Hanuman stone mural relief sculpted in Bansi Paharpur pink stone and marble. Hand-carved Bajrang Bali wall art crafted in Jaipur with custom delivery.",
+    "Keywords": "Hanuman stone mural, Lord Hanuman stone wall mural, Hanuman Ji stone carving for home, Bajrang Bali stone wall art, Panchmukhi Hanuman stone mural",
+    "HeroImg": "/assets/images/hanuman-ji-mural.webp",
+    "HeroAlt": "Lord Hanuman Stone Art and Mural relief carving in natural sandstone",
+    "Badge": "Sankat Mochan Devotion",
+    "H1": "Hanuman Ji Stone Art & Mural",
+    "Lead": "Fill your surroundings with fearless strength, supreme loyalty, and spiritual shelter. Handcrafted Hanuman stone murals sculpted in solid Rajasthan sandstone and marble by Jaipur master carvers.",
+    "OverviewSub": "Veer & Bhakti Sacred Sculpture",
+    "OverviewH2": "Courage & Unwavering Bhakti: Bajrang Bali in Hand-Carved Stone Relief",
+    "OverviewP1": "Lord Hanuman represents the ultimate synthesis of unmatched physical strength, boundless humility, and selfless devotion to Shri Ram. In this powerful composition, our Jaipur sculptors carve Bajrang Bali in his heroic stance holding the sacred Gada (mace) and carrying the Dronagiri mountain with Sanjeevani herbs, or in humble folded-hands (Anjali mudra) devotion with his gaze fixed upon the divine.",
+    "OverviewP2": "The relief is carved in robust multi-tiered depth (35mm to 70mm) that reveals muscular definition, flowing angavastra, sacred yajnopavita thread, and the expressive, compassionate countenance of Sankat Mochan. Carved from dense Rajasthan pink sandstone or pristine white marble, these murals endure for generations as an unshakeable spiritual anchor in fitness spaces, courtyards, and home mandirs.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Bansi Paharpur Pink Stone, Dholpur Beige, White Marble",
+    "SpecDepth": "35mm to 70mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Architectural Blueprints",
+    "SpecInstall": "SS-304 Clamping / High-Strength Adhesive",
+    "Features": [
+      { "Icon": "fa-shield-halved", "Title": "Gada & Dronagiri Detailing", "Desc": "Carefully chiseled mace fluting and mountain peaks showcasing fine artisanal mastery." },
+      { "Icon": "fa-heart", "Title": "Devotional Anjali Mudra", "Desc": "Available in heroic Veer posture or humble folded-hands contemplation facing the altar." },
+      { "Icon": "fa-crown", "Title": "Intricate Mukut & Kundal", "Desc": "Traditional royal crown tracery and ear ornaments carved in deep, crisp dimensional relief." },
+      { "Icon": "fa-lightbulb", "Title": "Sculptural Lighting Effects", "Desc": "Muscular contours capture bold directional lighting to create inspiring architectural shadows." },
+      { "Icon": "fa-droplet-slash", "Title": "Breathable Protective Shield", "Desc": "Factory sealed with breathable stone impregnator resisting environmental soot and moisture." },
+      { "Icon": "fa-cubes", "Title": "Modular & Monolithic Formats", "Desc": "Fabricated as single stone slabs or precision interlocking blocks for effortless high-rise installation." }
+    ],
+    "PlaceSub": "Inspiring Sanctums",
+    "PlaceH2": "Sacred Placement for Hanuman Ji Murals",
+    "PlaceLead": "Strategically positioned to radiate protection, steadfast loyalty, and energetic strength throughout the residence.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-om",
+        "Tag": "Devotional Sanctuary",
+        "Title": "Home Mandir & Pooja Niche",
+        "P1Title": "South Wall Traditional Focus",
+        "P1Desc": "Frequently placed along the South or South-West wall of the prayer room, facing North toward Shri Ram Darbar.",
+        "P2Title": "Advisory Vastu Disclaimer",
+        "P2Desc": "Devotional placement traditions vary across regional lineages; please consult your personal Vastu consultant for specific home guidance."
+      },
+      {
+        "Icon": "fa-dumbbell",
+        "Tag": "Vigorous Spaces",
+        "Title": "Fitness Room & Entry Courtyard",
+        "P1Title": "Inspirational Gymnasium Wall",
+        "P1Desc": "Provides an uplifting visual anchor of vitality and disciplined perseverance in private fitness studios.",
+        "P2Title": "Outdoor Boundary Guard",
+        "P2Desc": "Robust sandstone construction stands resolute in exterior garden pergolas and perimeter boundary features."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/hanuman-ji-mural.webp", "Title": "Sankat Mochan Hanuman Sandstone Relief", "Alt": "Hanuman Ji Stone Art and Mural in Bansi Pink Sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/stone-carving.jpg", "Title": "Artisan Detailing Hanuman Gada Relief", "Alt": "Master carver detailing Hanuman stone relief in workshop - Shree Ram and Company" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Devotional Hanuman Stone Wall Panel", "Alt": "Handcrafted Bajrang Bali stone wall mural - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What stone variety best captures the divine presence of Hanuman Ji?", "A": "Bansi Paharpur Pink Sandstone is exceptionally revered for Hanuman murals due to its warm, auspicious terracotta-reddish hue reminiscent of traditional sindoor. For formal interior mandirs, Gwalior Mint and Makrana-grade white marble offer serene, regal alternatives." },
+      { "Q": "Can Panchmukhi Hanuman (five-faced form) be custom carved?", "A": "Yes. We regularly sculpt Panchmukhi Hanuman murals depicting Sri Hanuman, Narasimha, Garuda, Varaha, and Hayagriva with their respective weapons. Our studio drafts detailed 3D CAD models for dimensional verification prior to chiseling." },
+      { "Q": "What is the typical weight of a 4x6 ft stone mural?", "A": "A 4x6 ft solid sandstone mural with 40mm average relief thickness weighs approximately 220–260 kg. We design interlocking section joints along natural carved lines so the panels can be transported safely via domestic elevators and dry-clad securely." },
+      { "Q": "How do we clean the stone mural if it gathers dust over time?", "A": "Periodic dry brushing with a soft bristled brush is sufficient. Because our workshop applies breathable impregnating stone sealants, stubborn dust can be wiped off with a damp microfiber cloth without damaging the carved edges." },
+      { "Q": "How are murals packaged for long-distance transit across India?", "A": "Murals are individually wrapped in protective cushioning foam, braced within custom heat-treated wooden crates, and covered by comprehensive transit insurance from our Jaipur workshop directly to your doorstep." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/ram-darbar-stone-art-mural/", "Name": "Ram Darbar Mural", "Img": "/assets/images/ram-darbar-mural.webp" },
+      { "Url": "/stone-art-murals/durga-mata-ji-stone-art-mural/", "Name": "Durga Mata Ji Mural", "Img": "/assets/images/durga-mata-mural.webp" },
+      { "Url": "/stone-art-murals/shiv-ji-stone-art-mural/", "Name": "Shiv Ji Mural", "Img": "/assets/images/shiv-ji-mural.webp" },
+      { "Url": "/stone-art-murals/ganesh-ji-stone-art-mural/", "Name": "Ganesh Ji Mural", "Img": "/assets/images/ganesh-ji-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "laxmi-ji-stone-art-mural",
+    "Name": "Laxmi Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/laxmi-ji-stone-art-mural",
+    "Title": "Laxmi Stone Mural & Gajalakshmi Wall Art | Shree Ram & Co",
+    "MetaDesc": "Auspicious Laxmi stone mural and Gajalakshmi bas-relief wall art in natural marble and sandstone. Custom handcrafted in Jaipur for home temples and foyers.",
+    "Keywords": "Laxmi stone mural, Goddess Lakshmi stone wall art, Laxmi Ji stone relief panel, Gajlaxmi stone carving mural, Mahalaxmi stone art for home entrance",
+    "HeroImg": "/assets/images/laxmi-ji-mural.webp",
+    "HeroAlt": "Maa Laxmi Stone Art and Mural relief carving in natural white marble and sandstone",
+    "Badge": "Auspicious Abundance & Grace",
+    "H1": "Laxmi Ji Stone Art & Mural",
+    "Lead": "Invite everlasting prosperity, auspicious abundance, and spiritual peace into your home. Handcrafted Laxmi stone murals sculpted in natural marble and sandstone by Jaipur artisans.",
+    "OverviewSub": "Gajalakshmi Grace & Divine Abundance",
+    "OverviewH2": "Radiant Prosperity: Goddess Lakshmi in Handcrafted Stone Relief",
+    "OverviewP1": "Goddess Lakshmi represents not merely material wealth, but spiritual illumination, purity, and righteous flourishing. In this signature composition, our Jaipur sculptors carve Shri Mahalakshmi seated upon a blooming thousand-petal lotus (Padmasana), flanked by two royal elephants performing sacred abhishekam (Gajalakshmi), or bestowing shower of golden coins through the Varada mudra.",
+    "OverviewP2": "Every fold of her flowing silk garments, elaborate jeweled necklace strands (haar), ornate crown (kirita mukut), and delicate twin lotuses held in her upper hands are sculpted with precision relief depths (25mm to 60mm). Carved from pristine Indian white marble or fine Rajasthan sandstone, these sacred murals establish an enduring aura of grace at home entrances, financial offices, and family mandirs.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Indian White Marble, Gwalior Mint, Bansi Pink",
+    "SpecDepth": "25mm to 60mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Architectural Requirements",
+    "SpecInstall": "Concealed SS-304 Clamping / Polymeric Bond",
+    "Features": [
+      { "Icon": "fa-spa", "Title": "Padmasana & Twin Lotuses", "Desc": "Elegantly sculpted blooming lotus pedestal and sacred lotus buds symbolizing spiritual purity." },
+      { "Icon": "fa-coins", "Title": "Varada Mudra & Dhan Shower", "Desc": "Benevolent hand gestures showering auspicious abundance and divine blessing into the home." },
+      { "Icon": "fa-gem", "Title": "Gajalakshmi Royal Elephants", "Desc": "Flanking royal elephants with raised trunks holding sacred kalash pitchers in ceremonial adoration." },
+      { "Icon": "fa-lightbulb", "Title": "Luminous Surface Polish", "Desc": "Hand-buffed natural stone textures that catch ambient warm lighting with subtle, glowing majesty." },
+      { "Icon": "fa-shield-halved", "Title": "Protective Penetrating Seal", "Desc": "Factory treated with breathable impregnating sealer preventing kumkum and oil spotting." },
+      { "Icon": "fa-expand", "Title": "Bespoke Border Filigree", "Desc": "Framed with classical Rajasthani floral vine borders or sleek modern chamfered stone edges." }
+    ],
+    "PlaceSub": "Prosperous Sanctuary",
+    "PlaceH2": "Auspicious Wall Placement for Laxmi Ji Murals",
+    "PlaceLead": "Thoughtfully situated to invite positive financial flow, domestic harmony, and spiritual warmth into your estate.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-door-open",
+        "Tag": "Threshold Blessings",
+        "Title": "Entrance Foyer & Reception Hall",
+        "P1Title": "North / North-East Entry Axis",
+        "P1Desc": "Traditionally placed in the North or East quadrant of the foyer to welcome Kuber-Lakshmi energy into the residence.",
+        "P2Title": "Advisory Vastu Note",
+        "P2Desc": "Directional recommendations can depend on home floorplans; we advise consulting your personal Vastu consultant for specific guidance."
+      },
+      {
+        "Icon": "fa-hands-praying",
+        "Tag": "Sacred Altar",
+        "Title": "Pooja Room & Wealth Chamber",
+        "P1Title": "Mandir Focal Back Wall",
+        "P1Desc": "Creates a breathtaking, sacred temple atmosphere behind silver, brass, or marble idols during Diwali prayers.",
+        "P2Title": "Corporate & Executive Suite",
+        "P2Desc": "Brings auspicious dignity and righteous prosperity to executive corporate boardrooms and luxury office reception walls."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/laxmi-ji-mural.webp", "Title": "Gajalakshmi Devotional Stone Relief", "Alt": "Goddess Lakshmi Stone Art and Mural in White Marble - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Mahalakshmi Lotus Throne Relief Panel", "Alt": "Maa Laxmi stone wall panel relief carving - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/statue.webp", "Title": "Classical Temple Lakshmi Wall Carving", "Alt": "Handcrafted Laxmi stone mural for mandir wall - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What does the Gajalakshmi composition represent in home architecture?", "A": "Gajalakshmi features Goddess Lakshmi flanked by two royal elephants pouring water from golden vessels. In ancient architectural treatises, this posture symbolizes the supreme blessing of fertility, unshakeable royalty, righteous wealth, and divine grace over the household." },
+      { "Q": "Which stone material is best for an indoor Laxmi mural?", "A": "Dense Indian White Marble is our foremost recommendation for Lakshmi murals due to its pristine, radiant sheen and high crystalline density. Gwalior Mint Sandstone is also favored for its subtle ivory warmth in contemporary luxury interiors." },
+      { "Q": "Can the mural be paired with a Lord Ganesha mural for a Lakshmi-Ganesh ensemble?", "A": "Yes. We frequently fabricate paired diptych panels or single combined Lakshmi-Ganesh compositions, engineered with synchronized border moldings and proportional heights for balanced installation." },
+      { "Q": "How does the workshop handle customized dimensional requirements?", "A": "All orders are custom tailored. Our design engineers prepare proportional CAD layouts matching your exact wall alcove or niche, ensuring border carvings align cleanly with existing wall trims." },
+      { "Q": "What precautions are taken during shipping to avoid damage?", "A": "Panels are packed in shock-absorbing polyurethane foam and crated within solid treated timber boxes with moisture barriers. All shipments carry transit insurance for secure arrival across India." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/ganesh-ji-stone-art-mural/", "Name": "Ganesh Ji Mural", "Img": "/assets/images/ganesh-ji-mural.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" },
+      { "Url": "/stone-art-murals/ram-darbar-stone-art-mural/", "Name": "Ram Darbar Mural", "Img": "/assets/images/ram-darbar-mural.webp" },
+      { "Url": "/stone-art-murals/swaminarayan-ji-stone-art-mural/", "Name": "Swaminarayan Ji Mural", "Img": "/assets/images/swaminarayan-ji-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "ram-darbar-stone-art-mural",
+    "Name": "Ram Darbar Stone Art & Mural",
+    "TargetDir": "stone-art-murals/ram-darbar-stone-art-mural",
+    "Title": "Ram Darbar Stone Mural & Carved Wall Art | Shree Ram & Co",
+    "MetaDesc": "Sacred Ram Darbar stone mural relief featuring Shri Ram, Sita, Lakshman, and Hanuman. Hand-sculpted in natural stone at Jaipur with pan-India delivery.",
+    "Keywords": "Ram Darbar stone mural, Ram Darbar wall art, Shri Ram Darbar stone carving panel, Ram Sita Laxman Hanuman stone mural, sacred Ram Darbar stone carving",
+    "HeroImg": "/assets/images/ram-darbar-mural.webp",
+    "HeroAlt": "Shri Ram Darbar Stone Art and Mural relief carving in natural sandstone",
+    "Badge": "Maryada Purushottam Royalty",
+    "H1": "Ram Darbar Stone Art & Mural",
+    "Lead": "Infuse your home with righteous harmony, ideal family virtues, and divine tranquility. Handcrafted Ram Darbar stone murals sculpted in solid Rajasthan sandstone and marble by Jaipur carvers.",
+    "OverviewSub": "Ayodhya Maryada & Royal Darbar Relief",
+    "OverviewH2": "Divine Righteousness: Shri Ram Darbar in Handcrafted Stone Relief",
+    "OverviewP1": "The sacred composition of Shri Ram Darbar depicts the zenith of Sanatana dharma, family unity, and righteous rule (Ramrajya). In this grand multi-figure narrative, our Jaipur master sculptors depict Maryada Purushottam Bhagwan Shri Ram seated in royal majesty with Mata Sita at his left on the ornate Simhasana, accompanied by Lakshman Ji standing vigilantly with his sacred bow, and Bhakta Hanuman kneeling reverently at their lotus feet.",
+    "OverviewP2": "Sculpted in expansive multi-layered depths (30mm to 70mm), each figure showcases distinctive regal attributes: Shri Ram's divine Kodanda bow and Abhaya blessing, Mata Sita's graceful poise and lotus blossom, Lakshman's royal chhatra, and Hanuman Ji's folded-hands devotion. Chiseled from Bansi Paharpur sandstone or high-grade white marble, these monumental murals become revered spiritual focal points for family prayer sanctuaries and grand double-height living rooms.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Bansi Paharpur Pink Sandstone, Gwalior Mint, White Marble",
+    "SpecDepth": "30mm to 70mm Multi-Layer Relief",
+    "SpecSizing": "Custom Sized to Architectural Blueprints",
+    "SpecInstall": "Concealed SS-304 Clamping / High-Strength Adhesive",
+    "Features": [
+      { "Icon": "fa-crown", "Title": "Royal Simhasana & Chhatra", "Desc": "Deeply carved royal throne, imperial parasol, and ornate pillar motifs framing the divine assembly." },
+      { "Icon": "fa-shield-halved", "Title": "Sacred Kodanda Bow & Quiver", "Desc": "Millimeter-precision chisel work detailing the divine bows and arrows of Shri Ram and Lakshman." },
+      { "Icon": "fa-heart", "Title": "Bhakta Hanuman in Seva", "Desc": "Tender devotional posture of Shri Hanuman kneeling in humble adoration at the lotus feet of the Lord." },
+      { "Icon": "fa-lightbulb", "Title": "Chiaroscuro Depth Under Grazing Light", "Desc": "Multi-planar relief depths engineered to produce dramatic sculptural shadows with warm accent spotlights." },
+      { "Icon": "fa-droplet-slash", "Title": "Breathable Protective Sealer", "Desc": "Pre-treated with breathable impregnating sealer that protects natural stone from humidity and ritual stains." },
+      { "Icon": "fa-layer-group", "Title": "Interlocking Multi-Panel Design", "Desc": "Precision-jointed across natural architectural contours to allow effortless transport into luxury high-rise homes." }
+    ],
+    "PlaceSub": "Devotional Centerpieces",
+    "PlaceH2": "Ideal Wall Placement for Ram Darbar Murals",
+    "PlaceLead": "Dignified placement that anchors household integrity, righteous values, and spiritual peace.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-hands-praying",
+        "Tag": "Family Sanctuary",
+        "Title": "Grand Pooja Room Sanctum",
+        "P1Title": "East / North-East Sanctum Focal Wall",
+        "P1Desc": "Positioned centrally on the East or North-East wall of the prayer room where morning aarti illuminates the divine darbar.",
+        "P2Title": "Advisory Vastu Note",
+        "P2Desc": "Directional recommendations can depend on architectural layouts; we recommend consulting your personal Vastu consultant for project guidance."
+      },
+      {
+        "Icon": "fa-house",
+        "Tag": "Living Elegance",
+        "Title": "Double-Height Foyer & Living Room",
+        "P1Title": "Monumental Living Hall Wall",
+        "P1Desc": "Anchors two-story living spaces with spiritual grandeur, creating an inspiring conversation piece for family gatherings.",
+        "P2Title": "Courtyard Verandah Installation",
+        "P2Desc": "Weatherproof sandstone relief composition brings historic temple majesty to enclosed traditional courtyards."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/ram-darbar-mural.webp", "Title": "Classical Ayodhya Ram Darbar Stone Relief", "Alt": "Ram Darbar Stone Art and Mural in natural Rajasthan sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Multi-Figure Devotional Temple Panel", "Alt": "Shri Ram Darbar wall relief panel with Sita Lakshman Hanuman - Shree Ram and Company" },
+      { "Img": "/assets/images/statue.webp", "Title": "White Marble Ram Darbar Relief Sculpture", "Alt": "Handcrafted Ram Darbar stone relief in white marble - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What figures are included in a standard Ram Darbar stone mural?", "A": "Our classical Ram Darbar mural features Bhagwan Shri Ram seated on the Simhasana with Mata Sita, flanked by Lakshman Ji standing with the bow and royal parasol, and Shri Hanuman Ji kneeling in devotion at their feet. On larger architectural panels, Bharata and Shatrughna can also be sculpted into the flanking composition." },
+      { "Q": "What stone variety is most authentic for Ram Darbar reliefs?", "A": "Bansi Paharpur Pink Sandstone is historically revered for Shri Ram murals because it is the exact sacred stone used in historic temple architecture in Rajasthan and Ayodhya. Indian White Marble is equally chosen for luminous, refined indoor temple sanctums." },
+      { "Q": "How are wide panoramic murals (such as 8x5 ft) transported and installed?", "A": "Large murals are crafted as modular interlocking slabs with puzzle-cut seams aligned with pillars or throne contours. This ensures the seams become invisible once grouted on site with mineral-matched stone dust mortar." },
+      { "Q": "Can the mural be illuminated with recessed LED strip lights?", "A": "Yes. We frequently engineer perimeter rebates (coves) along the outer stone border frame, allowing lighting designers to conceal warm 2700K or 3000K LED strips that wash over the relief faces." },
+      { "Q": "How does your workshop ensure proportional facial expressions on multiple figures?", "A": "Facial expressions are sculpted strictly by senior Sompura carvers in Jaipur using traditional chisel-and-mallet techniques following detailed clay models and 3D CAD approvals." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/hanuman-ji-stone-art-mural/", "Name": "Hanuman Ji Mural", "Img": "/assets/images/hanuman-ji-mural.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" },
+      { "Url": "/stone-art-murals/laxmi-ji-stone-art-mural/", "Name": "Laxmi Ji Mural", "Img": "/assets/images/laxmi-ji-mural.webp" },
+      { "Url": "/stone-art-murals/ganesh-ji-stone-art-mural/", "Name": "Ganesh Ji Mural", "Img": "/assets/images/ganesh-ji-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "shiv-ji-stone-art-mural",
+    "Name": "Shiv Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/shiv-ji-stone-art-mural",
+    "Title": "Shiv Stone Mural & Mahadev Wall Relief | Shree Ram & Co",
+    "MetaDesc": "Handcrafted Shiv stone mural and Mahadev meditative wall art sculpted in natural sandstone and white marble. Direct manufacturer in Jaipur with custom sizes.",
+    "Keywords": "Shiv stone mural, Lord Shiva stone mural, Mahadev stone wall relief, Trishul Damru stone carving, Shiv Parvati stone mural Jaipur, Bholenath stone wall art",
+    "HeroImg": "/assets/images/shiv-ji-mural.webp",
+    "HeroAlt": "Lord Shiva Stone Art and Mural relief carving in natural Rajasthan sandstone",
+    "Badge": "Kailash Ascetic Majesty",
+    "H1": "Shiv Ji Stone Art & Mural",
+    "Lead": "Surround your sanctuary with profound inner silence, yogic mastery, and transcendent grace. Handcrafted Shiv stone murals sculpted in natural sandstone and white marble in Jaipur.",
+    "OverviewSub": "Adiyogi Contemplation & Cosmic Sacred Art",
+    "OverviewH2": "Cosmic Stillness: Mahadev in Hand-Carved Stone Relief",
+    "OverviewP1": "Bhagwan Shiva represents the transcendent stillness of consciousness (Chit) and the source of all yogic wisdom. In this evocative bas-relief composition, our Jaipur sculptors depict Mahadev in deep Dhyana mudra upon the sacred Mount Kailash, adorned with the crescent moon (Chandrama) in his matted jata, the holy River Ganga descending, the coiled Vasuki serpent, and the sacred Trishul with Damru standing beside him.",
+    "OverviewP2": "Sculpted in bold multi-layered relief depths (30mm to 70mm), the carving contrasts the tranquil serenity of Shiva's half-closed meditative eyes with the textured ruggedness of the Himalayan crags and tiger-skin seat. Carved from solid slabs of Gwalior Mint sandstone, Bansi pink stone, or crystalline white marble at our Jaipur workshop, these sacred murals establish a deeply grounding, contemplative aura in pooja rooms, wellness atriums, and villa foyers.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Gwalior Mint Sandstone, Bansi Pink, White Marble",
+    "SpecDepth": "30mm to 70mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Architectural Wall Plans",
+    "SpecInstall": "Concealed SS-304 Clamping / Polymeric Mortar",
+    "Features": [
+      { "Icon": "fa-moon", "Title": "Chandrama & Jata Detailing", "Desc": "Carefully chiseled crescent moon, cascading Ganga, and matted locks sculpted with flowing organic realism." },
+      { "Icon": "fa-shield-halved", "Title": "Sacred Trishul & Damru", "Desc": "Sharply detailed trident symbolizing the three aspects of time and creation, paired with the rhythm-giving damru." },
+      { "Icon": "fa-mountain", "Title": "Kailash Rugged Textures", "Desc": "Artfully contrasted hand-chiseled rock facings behind the smooth, polished torso of the Adiyogi." },
+      { "Icon": "fa-lightbulb", "Title": "Raking Illumination Dynamics", "Desc": "Relief planes calibrated to cast profound meditative shadows under top-down warm 2700K lighting." },
+      { "Icon": "fa-shield-halved", "Title": "Penetrating Moisture Barrier", "Desc": "Treated with breathable impregnator shielding natural stone against water vapor and atmospheric grime." },
+      { "Icon": "fa-ruler-combined", "Title": "Monolithic & Interlocking Panels", "Desc": "Engineered for flush drywall installation or floating architectural shadowline integration." }
+    ],
+    "PlaceSub": "Contemplative Spaces",
+    "PlaceH2": "Ideal Wall Placement for Shiv Ji Murals",
+    "PlaceLead": "Positioned to foster meditative detachment, inner stillness, and cosmic harmony in residential and wellness interiors.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-om",
+        "Tag": "Yogic Sanctuary",
+        "Title": "Meditation Room & Pooja Sanctum",
+        "P1Title": "North-East Dhyana Axis",
+        "P1Desc": "Installed on the North-East or North wall where the quietude of early morning meditation resonates with Mahadev's serenity.",
+        "P2Title": "Advisory Vastu Note",
+        "P2Desc": "Specific directional placement traditions vary by family tradition; we advise consulting your personal Vastu consultant for site alignments."
+      },
+      {
+        "Icon": "fa-house",
+        "Tag": "Living Foyer",
+        "Title": "Entrance Vestibule & Open Courtyard",
+        "P1Title": "Calming Entrance Presence",
+        "P1Desc": "Greets home residents with an immediate release of worldly stress, infusing the home with ascetic grace.",
+        "P2Title": "Sheltered Water Courtyard",
+        "P2Desc": "Pairs magnificently with reflective shallow water ponds and natural riverstone landscaping in covered villa atriums."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/shiv-ji-mural.webp", "Title": "Dhyanastha Mahadev Kailash Stone Relief", "Alt": "Shiv Ji Stone Art and Mural in natural Rajasthan sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Shiva Trishul & Damru Wall Relief", "Alt": "Lord Shiva devotional stone wall relief panel - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/statue.webp", "Title": "Meditative Shiva White Marble Relief Panel", "Alt": "Handcrafted Shiv stone mural in white marble - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What mudra and posture is depicted in this Shiv Ji stone mural?", "A": "Our signature Shiv Ji mural depicts Mahadev in the Dhyana mudra (meditation posture), with hands resting peacefully on his lap in Dhyanasana. The eyes are half-closed in introspective yogic samadhi, radiating profound tranquility rather than fiery Tandava energy." },
+      { "Q": "Which stone variety is best suited for an indoor meditation space?", "A": "Gwalior Mint Sandstone is especially recommended for meditation spaces because its soft ivory-buff tone conveys peace and lightness. White marble offers a classical luminous presence, while Bansi pink stone lends a warm temple ambiance." },
+      { "Q": "Can this mural be fabricated with Shiv-Parvati (Uma-Maheshwar) together?", "A": "Yes. Our sculptors regularly craft custom Uma-Maheshwar (Shiva and Parvati) murals as well as Ardhanarishvara compositions upon custom request, preparing complete scaled drawings before stone work begins." },
+      { "Q": "How thick is the stone slab and how is it attached to the wall?", "A": "The finished panel thickness typically ranges between 35mm and 65mm. It is installed using concealed SS-304 dry-cladding brackets bolted directly into brick or concrete masonry, preventing any visible screws on the stone face." },
+      { "Q": "What is the typical fabrication timeline for custom dimensions?", "A": "Fabrication timelines depend on customer-specified dimensions and undercut detailing. Each panel is dry-fitted and inspected under workshop directional light in Jaipur before crating and insured transit across India." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/durga-mata-ji-stone-art-mural/", "Name": "Durga Mata Ji Mural", "Img": "/assets/images/durga-mata-mural.webp" },
+      { "Url": "/stone-art-murals/hanuman-ji-stone-art-mural/", "Name": "Hanuman Ji Mural", "Img": "/assets/images/hanuman-ji-mural.webp" },
+      { "Url": "/stone-art-murals/ganesh-ji-stone-art-mural/", "Name": "Ganesh Ji Mural", "Img": "/assets/images/ganesh-ji-mural.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "shreenath-ji-stone-art-mural",
+    "Name": "Shreenath Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/shreenath-ji-stone-art-mural",
+    "Title": "Shree Nath Ji Wall Mural & 3D Stone Art | Shree Ram & Co",
+    "MetaDesc": "Devotional Shree Nath ji wall mural in authentic Pushtimarg iconography. Hand-carved Mukharvind sandstone and marble wall art crafted in Jaipur for homes.",
+    "Keywords": "Shree Nath ji wall mural, Shree Nath Ji wall 3d art, Shree Nath ji wall panel, Shreenath Ji Mukharvind 3D wall art, Pushtimarg Shreenathji stone relief",
+    "HeroImg": "/assets/images/shreenath-ji-mural.webp",
+    "HeroAlt": "Shri Shreenath Ji Stone Art and Mural relief carving in natural sandstone and marble",
+    "Badge": "Pushtimarg Haveli Darshan",
+    "H1": "Shreenath Ji Stone Art & Mural",
+    "Lead": "Experience the blissful divine darshan of Nathdwara in your home. Handcrafted Shreenath Ji stone wall murals sculpted in authentic Pushtimarg iconography by master carvers in Jaipur.",
+    "OverviewSub": "Govardhandhara Form & Sacred Shringar",
+    "OverviewH2": "Divine Pushti Bhakti: Shri Shreenath Ji in Hand-Carved Stone Relief",
+    "OverviewP1": "Shreenath Ji is the seven-year-old childhood manifestation (Balak) of Shri Krishna as Govardhandhara, celebrated across the Pushtimarg tradition founded by Vallabhacharya. In this deeply reverent composition, our Jaipur sculptors depict Shreenath Ji lifting Mount Govardhan with his left hand held high, his right fist resting gently upon his waist, and his gaze downward bestowing unconditional grace upon loving devotees.",
+    "OverviewP2": "Our sculptors pay meticulous attention to the distinctive Pichwai-style iconography: the large almond-shaped kamalnayan eyes, the tender Mukharvind facial features, the sacred diamond (heera) upon the chin, the layered floral vanamala garlands, and surrounding Surabhi cows. Sculpted in deep dimensional relief (30mm to 65mm) from solid Rajasthan sandstone or dense white marble, these murals evoke the sanctity of a Nathdwara Haveli in private pooja rooms and dining foyers.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Indian White Marble, Gwalior Mint, Bansi Pink, Jaisalmer Yellow",
+    "SpecDepth": "30mm to 65mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Home Mandir Specifications",
+    "SpecInstall": "Concealed SS-304 Clamping / High-Strength Adhesive",
+    "Features": [
+      { "Icon": "fa-hand-holding-hand", "Title": "Govardhandhara Left Hand", "Desc": "Authentic raised left hand posture lifting the sacred hill, sculpted with delicate finger grace." },
+      { "Icon": "fa-gem", "Title": "Mukharvind & Chibuk Diamond", "Desc": "Tender facial contouring with the sacred diamond chin adornment rendered in crisp relief." },
+      { "Icon": "fa-feather-pointed", "Title": "Pichwai & Shringar Garlands", "Desc": "Multi-tiered floral garlands, pearl strands, and lotus blossoms sculpted in multi-level relief planes." },
+      { "Icon": "fa-lightbulb", "Title": "Soft Warm Grazing Illumination", "Desc": "Designed to create tender, devotional shadow depths under 2700K warm cove and accent lighting." },
+      { "Icon": "fa-shield-halved", "Title": "Breathable Stain-Proof Barrier", "Desc": "Factory sealed with breathable stone sealer protecting against ceremonial chandan and oil offerings." },
+      { "Icon": "fa-archway", "Title": "Intricate Jharokha Framing", "Desc": "Framed with classical Rajasthani scalloped temple arches or sleek minimalist contemporary borders." }
+    ],
+    "PlaceSub": "Pushti Sanctuaries",
+    "PlaceH2": "Ideal Wall Placement for Shreenath Ji Murals",
+    "PlaceLead": "Reverently placed to establish a sanctified Haveli atmosphere filled with spiritual joy and family devotion.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-om",
+        "Tag": "Pooja Sanctum",
+        "Title": "Home Mandir & Haveli Pooja Room",
+        "P1Title": "Central Mandir Backing",
+        "P1Desc": "Installed as the supreme sanctum relief behind your aarti chowki, recreating the enchanting feel of Nathdwara darshan.",
+        "P2Title": "Advisory Vastu Note",
+        "P2Desc": "Traditionally oriented along the East or North-East axis; we advise consulting your personal Vastu consultant for specific alignments."
+      },
+      {
+        "Icon": "fa-house",
+        "Tag": "Sacred Living",
+        "Title": "Dining Foyer & Family Lounge",
+        "P1Title": "Pavitra Dining Alcove",
+        "P1Desc": "Blesses family meal gatherings with sanctified grace, inspiring mindful gratitude and spiritual conversations.",
+        "P2Title": "Courtyard Jharokha Feature",
+        "P2Desc": "Integrated within carved stone jharokhas or jali surrounds to create a traditional Rajasthani courtyard focal wall."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/shreenath-ji-mural.webp", "Title": "Govardhandhara Shreenathji Sandstone Relief", "Alt": "Shreenath Ji Stone Art and Mural in natural Rajasthan sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Shreenath Ji Mukharvind Temple Relief", "Alt": "Shree Nath Ji Mukharvind stone relief panel - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/statue.webp", "Title": "White Marble Shreenathji Wall Carving", "Alt": "Handcrafted Shreenath Ji stone mural in white marble - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What makes Shreenath Ji's iconography unique in stone sculpture?", "A": "Shreenath Ji is depicted exclusively in the Govardhandhara posture with his left hand raised supporting Mount Govardhan, right fist upon his waist, large compassionate lotus eyes, and the diamond upon his chin. Our sculptors adhere strictly to these scriptural Pushtimarg canons." },
+      { "Q": "Can color pigmentation or gold foil accents be added to the stone relief?", "A": "While we preserve the natural beauty and texture of quarry sandstone and white marble, our artisans can subtly accentuate jewelry, eyes, and borders with natural mineral pigments or 24K gold foil upon bespoke client request." },
+      { "Q": "Which stone variety is most popular for a Pushtimarg family temple?", "A": "Pristine Indian White Marble is highly favored for its luminous purity and smooth touch during darshan. Gwalior Mint Sandstone and Bansi Pink are equally chosen for their organic, warm Rajasthani heritage resonance." },
+      { "Q": "Can flanking cows, peacocks, or Kadamba trees be incorporated?", "A": "Yes. In larger panoramic murals (e.g. 5x7 ft or 6x8 ft), we frequently integrate grazing Surabhi cows at the base, flowering Kadamba trees above, and gopis or peacocks along the side borders in a cohesive Pichwai-style relief." },
+      { "Q": "How does the workshop ensure safe packaging for delivery across India?", "A": "Every mural undergoes pre-shipment photographic approval. It is then padded with dense foam cushioning and crated in treated solid wood with complete transit insurance for safe delivery directly to your home." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" },
+      { "Url": "/stone-art-murals/swaminarayan-ji-stone-art-mural/", "Name": "Swaminarayan Ji Mural", "Img": "/assets/images/swaminarayan-ji-mural.webp" },
+      { "Url": "/stone-art-murals/ram-darbar-stone-art-mural/", "Name": "Ram Darbar Mural", "Img": "/assets/images/ram-darbar-mural.webp" },
+      { "Url": "/stone-art-murals/laxmi-ji-stone-art-mural/", "Name": "Laxmi Ji Mural", "Img": "/assets/images/laxmi-ji-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "swaminarayan-ji-stone-art-mural",
+    "Name": "Swaminarayan Ji Stone Art & Mural",
+    "TargetDir": "stone-art-murals/swaminarayan-ji-stone-art-mural",
+    "Title": "Swaminarayan Stone Mural & Mandir Relief | Shree Ram & Co",
+    "MetaDesc": "Sacred Swaminarayan stone mural hand-carved in premium sandstone and white marble. Authentic temple-grade bas-relief artwork crafted by Jaipur artisans.",
+    "Keywords": "Swaminarayan stone mural, Bhagwan Swaminarayan stone carving, Akshar Purushottam stone relief, Swaminarayan wall art Jaipur, Mandir stone relief panel",
+    "HeroImg": "/assets/images/swaminarayan-ji-mural.webp",
+    "HeroAlt": "Bhagwan Swaminarayan Stone Art and Mural relief carving in natural sandstone and marble",
+    "Badge": "Akshar Purushottam Darshan",
+    "H1": "Swaminarayan Ji Stone Art & Mural",
+    "Lead": "Bring pure devotion, spiritual elevation, and temple serenity into your residence. Handcrafted Swaminarayan stone murals sculpted in natural marble and sandstone by master artisans in Jaipur.",
+    "OverviewSub": "Sahajanand Swami Form & Mandir Architecture",
+    "OverviewH2": "Divine Purity: Bhagwan Swaminarayan in Handcrafted Stone Relief",
+    "OverviewP1": "Bhagwan Swaminarayan (Sahajanand Swami) embodies supreme spiritual purity, universal compassion, and the path of unalloyed devotion (Bhakti). In this sacred composition, our Jaipur sculptors carve the divine murti of Bhagwan Swaminarayan in classical darshan posture, adorned in traditional pagh (ceremonial turban) with flowing plume, wearing the sacred kanthi necklace, and raising his right hand in benevolent blessing.",
+    "OverviewP2": "Every architectural element from the ornate mandir shikhara archway framing the deity to the delicate floral garlands (haar) and carved lotus pedestal is sculpted with precision relief depths (25mm to 65mm). Carved from dense Indian white marble or fine Rajasthan sandstone, these temple-grade murals are custom created for home mandirs, community satsang halls, and prominent foyer sanctums.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Indian White Marble, Bansi Pink Sandstone, Gwalior Mint",
+    "SpecDepth": "25mm to 65mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Mandir Architectural Blueprints",
+    "SpecInstall": "Concealed SS-304 Clamping / Polymeric Bond",
+    "Features": [
+      { "Icon": "fa-crown", "Title": "Authentic Pagh & Kanthi", "Desc": "Carefully chiseled Swaminarayan ceremonial turban, crest ornament, and double-strand sacred kanthi." },
+      { "Icon": "fa-hand", "Title": "Abhayadan Blessing Mudra", "Desc": "Compassionate right hand raised in divine assurance, bestowing spiritual peace and liberation upon seekers." },
+      { "Icon": "fa-archway", "Title": "Mandir-Grade Archway Carving", "Desc": "Flanking pillars and multi-tiered scalloped archways derived from classical Swaminarayan temple aesthetics." },
+      { "Icon": "fa-lightbulb", "Title": "Warm Graze Illumination Response", "Desc": "Curved relief surfaces engineered to reflect warm ambient lighting with soft, reverent clarity." },
+      { "Icon": "fa-shield-halved", "Title": "Breathable Stone Protection", "Desc": "Factory pre-treated with breathable stone impregnator resisting dust and daily devotional rituals." },
+      { "Icon": "fa-layer-group", "Title": "Seamless Architectural Fit", "Desc": "Engineered for precise integration inside carved wooden or marble home temple sanctums." }
+    ],
+    "PlaceSub": "Sacred Temple Sanctums",
+    "PlaceH2": "Ideal Wall Placement for Swaminarayan Ji Murals",
+    "PlaceLead": "Reverently placed to establish a sanctified atmosphere of daily worship, satsang, and peaceful spiritual focus.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-om",
+        "Tag": "Temple Sanctum",
+        "Title": "Home Mandir & Pooja Room",
+        "P1Title": "Ghar Mandir Central Backing",
+        "P1Desc": "Provides a serene, permanent stone backdrop behind sacred murtis, elevating daily thal and aarti devotion.",
+        "P2Title": "Advisory Vastu Note",
+        "P2Desc": "Traditionally oriented along the East or North-East axis; we recommend consulting your personal Vastu consultant for project alignments."
+      },
+      {
+        "Icon": "fa-house",
+        "Tag": "Spiritual Living",
+        "Title": "Satsang Room & Grand Vestibule",
+        "P1Title": "Private Satsang Hall Focal Wall",
+        "P1Desc": "Anchors community bhajan and family gatherings with an immediate sense of divine dignity and spiritual elevation.",
+        "P2Title": "Entrance Foyer Blessing Wall",
+        "P2Desc": "Greets family and guests with auspicious sanctity, establishing a tranquil and pure tone throughout the home."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/swaminarayan-ji-mural.webp", "Title": "Bhagwan Swaminarayan Stone Relief Panel", "Alt": "Swaminarayan Ji Stone Art and Mural in natural sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/marble-temple.webp", "Title": "Mandir-Grade White Marble Swaminarayan Relief", "Alt": "Swaminarayan stone wall relief panel in white marble - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Classical Temple Swaminarayan Relief Panel", "Alt": "Handcrafted Swaminarayan stone mural for home mandir - Shree Ram and Company" }
+    ],
+    "Faqs": [
+      { "Q": "What specific iconographical details are observed in this Swaminarayan mural?", "A": "Our master sculptors strictly follow tradition: Bhagwan Swaminarayan is sculpted with the royal pagh (turban), sacred kanthi, tilak-chandlo upon the forehead, benevolent blessing gesture, and peaceful facial serenity, framed within traditional mandir pillar relief." },
+      { "Q": "Can Akshar-Purushottam (Gunatitanand Swami and Bhagwan Swaminarayan) be carved together?", "A": "Yes. We frequently carve twin-deity panels or diptych reliefs depicting Akshar-Purushottam Maharaj side-by-side, carefully balanced in proportion and architectural framing according to client specifications." },
+      { "Q": "Which stone variety is most recommended for a home mandir backdrop?", "A": "Pristine Indian White Marble is the most favored stone for Swaminarayan home temples due to its radiant purity and smooth finish. Gwalior Mint and Bansi Pink Sandstone are also chosen for their historic temple architecture character." },
+      { "Q": "How does the workshop handle customized dimensional sizing?", "A": "Every mural is bespoke. You provide the exact height and width of your pooja room niche, and our team prepares a scaled 2D/3D elevation for review before stone chiseling starts at our Jaipur workshop." },
+      { "Q": "What is the packing and transit procedure for delivery across India?", "A": "Murals are thoroughly inspected, photographed for client sign-off, padded with protective foam, and crated inside solid wood containers with full transit insurance for doorstep delivery across India." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/shreenath-ji-stone-art-mural/", "Name": "Shreenath Ji Mural", "Img": "/assets/images/shreenath-ji-mural.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" },
+      { "Url": "/stone-art-murals/ram-darbar-stone-art-mural/", "Name": "Ram Darbar Mural", "Img": "/assets/images/ram-darbar-mural.webp" },
+      { "Url": "/stone-art-murals/laxmi-ji-stone-art-mural/", "Name": "Laxmi Ji Mural", "Img": "/assets/images/laxmi-ji-mural.webp" }
+    ]
+  },
+  {
+    "Slug": "floral-stone-art",
+    "Name": "Floral Stone Art",
+    "TargetDir": "stone-art-murals/floral-stone-art",
+    "Title": "Flower Mural & Stone Floral Wall Art | Shree Ram & Co",
+    "MetaDesc": "Handcrafted stone flower mural and botanical relief panels in Rajasthan sandstone and marble. Bespoke architectural wall art carved at our Jaipur workshop.",
+    "Keywords": "flower mural, floral art, floral mural designs, stone floral wall panel, carved lotus floral relief Jaipur, architectural stone flower relief",
+    "HeroImg": "/assets/images/floral-stone-art.webp",
+    "HeroAlt": "Floral Stone Art carved relief mural in natural Rajasthan sandstone",
+    "Badge": "Architectural Botanical Relief",
+    "H1": "Floral Stone Art",
+    "Lead": "Enrich your interiors with the timeless grace of nature sculpted in stone. Handcrafted flower murals and botanical bas-relief panels chiseled from natural Rajasthan sandstone and marble in Jaipur.",
+    "OverviewSub": "Organic Tracery & Classical Botanical Carving",
+    "OverviewH2": "Eternal Nature: Hand-Carved Floral Stone Murals & Panels",
+    "OverviewP1": "Floral stone carvings have adorned India's grandest palaces and heritage monuments for centuries, celebrating organic harmony and refined geometric order. In this signature collection, our Jaipur sculptors transform dense slabs of natural sandstone and marble into blooming lotus medallions, flowing Mughal-inspired acanthus foliage, rhythmic creepers (bel-buta), and contemporary dimensional floral textures.",
+    "OverviewP2": "Every composition is sculpted with multi-layered relief depth (20mm to 55mm) where layered flower petals, slender stamens, and curling tendrils are undercut to catch natural light. Carved from solid slabs of Gwalior Mint, Bansi pink sandstone, or crystalline white marble at our Jaipur factory, these secular botanical murals infuse dining rooms, powder rooms, master headboard walls, and garden verandas with enduring organic warmth.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Gwalior Mint, Bansi Pink, White Marble, Teakwood Stone",
+    "SpecDepth": "20mm to 55mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Architectural Space Plans",
+    "SpecInstall": "Concealed SS Anchor Pins / High-Strength Adhesive",
+    "Features": [
+      { "Icon": "fa-spa", "Title": "Blooming Lotus & Floral Rosettes", "Desc": "Deeply scalloped petals and central seed pods carved with crisp, radiant symmetry." },
+      { "Icon": "fa-leaf", "Title": "Flowing Acanthus & Bel-Buta Vines", "Desc": "Classical meandering creepers and foliate scrollwork that frame architectural wall panels seamlessly." },
+      { "Icon": "fa-cubes", "Title": "Interlocking Modular Patterns", "Desc": "Engineered as repeating modular tiles or continuous monolithic slabs for seamless wall cladding." },
+      { "Icon": "fa-lightbulb", "Title": "Dynamic Botanical Shadows", "Desc": "Under-cut petal edges cast delicate organic shadow lines when kissed by warm graze illumination." },
+      { "Icon": "fa-droplet-slash", "Title": "Breathable Protective Sealer", "Desc": "Pre-treated with breathable impregnating sealer that resists water spots, grime, and outdoor moss." },
+      { "Icon": "fa-palette", "Title": "Custom Botanical Motifs", "Desc": "Tailored to contemporary abstract florals, classical Mughal jaali botanicals, or English rose motifs." }
+    ],
+    "PlaceSub": "Organic Architecture",
+    "PlaceH2": "Ideal Architectural Settings for Floral Stone Art",
+    "PlaceLead": "Universally versatile secular art that enriches residential, commercial, and wellness environments with botanical poise.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-utensils",
+        "Tag": "Dining & Living",
+        "Title": "Luxury Dining Room & Foyer Wall",
+        "P1Title": "Dining Alcove Feature Backdrop",
+        "P1Desc": "Creates a calming, organic backdrop that elevates dinner parties and family meals with understated elegance.",
+        "P2Title": "Entry Vestibule Welcome Panel",
+        "P2Desc": "Greets entering visitors with natural botanical sophistication that bridges interior decor and garden serenity."
+      },
+      {
+        "Icon": "fa-bed",
+        "Tag": "Private Suites",
+        "Title": "Master Bedroom & Bathroom Spa",
+        "P1Title": "Bed Headboard Statement Cladding",
+        "P1Desc": "Replaces mundane fabric headboards with a permanent, luxurious carved stone artwork of timeless beauty.",
+        "P2Title": "Powder Room Feature Wall",
+        "P2Desc": "Water-resistant treated stone relief brings organic luxury to master ensuite shower and vanity walls."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/floral-stone-art.webp", "Title": "Carved Lotus Floral Medallion Panel", "Alt": "Floral Stone Art flower mural in natural sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/fluted-stone-panels.webp", "Title": "Botanical Border Cladding Panel", "Alt": "Carved stone floral panel with decorative relief - Shree Ram and Company" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Mughal Floral Bel-Buta Wall Relief", "Alt": "Handcrafted flower mural in natural stone - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What floral styles can be custom carved in stone?", "A": "Our workshop sculpts a wide spectrum of botanical styles including classical Mughal lotus and bell-flower motifs, Rajasthani bel-buta scrolls, Greco-Roman acanthus patterns, and contemporary stylized 3D organic petals." },
+      { "Q": "Can floral stone panels be installed in wet areas like shower walls or spas?", "A": "Yes. Natural sandstone and marble thrive in wet environments when installed with waterproof adhesives and sealed with our breathable hydrophobic impregnator that prevents water marks and mineral deposits." },
+      { "Q": "Are floral stone art panels available as repeating tiles or single large slabs?", "A": "We offer both formats. For large dining or lobby accent walls, repeating 2x2 ft or 2x3 ft modular tiles create an endless seamless pattern. For compact alcoves, single monolithic slabs up to 8x4 ft can be sculpted without seams." },
+      { "Q": "Which stone variety best complements wooden interior cabinetry?", "A": "Teakwood Sandstone (with natural timber-like grain) and Dholpur Beige Sandstone blend harmoniously with walnut, oak, and warm wooden veneers. For crisp modern contrast, Gwalior Mint and White Marble are excellent choices." },
+      { "Q": "How do we order custom dimensions for our interior project?", "A": "Simply share your wall dimensions and reference sketches via WhatsApp or phone. Our studio drafts proportional 3D CAD shop drawings for your approval before stone selection begins." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/village-stone-art-mural/", "Name": "Village Stone Art", "Img": "/assets/images/village-stone-art.webp" },
+      { "Url": "/stone-wall-panels/textured-stone-panels/", "Name": "Textured Stone Panels", "Img": "/assets/images/textured-stone-panels.webp" },
+      { "Url": "/stone-wall-panels/wave-stone-panels/", "Name": "Wave Stone Panels", "Img": "/assets/images/wave-stone-panels.webp" },
+      { "Url": "/stone-art-murals/buddha-stone-art-mural/", "Name": "Buddha Stone Mural", "Img": "/assets/images/statue.webp" }
+    ]
+  },
+  {
+    "Slug": "village-stone-art-mural",
+    "Name": "Village Stone Art & Mural",
+    "TargetDir": "stone-art-murals/village-stone-art-mural",
+    "Title": "Village Stone Mural & Rural Folk Wall Art | Shree Ram & Co",
+    "MetaDesc": "Traditional village stone mural capturing rural Indian heritage. Hand-chiseled sandstone wall reliefs crafted by master sculptors in Jaipur with custom sizes.",
+    "Keywords": "village stone mural, rural Indian stone relief, traditional village life stone carving, Rajasthani village scene wall mural, cultural heritage stone wall art",
+    "HeroImg": "/assets/images/village-stone-art.webp",
+    "HeroAlt": "Traditional Village Stone Art and Mural relief carving in natural Rajasthan sandstone",
+    "Badge": "Rustic Cultural Heritage",
+    "H1": "Village Stone Art & Mural",
+    "Lead": "Celebrate the soulful charm, community warmth, and rustic poetry of rural India. Handcrafted village stone murals sculpted in solid Rajasthan sandstone and marble by master artisans in Jaipur.",
+    "OverviewSub": "Rural Heritage & Figurative Folk Sculpture",
+    "OverviewH2": "Timeless Roots: Rural Indian Life in Handcrafted Stone Relief",
+    "OverviewP1": "Village life in Rajasthan reflects an enduring bond with the land, seasonal rhythms, and warm communal simplicity. In this evocative figurative stone mural, our Jaipur sculptors bring pastoral life to life: village women in traditional ghagra-odhni carrying water matkas from the village well (panihari), shepherded cattle returning at twilight (godhuli bela), musicians playing shehnai and dholak under ancient banyan trees, and rustic thatched huts.",
+    "OverviewP2": "Sculpted in multi-tiered narrative relief depths (25mm to 65mm), each scene captures authentic folkloric details: the woven textures of charpais, carved earthen pots, flowing rustic textiles, and gentle facial camaraderie. Sculpted from warm Bansi Paharpur sandstone or Dholpur beige stone at our Jaipur workshop, these cultural murals become captivating conversation centerpieces in luxury heritage homes, farmhouses, ethnic restaurants, and boutique resorts.",
+    "SpecOrigin": "Jaipur, Rajasthan (India)",
+    "SpecMediums": "Bansi Paharpur Pink Sandstone, Dholpur Beige, Teakwood Stone",
+    "SpecDepth": "25mm to 65mm Dimensional Relief",
+    "SpecSizing": "Custom Sized to Architectural Space Plans",
+    "SpecInstall": "Concealed SS-304 Anchors / High-Strength Adhesive",
+    "Features": [
+      { "Icon": "fa-people-group", "Title": "Pastoral Figurative Narratives", "Desc": "Expressive sculpting capturing authentic village gatherings, musicians, and traditional crafts." },
+      { "Icon": "fa-jar", "Title": "Panihari Water Well Scenes", "Desc": "Graceful village maidens balancing clay water vessels with sculpted cloth textures and jewelry." },
+      { "Icon": "fa-tree", "Title": "Ancient Banyan & Thatched Huts", "Desc": "Textured tree trunks, leafy canopies, and rustic thatched cottage eaves sculpted in rich depth." },
+      { "Icon": "fa-lightbulb", "Title": "Warm Natural Shadow Play", "Desc": "Multi-level narrative depths that cast dramatic, warm chiaroscuro shadows under accent lighting." },
+      { "Icon": "fa-shield-halved", "Title": "Breathable Protective Sealer", "Desc": "Factory pre-treated with breathable stone impregnator resisting weathering and dust accumulation." },
+      { "Icon": "fa-layer-group", "Title": "Expansive Panoramic Composition", "Desc": "Engineered as continuous monumental multi-panel panoramas tailored to wide living and lobby walls." }
+    ],
+    "PlaceSub": "Heritage Environments",
+    "PlaceH2": "Ideal Architectural Settings for Village Stone Murals",
+    "PlaceLead": "Celebrates cultural identity and rustic storytelling across distinctive residential and hospitality environments.",
+    "PlaceCards": [
+      {
+        "Icon": "fa-tree",
+        "Tag": "Rustic Living",
+        "Title": "Farmhouses & Luxury Courtyards",
+        "P1Title": "Courtyard Verandah Centerpiece",
+        "P1Desc": "Connects outdoor courtyard gardens with traditional rural roots, creating a nostalgic haven of peace.",
+        "P2Title": "Drawing Room Accent Wall",
+        "P2Desc": "Pairs magnificently with antique wooden furniture, terracotta decor, and warm brass lighting fixtures."
+      },
+      {
+        "Icon": "fa-hotel",
+        "Tag": "Hospitality Architecture",
+        "Title": "Heritage Resorts & Cultural Clubs",
+        "P1Title": "Hotel Reception Narrative Wall",
+        "P1Desc": "Captivates domestic and international travelers with authentic Rajasthani cultural heritage right at check-in.",
+        "P2Title": "Theme Restaurant Wall Cladding",
+        "P2Desc": "Enriches fine dining atmospheres with traditional village charm that guests admire throughout their stay."
+      }
+    ],
+    "Gallery": [
+      { "Img": "/assets/images/village-stone-art.webp", "Title": "Rajasthani Village Life Sandstone Mural", "Alt": "Village Stone Art and Mural in natural Rajasthan sandstone - Shree Ram and Company Jaipur" },
+      { "Img": "/assets/images/jaipur-artisan.jpg", "Title": "Artisan Sculpting Rural Stone Relief", "Alt": "Master artisan carving village stone mural at workshop - Shree Ram and Company" },
+      { "Img": "/assets/images/mural-art.jpg", "Title": "Traditional Panihari Village Stone Panel", "Alt": "Handcrafted rural Indian village stone wall relief - Shree Ram and Company Jaipur" }
+    ],
+    "Faqs": [
+      { "Q": "What typical scenes are featured in a village stone mural?", "A": "Our village murals depict rich pastoral narratives including panihari women carrying matkas from the village well, shepherds with cattle under banyan trees, folk musicians playing dholak and flute, farming harvest celebrations, and traditional village chowpal gatherings." },
+      { "Q": "Can specific cultural scenes or custom regional themes be sculpted?", "A": "Yes. 100% of our commissions are customized. Clients can share village photographs, family ancestral village themes, or specific regional folklore, and our studio drafts calibrated 3D CAD elevations for review." },
+      { "Q": "Which stone variety best complements rustic farmhouse architecture?", "A": "Bansi Paharpur Pink Sandstone and Dholpur Beige Sandstone are the premier choices for village murals because their earthy terracotta-buff tones resonate naturally with mud-plaster textures, exposed brick, and wooden beams." },
+      { "Q": "Can this mural be installed on an outdoor garden boundary wall?", "A": "Yes. Natural sandstone is totally weatherproof and withstands hot sun, freezing cold, and monsoon moisture without deteriorating. Breathable sealant applied at our factory keeps the relief clean from moss." },
+      { "Q": "How are expansive panoramic murals (e.g., 12 feet wide) delivered and mounted?", "A": "Wide compositions are divided into interlocking modular slabs along natural tree branches or architectural lines. Panels are numbered, crated in foam-padded wooden boxes with insurance, and assembled seamlessly on site using matching stone dust mortar." }
+    ],
+    "Related": [
+      { "Url": "/stone-art-murals/floral-stone-art/", "Name": "Floral Stone Art", "Img": "/assets/images/floral-stone-art.webp" },
+      { "Url": "/stone-art-murals/radhe-krishna-stone-art-mural/", "Name": "Radhe Krishna Mural", "Img": "/assets/images/radhe-krishna-mural.webp" },
+      { "Url": "/stone-art-murals/buddha-stone-art-mural/", "Name": "Buddha Stone Mural", "Img": "/assets/images/statue.webp" },
+      { "Url": "/stone-art-murals/ganesh-ji-stone-art-mural/", "Name": "Ganesh Ji Mural", "Img": "/assets/images/ganesh-ji-mural.webp" }
+    ]
+  }
+]
