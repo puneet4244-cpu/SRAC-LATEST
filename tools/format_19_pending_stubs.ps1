@@ -37,7 +37,7 @@ foreach ($item in $stubsInfo) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, follow">
     <title>$name | Shree Ram & Company Jaipur</title>
     <meta name="description" content="Explore custom $name handcrafted by master stone artisans at Shree Ram & Company in Jaipur, Rajasthan.">
     <link rel="icon" type="image/jpg" href="/assets/images/brand-logo.jpg">

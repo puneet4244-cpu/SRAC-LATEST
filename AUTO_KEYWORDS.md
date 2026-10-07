@@ -138,3 +138,18 @@ This file contains derived keyword suggestions for pages marked **GAP** (no rese
   - pvc jali design for exterior (unvalidated)
   - waterproof wpc cutting jali (unvalidated)
   - exterior balcony wpc jali screen (unvalidated)
+
+---
+
+## 6. Documented Primary Keyword Strategy & Rationale (Batch 2b)
+
+### 1. Floral Stone Art (`/stone-art-murals/floral-stone-art/`)
+- **Assigned Primary Keyword:** `flower mural` (210/mo, KD 26 from `SEO_KEYWORD_MAP.md`)
+- **Mapped Secondaries:** `floral art` (1,900/mo), `floral mural designs` (140/mo), `stone floral wall art` (unvalidated), `lotus stone relief panel` (unvalidated)
+- **Strategic Rationale vs. Plan:** The literal page title term "floral stone art" yields 0/mo measured third-party search volume. Conversely, `flower mural` is a validated, commercial buyer-intent query with 210 monthly searches and low difficulty (KD 26). By anchoring the H1 and metadata to `flower mural` while framing every section around handcrafted natural sandstone/marble architectural reliefs, the page captures high-volume interior design and architectural search traffic while establishing premium stone craftsmanship authority.
+
+### 2. Shreenath Ji Stone Art & Mural (`/stone-art-murals/shreenath-ji-stone-art-mural/`)
+- **Assigned Primary Keyword:** `Shree Nath ji wall mural` (Owner-list keyword from `SEO_KEYWORD_MAP.md`)
+- **Mapped Secondaries:** `Shree Nath Ji wall 3d art`, `Shree Nath ji wall panel`, `Shreenath Ji Mukharvind 3D wall art`, `Govardhandhara stone relief`
+- **Strategic Rationale vs. Plan:** Third-party keyword databases often aggregate devotional terms into generic queries, showing thin or zero explicit volume for localized spelling variants. However, `Shree Nath ji wall mural` was specifically prioritized from the owner's master catalogue to capture affluent North Indian, Rajasthani, and Gujarati homeowners commissioning custom Nathdwara Govardhandhara swaroop wall reliefs for luxury home mandirs. Utilizing this exact term preserves sacred brand fidelity and avoids cannibalizing the secular or Vaishnava `radha krishna mural` pilot page.
+
