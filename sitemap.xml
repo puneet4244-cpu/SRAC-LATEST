@@ -1228,4 +1228,31 @@
             <image:loc>https://www.shreeramandcompany.com/assets/images/fluted-panels.webp</image:loc>
         </image:image>
     </url>
+    <url>
+        <loc>https://www.shreeramandcompany.com/stone-wall-panels/textured-stone-panels/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://www.shreeramandcompany.com/assets/images/textured-stone-panels.webp</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.shreeramandcompany.com/stone-wall-panels/wave-stone-panels/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://www.shreeramandcompany.com/assets/images/wave-stone-panels.webp</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.shreeramandcompany.com/stone-wall-panels/geometrical-stone-panels/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://www.shreeramandcompany.com/assets/images/geometrical-stone-panels.webp</image:loc>
+        </image:image>
+    </url>
 </urlset>
